@@ -1,0 +1,11 @@
+{
+  "group_win": 3,
+  "group_draw": 1,
+  "group_winner_bonus": 3,
+  "round_of_32_win": 6,
+  "round_of_16_win": 12,
+  "quarterfinal_win": 24,
+  "semifinal_win": 48,
+  "final_win": 96,
+  "include_third_place": false
+}

@@ -1,0 +1,154 @@
+import type {
+  LeaderboardEntry,
+  MatchSummary,
+  ScoreBreakdown,
+  ScoringRules,
+  TeamData,
+} from "./types";
+
+const KNOCKOUT_STAGE_POINTS: Record<string, keyof ScoringRules> = {
+  LAST_32: "round_of_32_win",
+  LAST_16: "round_of_16_win",
+  QUARTER_FINALS: "quarterfinal_win",
+  SEMI_FINALS: "semifinal_win",
+  FINAL: "final_win",
+};
+
+export function getKnockoutWinPoints(
+  stage: string,
+  scoring: ScoringRules,
+): number {
+  const key = KNOCKOUT_STAGE_POINTS[stage];
+  if (!key) {
+    return 0;
+  }
+  return scoring[key] as number;
+}
+
+export function calculateTeamScore(
+  teamName: string,
+  matches: MatchSummary[],
+  groupPosition: number | null,
+  groupComplete: boolean,
+  scoring: ScoringRules,
+): ScoreBreakdown {
+  const teamMatches = matches.filter(
+    (match) =>
+      match.homeTeam.name === teamName || match.awayTeam.name === teamName,
+  );
+
+  let groupWins = 0;
+  let groupDraws = 0;
+  const knockoutWins: Record<string, number> = {};
+
+  for (const match of teamMatches) {
+    if (match.status !== "FINISHED") {
+      continue;
+    }
+
+    const isHome = match.homeTeam.name === teamName;
+    const teamWon =
+      (isHome && match.winner === "HOME") ||
+      (!isHome && match.winner === "AWAY");
+    const teamDrew = match.winner === "DRAW";
+
+    if (match.stage === "GROUP_STAGE") {
+      if (teamWon) {
+        groupWins += 1;
+      } else if (teamDrew) {
+        groupDraws += 1;
+      }
+      continue;
+    }
+
+    if (match.stage === "THIRD_PLACE" && !scoring.include_third_place) {
+      continue;
+    }
+
+    if (teamWon) {
+      const points = getKnockoutWinPoints(match.stage, scoring);
+      knockoutWins[match.stage] = (knockoutWins[match.stage] ?? 0) + points;
+    }
+  }
+
+  const groupWinnerBonus =
+    groupComplete && groupPosition === 1 ? scoring.group_winner_bonus : 0;
+
+  const knockoutTotal = Object.values(knockoutWins).reduce(
+    (sum, value) => sum + value,
+    0,
+  );
+
+  const total =
+    groupWins * scoring.group_win +
+    groupDraws * scoring.group_draw +
+    groupWinnerBonus +
+    knockoutTotal;
+
+  return {
+    groupWins,
+    groupDraws,
+    groupWinnerBonus,
+    knockoutWins,
+    total,
+  };
+}
+
+export function calculatePlayerScore(
+  participant: string,
+  teams: TeamData[],
+): number {
+  return teams
+    .filter((team) => team.owner === participant)
+    .reduce((sum, team) => sum + team.score, 0);
+}
+
+export function calculateLeaderboard(
+  participants: string[],
+  teams: TeamData[],
+): LeaderboardEntry[] {
+  const scored = participants.map((participant) => {
+    const ownedTeams = teams.filter((team) => team.owner === participant);
+    const totalScore = ownedTeams.reduce((sum, team) => sum + team.score, 0);
+    const teamsRemaining = ownedTeams.filter((team) => team.remaining).length;
+    const bestTeam = ownedTeams.reduce<TeamData | null>((best, team) => {
+      if (!best || team.score > best.score) {
+        return team;
+      }
+      return best;
+    }, null);
+
+    const teamScores = Object.fromEntries(
+      ownedTeams.map((team) => [team.name, team.score]),
+    );
+
+    return {
+      participant,
+      totalScore,
+      teamsRemaining,
+      bestTeam: bestTeam
+        ? { name: bestTeam.name, score: bestTeam.score }
+        : null,
+      teamScores,
+    };
+  });
+
+  scored.sort((a, b) => {
+    if (b.totalScore !== a.totalScore) {
+      return b.totalScore - a.totalScore;
+    }
+    return a.participant.localeCompare(b.participant);
+  });
+
+  const leaderScore = scored[0]?.totalScore ?? 0;
+
+  return scored.map((entry, index) => ({
+    rank: index + 1,
+    participant: entry.participant,
+    totalScore: entry.totalScore,
+    teamsRemaining: entry.teamsRemaining,
+    pointsBehindLeader: leaderScore - entry.totalScore,
+    bestTeam: entry.bestTeam,
+    teamScores: entry.teamScores,
+  }));
+}
