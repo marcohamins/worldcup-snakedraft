@@ -1,13 +1,15 @@
 export interface ScoringRules {
   group_win: number;
   group_draw: number;
-  group_winner_bonus: number;
+  group_first_place: number;
+  group_second_place: number;
+  group_third_place_advance: number;
   round_of_32_win: number;
   round_of_16_win: number;
   quarterfinal_win: number;
   semifinal_win: number;
   final_win: number;
-  include_third_place: boolean;
+  third_place_win: number;
 }
 
 export interface TeamInfo {
@@ -16,6 +18,11 @@ export interface TeamInfo {
   shortName: string;
   tla: string;
   crest: string;
+}
+
+export interface MatchBooking {
+  team: TeamInfo;
+  card: "YELLOW" | "YELLOW_RED" | "RED";
 }
 
 export interface MatchSummary {
@@ -30,14 +37,25 @@ export interface MatchSummary {
   homeScore: number | null;
   awayScore: number | null;
   winner: "HOME" | "AWAY" | "DRAW" | null;
+  bookings: MatchBooking[];
 }
 
 export interface ScoreBreakdown {
   groupWins: number;
   groupDraws: number;
-  groupWinnerBonus: number;
+  groupFirstPlaceBonus: number;
+  groupSecondPlaceBonus: number;
+  groupThirdPlaceAdvanceBonus: number;
   knockoutWins: Record<string, number>;
   total: number;
+}
+
+export interface TeamMatchStats {
+  goalsFor: number;
+  goalsAgainst: number;
+  goalDifference: number;
+  yellowCards: number;
+  redCards: number;
 }
 
 export interface TeamData {
@@ -58,6 +76,7 @@ export interface TeamData {
   remaining: boolean;
   score: number;
   scoreBreakdown: ScoreBreakdown;
+  matchStats: TeamMatchStats;
   matches: MatchSummary[];
 }
 
@@ -113,7 +132,12 @@ export interface LeaderboardEntry {
   teamScores: Record<string, number>;
 }
 
-export interface ParticipantContribution {
+export interface ParticipantPoolStats {
   participant: string;
-  teams: { name: string; score: number }[];
+  goalsFor: number;
+  goalsAgainst: number;
+  goalDifference: number;
+  yellowCards: number;
+  redCards: number;
+  totalCards: number;
 }

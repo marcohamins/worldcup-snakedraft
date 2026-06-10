@@ -1,11 +1,13 @@
 {
   "group_win": 3,
   "group_draw": 1,
-  "group_winner_bonus": 3,
-  "round_of_32_win": 6,
-  "round_of_16_win": 12,
-  "quarterfinal_win": 24,
-  "semifinal_win": 48,
-  "final_win": 96,
-  "include_third_place": false
+  "group_first_place": 3,
+  "group_second_place": 2,
+  "group_third_place_advance": 1,
+  "round_of_32_win": 4,
+  "round_of_16_win": 5,
+  "quarterfinal_win": 6,
+  "semifinal_win": 7,
+  "final_win": 8,
+  "third_place_win": 3
 }

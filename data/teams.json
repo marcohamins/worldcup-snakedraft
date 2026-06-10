@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T15:10:33.397Z",
+  "lastUpdated": "2026-06-10T16:14:47.248Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -47,7 +47,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -56,9 +57,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -84,7 +94,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537372,
@@ -109,7 +120,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537373,
@@ -134,7 +146,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -172,12 +185,13 @@
           "id": 9460,
           "name": "Curaçao",
           "shortName": "Curaçao",
-          "tla": "CUW",
+          "tla": "CUR",
           "crest": "https://crests.football-data.org/curacao.svg"
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -186,9 +200,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -209,12 +232,13 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUW",
+            "tla": "CUR",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537353,
@@ -239,7 +263,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537355,
@@ -264,7 +289,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -307,7 +333,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -316,9 +343,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -344,7 +380,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537371,
@@ -369,7 +406,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537373,
@@ -394,7 +432,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -437,7 +476,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -446,9 +486,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -474,7 +523,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537399,
@@ -499,7 +549,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537401,
@@ -524,7 +575,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -567,7 +619,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -576,9 +629,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -604,7 +666,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537411,
@@ -629,7 +692,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537414,
@@ -654,7 +718,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -697,7 +762,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -706,9 +772,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -734,7 +809,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537341,
@@ -759,7 +835,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537343,
@@ -784,7 +861,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -827,7 +905,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -836,9 +915,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -864,7 +952,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537405,
@@ -889,7 +978,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537407,
@@ -914,7 +1004,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -957,7 +1048,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -966,9 +1058,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -994,7 +1095,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537360,
@@ -1019,7 +1121,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537362,
@@ -1044,7 +1147,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1087,7 +1191,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1096,9 +1201,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1124,7 +1238,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537330,
@@ -1149,7 +1264,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537331,
@@ -1174,7 +1290,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1217,7 +1334,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1226,9 +1344,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1254,7 +1381,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537411,
@@ -1279,7 +1407,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537413,
@@ -1304,7 +1433,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1347,7 +1477,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1356,9 +1487,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1384,7 +1524,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537348,
@@ -1409,7 +1550,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537349,
@@ -1434,7 +1576,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1477,7 +1620,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1486,9 +1630,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1514,7 +1667,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537330,
@@ -1539,7 +1693,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537332,
@@ -1564,7 +1719,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1607,7 +1763,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1616,9 +1773,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1644,7 +1810,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537393,
@@ -1669,7 +1836,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537395,
@@ -1694,7 +1862,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1737,7 +1906,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1746,9 +1916,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1774,7 +1953,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537400,
@@ -1799,7 +1979,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537402,
@@ -1824,7 +2005,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1867,7 +2049,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -1876,9 +2059,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -1904,7 +2096,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537348,
@@ -1929,7 +2122,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537350,
@@ -1954,7 +2148,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1997,7 +2192,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2006,9 +2202,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2034,7 +2239,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537335,
@@ -2059,7 +2265,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537337,
@@ -2084,7 +2291,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2107,7 +2315,7 @@
       "upcomingMatch": {
         "id": 537352,
         "utcDate": "2026-06-14T23:00:00Z",
-        "status": "TIMED",
+        "status": "SCHEDULED",
         "stage": "GROUP_STAGE",
         "group": "Group E",
         "matchday": 1,
@@ -2127,7 +2335,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2136,15 +2345,24 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
           "id": 537352,
           "utcDate": "2026-06-14T23:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 1,
@@ -2164,7 +2382,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537354,
@@ -2184,12 +2403,13 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUW",
+            "tla": "CUR",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537355,
@@ -2214,7 +2434,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2257,7 +2478,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2266,9 +2488,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2294,7 +2525,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537412,
@@ -2319,7 +2551,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537414,
@@ -2344,7 +2577,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2387,7 +2621,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2396,9 +2631,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2424,7 +2668,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537371,
@@ -2449,7 +2694,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537374,
@@ -2474,7 +2720,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2517,7 +2764,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2526,9 +2774,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2554,7 +2811,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537347,
@@ -2579,7 +2837,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537349,
@@ -2604,7 +2863,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2647,7 +2907,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2656,9 +2917,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2684,7 +2954,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537394,
@@ -2709,7 +2980,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537396,
@@ -2734,7 +3006,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2777,7 +3050,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2786,9 +3060,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2814,7 +3097,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537365,
@@ -2839,7 +3123,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537367,
@@ -2864,7 +3149,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -2907,7 +3193,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -2916,9 +3203,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -2944,7 +3240,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537342,
@@ -2969,7 +3266,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537344,
@@ -2994,7 +3292,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3037,7 +3336,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3046,9 +3346,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3074,7 +3383,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537399,
@@ -3099,7 +3409,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537402,
@@ -3124,7 +3435,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3167,7 +3479,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3176,9 +3489,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3204,7 +3526,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537406,
@@ -3229,7 +3552,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537407,
@@ -3254,7 +3578,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3297,7 +3622,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3306,9 +3632,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3334,7 +3669,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537366,
@@ -3359,7 +3695,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537368,
@@ -3384,7 +3721,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3427,7 +3765,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3436,9 +3775,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3464,7 +3812,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537336,
@@ -3489,7 +3838,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537337,
@@ -3514,7 +3864,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3557,7 +3908,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3566,9 +3918,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3594,7 +3955,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537365,
@@ -3619,7 +3981,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537368,
@@ -3644,7 +4007,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3667,7 +4031,7 @@
       "upcomingMatch": {
         "id": 537352,
         "utcDate": "2026-06-14T23:00:00Z",
-        "status": "TIMED",
+        "status": "SCHEDULED",
         "stage": "GROUP_STAGE",
         "group": "Group E",
         "matchday": 1,
@@ -3687,7 +4051,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3696,15 +4061,24 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
           "id": 537352,
           "utcDate": "2026-06-14T23:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 1,
@@ -3724,7 +4098,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537353,
@@ -3749,7 +4124,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537356,
@@ -3762,7 +4138,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUW",
+            "tla": "CUR",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "awayTeam": {
@@ -3774,7 +4150,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3817,7 +4194,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3826,9 +4204,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3854,7 +4241,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537359,
@@ -3879,7 +4267,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537361,
@@ -3904,7 +4293,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -3947,7 +4337,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -3956,9 +4347,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -3984,7 +4384,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537394,
@@ -4009,7 +4410,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537395,
@@ -4034,7 +4436,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -4077,7 +4480,8 @@
         },
         "homeScore": null,
         "awayScore": null,
-        "winner": null
+        "winner": null,
+        "bookings": []
       },
       "knockoutStage": null,
       "eliminated": false,
@@ -4086,9 +4490,18 @@
       "scoreBreakdown": {
         "groupWins": 0,
         "groupDraws": 0,
-        "groupWinnerBonus": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
         "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
       },
       "matches": [
         {
@@ -4114,7 +4527,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537342,
@@ -4139,7 +4553,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         },
         {
           "id": 537343,
@@ -4164,7 +4579,8 @@
           },
           "homeScore": null,
           "awayScore": null,
-          "winner": null
+          "winner": null,
+          "bookings": []
         }
       ]
     }

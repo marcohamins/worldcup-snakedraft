@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-import { calculateTeamScore } from "../src/lib/scoring";
+import { calculateTeamScore, hasKnockoutInvolvement } from "../src/lib/scoring";
+import { calculateTeamMatchStats } from "../src/lib/stats";
 import type {
   DraftData,
   HistorySnapshot,
@@ -68,6 +69,10 @@ function toMatchSummary(match: ApiMatch): MatchSummary {
     homeScore: match.score.fullTime.home,
     awayScore: match.score.fullTime.away,
     winner: mapWinner(match.score.winner),
+    bookings: (match.bookings ?? []).map((booking) => ({
+      team: booking.team,
+      card: booking.card,
+    })),
   };
 }
 
@@ -188,7 +193,15 @@ function isTeamEliminated(
     }
   }
 
-  if (groupComplete && groupPosition !== null && groupPosition > 2) {
+  if (groupComplete && groupPosition === 4) {
+    return true;
+  }
+
+  if (
+    groupComplete &&
+    groupPosition === 3 &&
+    !hasKnockoutInvolvement(teamName, matches)
+  ) {
     return true;
   }
 
@@ -239,16 +252,16 @@ function buildTeamData(
     allMatches,
   );
 
-  const hasStartedKnockout = allMatches.some(
-    (match) =>
-      match.stage !== "GROUP_STAGE" &&
-      match.status === "FINISHED" &&
-      (match.homeTeam.name === team.name || match.awayTeam.name === team.name),
-  );
+  const inKnockout = hasKnockoutInvolvement(team.name, allMatches);
 
   const remaining =
     !eliminated &&
-    (!groupComplete || (groupPosition !== null && groupPosition <= 2) || hasStartedKnockout);
+    (!groupComplete ||
+      (groupPosition !== null && groupPosition <= 2) ||
+      (groupPosition === 3 && inKnockout) ||
+      inKnockout);
+
+  const matchStats = calculateTeamMatchStats(team.name, teamMatches);
 
   return {
     id: team.id,
@@ -268,6 +281,7 @@ function buildTeamData(
     remaining,
     score: scoreBreakdown.total,
     scoreBreakdown,
+    matchStats,
     matches: teamMatches,
   };
 }

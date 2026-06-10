@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { withBasePath } from "@/lib/config";
 import { getDraft, getParticipants, getTeamsData } from "@/lib/data";
 import { teamNameToSlug } from "@/lib/teams";
 
@@ -54,9 +53,7 @@ export default function OwnershipPage() {
                   return (
                     <li key={teamName}>
                       <Link
-                        href={withBasePath(
-                          `/teams/${teamNameToSlug(teamName)}/`,
-                        )}
+                        href={`/teams/${teamNameToSlug(teamName)}/`}
                         className="flex items-center gap-3 rounded-2xl border border-white/5 bg-black/20 px-3 py-2 transition hover:border-gold/30 hover:bg-gold/5"
                       >
                         {team?.crest ? (

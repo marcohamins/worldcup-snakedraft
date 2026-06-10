@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import { withBasePath } from "@/lib/config";
-
 export default function SimulatorPage() {
   return (
     <div className="mx-auto max-w-2xl rounded-3xl border border-white/10 bg-navy-light/70 p-8 text-center">
@@ -14,7 +12,7 @@ export default function SimulatorPage() {
         plus remaining equity estimates for each participant.
       </p>
       <Link
-        href={withBasePath("/")}
+        href="/"
         className="mt-6 inline-block rounded-full border border-gold/40 px-5 py-2 text-sm font-medium text-gold transition hover:bg-gold/10"
       >
         Back to leaderboard

@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 
-import { withBasePath } from "@/lib/config";
 import { teamNameToSlug } from "@/lib/teams";
 import type { LeaderboardEntry } from "@/lib/types";
 
@@ -114,9 +113,7 @@ export function LeaderboardTable({ entries }: LeaderboardTableProps) {
               <td className="px-4 py-3">
                 {entry.bestTeam ? (
                   <Link
-                    href={withBasePath(
-                      `/teams/${teamNameToSlug(entry.bestTeam.name)}/`,
-                    )}
+                    href={`/teams/${teamNameToSlug(entry.bestTeam.name)}/`}
                     className="text-emerald hover:text-gold"
                   >
                     {entry.bestTeam.name} ({entry.bestTeam.score})

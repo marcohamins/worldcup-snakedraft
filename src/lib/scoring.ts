@@ -12,7 +12,19 @@ const KNOCKOUT_STAGE_POINTS: Record<string, keyof ScoringRules> = {
   QUARTER_FINALS: "quarterfinal_win",
   SEMI_FINALS: "semifinal_win",
   FINAL: "final_win",
+  THIRD_PLACE: "third_place_win",
 };
+
+export function hasKnockoutInvolvement(
+  teamName: string,
+  matches: MatchSummary[],
+): boolean {
+  return matches.some(
+    (match) =>
+      match.stage !== "GROUP_STAGE" &&
+      (match.homeTeam.name === teamName || match.awayTeam.name === teamName),
+  );
+}
 
 export function getKnockoutWinPoints(
   stage: string,
@@ -61,18 +73,27 @@ export function calculateTeamScore(
       continue;
     }
 
-    if (match.stage === "THIRD_PLACE" && !scoring.include_third_place) {
-      continue;
-    }
-
     if (teamWon) {
       const points = getKnockoutWinPoints(match.stage, scoring);
       knockoutWins[match.stage] = (knockoutWins[match.stage] ?? 0) + points;
     }
   }
 
-  const groupWinnerBonus =
-    groupComplete && groupPosition === 1 ? scoring.group_winner_bonus : 0;
+  let groupFirstPlaceBonus = 0;
+  let groupSecondPlaceBonus = 0;
+  let groupThirdPlaceAdvanceBonus = 0;
+
+  if (groupComplete && groupPosition === 1) {
+    groupFirstPlaceBonus = scoring.group_first_place;
+  } else if (groupComplete && groupPosition === 2) {
+    groupSecondPlaceBonus = scoring.group_second_place;
+  } else if (
+    groupComplete &&
+    groupPosition === 3 &&
+    hasKnockoutInvolvement(teamName, matches)
+  ) {
+    groupThirdPlaceAdvanceBonus = scoring.group_third_place_advance;
+  }
 
   const knockoutTotal = Object.values(knockoutWins).reduce(
     (sum, value) => sum + value,
@@ -82,13 +103,17 @@ export function calculateTeamScore(
   const total =
     groupWins * scoring.group_win +
     groupDraws * scoring.group_draw +
-    groupWinnerBonus +
+    groupFirstPlaceBonus +
+    groupSecondPlaceBonus +
+    groupThirdPlaceAdvanceBonus +
     knockoutTotal;
 
   return {
     groupWins,
     groupDraws,
-    groupWinnerBonus,
+    groupFirstPlaceBonus,
+    groupSecondPlaceBonus,
+    groupThirdPlaceAdvanceBonus,
     knockoutWins,
     total,
   };

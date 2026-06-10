@@ -6,6 +6,12 @@ export interface ApiTeam {
   crest: string;
 }
 
+export interface ApiBooking {
+  minute: number;
+  team: ApiTeam;
+  card: "YELLOW" | "YELLOW_RED" | "RED";
+}
+
 export interface ApiMatch {
   id: number;
   utcDate: string;
@@ -19,6 +25,7 @@ export interface ApiMatch {
     winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null;
     fullTime: { home: number | null; away: number | null };
   };
+  bookings?: ApiBooking[];
 }
 
 export interface ApiStandingRow {
@@ -56,10 +63,14 @@ export function createFootballDataProvider(apiKey: string): FootballDataProvider
   const baseUrl = "https://api.football-data.org/v4";
   const competitionCode = "WC";
 
-  async function request<T>(endpoint: string): Promise<T> {
+  async function request<T>(
+    endpoint: string,
+    extraHeaders?: Record<string, string>,
+  ): Promise<T> {
     const response = await fetch(`${baseUrl}${endpoint}`, {
       headers: {
         "X-Auth-Token": apiKey,
+        ...extraHeaders,
       },
     });
 
@@ -94,6 +105,7 @@ export function createFootballDataProvider(apiKey: string): FootballDataProvider
     async fetchMatches() {
       const data = await request<{ matches: ApiMatch[] }>(
         `/competitions/${competitionCode}/matches`,
+        { "X-Unfold-Bookings": "true" },
       );
       return data.matches;
     },

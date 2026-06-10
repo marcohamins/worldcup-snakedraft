@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { withBasePath } from "@/lib/config";
 import { getTeamsData } from "@/lib/data";
 import { slugToTeamName, teamNameToSlug } from "@/lib/teams";
 
@@ -66,7 +65,7 @@ export default async function TeamPage({
   return (
     <div className="space-y-8">
       <Link
-        href={withBasePath("/ownership/")}
+        href="/ownership/"
         className="text-sm text-gold hover:underline"
       >
         ← Back to ownership
@@ -158,9 +157,21 @@ export default async function TeamPage({
             </dd>
           </div>
           <div className="flex justify-between rounded-xl bg-black/20 px-4 py-3">
-            <dt className="text-white/60">Group winner bonus</dt>
+            <dt className="text-white/60">1st in group</dt>
             <dd className="text-white">
-              {team.scoreBreakdown.groupWinnerBonus}
+              {team.scoreBreakdown.groupFirstPlaceBonus}
+            </dd>
+          </div>
+          <div className="flex justify-between rounded-xl bg-black/20 px-4 py-3">
+            <dt className="text-white/60">2nd in group</dt>
+            <dd className="text-white">
+              {team.scoreBreakdown.groupSecondPlaceBonus}
+            </dd>
+          </div>
+          <div className="flex justify-between rounded-xl bg-black/20 px-4 py-3">
+            <dt className="text-white/60">3rd place advance</dt>
+            <dd className="text-white">
+              {team.scoreBreakdown.groupThirdPlaceAdvanceBonus}
             </dd>
           </div>
           {Object.entries(team.scoreBreakdown.knockoutWins).map(
