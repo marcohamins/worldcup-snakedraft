@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "update-data": "tsx scripts/update-tournament-data.ts"
+    "update-data": "tsx scripts/update-tournament-data.ts",
+    "generate-fixtures": "tsx scripts/generate-fixtures.ts",
+    "validate-bracket": "tsx scripts/validate-bracket-matrix.ts"
   },
   "dependencies": {
     "next": "16.2.9",

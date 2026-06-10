@@ -1,0 +1,290 @@
+{
+  "Uruguay": {
+    "name": "Uruguay",
+    "tla": "URY",
+    "group": "H",
+    "id": 758
+  },
+  "Germany": {
+    "name": "Germany",
+    "tla": "GER",
+    "group": "E",
+    "id": 759
+  },
+  "Spain": {
+    "name": "Spain",
+    "tla": "ESP",
+    "group": "H",
+    "id": 760
+  },
+  "Paraguay": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "group": "D",
+    "id": 761
+  },
+  "Argentina": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "group": "J",
+    "id": 762
+  },
+  "Ghana": {
+    "name": "Ghana",
+    "tla": "GHA",
+    "group": "L",
+    "id": 763
+  },
+  "Brazil": {
+    "name": "Brazil",
+    "tla": "BRA",
+    "group": "C",
+    "id": 764
+  },
+  "Portugal": {
+    "name": "Portugal",
+    "tla": "POR",
+    "group": "K",
+    "id": 765
+  },
+  "Japan": {
+    "name": "Japan",
+    "tla": "JPN",
+    "group": "F",
+    "id": 766
+  },
+  "Mexico": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "group": "A",
+    "id": 769
+  },
+  "England": {
+    "name": "England",
+    "tla": "ENG",
+    "group": "L",
+    "id": 770
+  },
+  "United States": {
+    "name": "United States",
+    "tla": "USA",
+    "group": "D",
+    "id": 771
+  },
+  "South Korea": {
+    "name": "South Korea",
+    "tla": "KOR",
+    "group": "A",
+    "id": 772
+  },
+  "France": {
+    "name": "France",
+    "tla": "FRA",
+    "group": "I",
+    "id": 773
+  },
+  "South Africa": {
+    "name": "South Africa",
+    "tla": "RSA",
+    "group": "A",
+    "id": 774
+  },
+  "Algeria": {
+    "name": "Algeria",
+    "tla": "ALG",
+    "group": "J",
+    "id": 778
+  },
+  "Australia": {
+    "name": "Australia",
+    "tla": "AUS",
+    "group": "D",
+    "id": 779
+  },
+  "New Zealand": {
+    "name": "New Zealand",
+    "tla": "NZL",
+    "group": "G",
+    "id": 783
+  },
+  "Switzerland": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "group": "B",
+    "id": 788
+  },
+  "Ecuador": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "group": "E",
+    "id": 791
+  },
+  "Sweden": {
+    "name": "Sweden",
+    "tla": "SWE",
+    "group": "F",
+    "id": 792
+  },
+  "Czechia": {
+    "name": "Czechia",
+    "tla": "CZE",
+    "group": "A",
+    "id": 798
+  },
+  "Croatia": {
+    "name": "Croatia",
+    "tla": "CRO",
+    "group": "L",
+    "id": 799
+  },
+  "Saudi Arabia": {
+    "name": "Saudi Arabia",
+    "tla": "KSA",
+    "group": "H",
+    "id": 801
+  },
+  "Tunisia": {
+    "name": "Tunisia",
+    "tla": "TUN",
+    "group": "F",
+    "id": 802
+  },
+  "Turkey": {
+    "name": "Turkey",
+    "tla": "TUR",
+    "group": "D",
+    "id": 803
+  },
+  "Senegal": {
+    "name": "Senegal",
+    "tla": "SEN",
+    "group": "I",
+    "id": 804
+  },
+  "Belgium": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "group": "G",
+    "id": 805
+  },
+  "Morocco": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "group": "C",
+    "id": 815
+  },
+  "Austria": {
+    "name": "Austria",
+    "tla": "AUT",
+    "group": "J",
+    "id": 816
+  },
+  "Colombia": {
+    "name": "Colombia",
+    "tla": "COL",
+    "group": "K",
+    "id": 818
+  },
+  "Egypt": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "group": "G",
+    "id": 825
+  },
+  "Canada": {
+    "name": "Canada",
+    "tla": "CAN",
+    "group": "B",
+    "id": 828
+  },
+  "Haiti": {
+    "name": "Haiti",
+    "tla": "HAI",
+    "group": "C",
+    "id": 836
+  },
+  "Iran": {
+    "name": "Iran",
+    "tla": "IRN",
+    "group": "G",
+    "id": 840
+  },
+  "Bosnia-Herzegovina": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "group": "B",
+    "id": 1060
+  },
+  "Panama": {
+    "name": "Panama",
+    "tla": "PAN",
+    "group": "L",
+    "id": 1836
+  },
+  "Cape Verde Islands": {
+    "name": "Cape Verde Islands",
+    "tla": "CPV",
+    "group": "H",
+    "id": 1930
+  },
+  "Congo DR": {
+    "name": "Congo DR",
+    "tla": "COD",
+    "group": "K",
+    "id": 1934
+  },
+  "Ivory Coast": {
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "group": "E",
+    "id": 1935
+  },
+  "Qatar": {
+    "name": "Qatar",
+    "tla": "QAT",
+    "group": "B",
+    "id": 8030
+  },
+  "Jordan": {
+    "name": "Jordan",
+    "tla": "JOR",
+    "group": "J",
+    "id": 8049
+  },
+  "Iraq": {
+    "name": "Iraq",
+    "tla": "IRQ",
+    "group": "I",
+    "id": 8062
+  },
+  "Uzbekistan": {
+    "name": "Uzbekistan",
+    "tla": "UZB",
+    "group": "K",
+    "id": 8070
+  },
+  "Netherlands": {
+    "name": "Netherlands",
+    "tla": "NED",
+    "group": "F",
+    "id": 8601
+  },
+  "Norway": {
+    "name": "Norway",
+    "tla": "NOR",
+    "group": "I",
+    "id": 8872
+  },
+  "Scotland": {
+    "name": "Scotland",
+    "tla": "SCO",
+    "group": "C",
+    "id": 8873
+  },
+  "Curaçao": {
+    "name": "Curaçao",
+    "tla": "CUW",
+    "group": "E",
+    "id": 9460
+  }
+}

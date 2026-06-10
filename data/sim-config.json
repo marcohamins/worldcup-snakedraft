@@ -1,0 +1,6 @@
+{
+  "ratingScale": 400,
+  "drawBase": 0.24,
+  "drawScale": 200,
+  "defaultSimCount": 2000
+}
