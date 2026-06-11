@@ -1,7 +1,12 @@
 import fs from "fs";
 import path from "path";
 
-import { calculateTeamScore, hasKnockoutInvolvement } from "../src/lib/scoring";
+import {
+  calculateTeamScore,
+  computeGroupPositionsFromMatches,
+  computeGroupRecordFromMatches,
+  hasKnockoutInvolvement,
+} from "../src/lib/scoring";
 import { calculateTeamMatchStats } from "../src/lib/stats";
 import type {
   DraftData,
@@ -97,7 +102,7 @@ function isGroupComplete(
   return groupMatches.every((match) => match.status === "FINISHED");
 }
 
-function getGroupPosition(
+function getStandingsPlayedGames(
   teamName: string,
   groupName: string | null,
   standings: ApiStandingsGroup[],
@@ -105,29 +110,21 @@ function getGroupPosition(
   if (!groupName) {
     return null;
   }
-
   const standing = standings.find((entry) => entry.group === groupName);
   const row = standing?.table.find((item) => item.team.name === teamName);
-  return row?.position ?? null;
+  return row?.playedGames ?? null;
 }
 
-function getGroupRecord(
+function countFinishedGroupMatches(
   teamName: string,
-  groupName: string | null,
-  standings: ApiStandingsGroup[],
-): TeamData["groupRecord"] {
-  if (!groupName) {
-    return { wins: 0, draws: 0, losses: 0 };
-  }
-
-  const standing = standings.find((entry) => entry.group === groupName);
-  const row = standing?.table.find((item) => item.team.name === teamName);
-
-  return {
-    wins: row?.won ?? 0,
-    draws: row?.draw ?? 0,
-    losses: row?.lost ?? 0,
-  };
+  matches: MatchSummary[],
+): number {
+  return matches.filter(
+    (match) =>
+      match.stage === "GROUP_STAGE" &&
+      match.status === "FINISHED" &&
+      (match.homeTeam.name === teamName || match.awayTeam.name === teamName),
+  ).length;
 }
 
 function getKnockoutStage(
@@ -215,13 +212,13 @@ function buildTeamData(
   standings: ApiStandingsGroup[],
   rawMatches: ApiMatch[],
   scoring: ScoringRules,
+  groupPositions: Map<string, number>,
 ): TeamData {
   const standingGroup = standings.find((entry) =>
     entry.table.some((row) => row.team.name === team.name),
   );
   const groupName = standingGroup?.group ?? null;
   const groupComplete = isGroupComplete(groupName, standings, rawMatches);
-  const groupPosition = getGroupPosition(team.name, groupName, standings);
   const teamMatches = allMatches.filter(
     (match) =>
       match.homeTeam.name === team.name || match.awayTeam.name === team.name,
@@ -229,6 +226,11 @@ function buildTeamData(
   const playedMatches = teamMatches.filter(
     (match) => match.status === "FINISHED",
   );
+  const finishedGroupMatches = countFinishedGroupMatches(team.name, allMatches);
+  const groupPosition =
+    finishedGroupMatches > 0
+      ? (groupPositions.get(team.name) ?? null)
+      : null;
   const upcomingMatch =
     teamMatches
       .filter((match) => match.status === "TIMED" || match.status === "SCHEDULED")
@@ -271,7 +273,7 @@ function buildTeamData(
     crest: team.crest,
     owner: draft[team.name] ?? null,
     group: groupName,
-    groupRecord: getGroupRecord(team.name, groupName, standings),
+    groupRecord: computeGroupRecordFromMatches(team.name, allMatches),
     groupPosition,
     groupComplete,
     matchesPlayed: playedMatches.length,
@@ -335,6 +337,7 @@ async function main(): Promise<void> {
   const history = readJson<HistorySnapshot[]>("history.json");
 
   const matches = rawMatches.map(toMatchSummary);
+  const groupPositions = computeGroupPositionsFromMatches(matches);
   const draftedTeamNames = new Set(Object.keys(draft));
   const teamsToProcess = apiTeams.filter((team) => draftedTeamNames.has(team.name));
 
@@ -348,8 +351,33 @@ async function main(): Promise<void> {
   }
 
   const teams = teamsToProcess.map((team) =>
-    buildTeamData(team, draft, matches, standings, rawMatches, scoring),
+    buildTeamData(
+      team,
+      draft,
+      matches,
+      standings,
+      rawMatches,
+      scoring,
+      groupPositions,
+    ),
   );
+
+  for (const team of teams) {
+    const standingsPlayed = getStandingsPlayedGames(
+      team.name,
+      team.group,
+      standings,
+    );
+    const finishedGroup = countFinishedGroupMatches(team.name, matches);
+    if (
+      standingsPlayed !== null &&
+      standingsPlayed > finishedGroup
+    ) {
+      console.warn(
+        `API lag: ${team.name} standings show ${standingsPlayed} played but matches API has ${finishedGroup} finished group games`,
+      );
+    }
+  }
 
   const teamsData: TeamsData = {
     lastUpdated: new Date().toISOString(),

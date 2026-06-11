@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T20:39:04.679Z",
+  "lastUpdated": "2026-06-11T22:07:19.688Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -21,7 +21,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -164,7 +164,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -307,7 +307,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -450,7 +450,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -593,7 +593,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -736,7 +736,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -879,7 +879,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1022,7 +1022,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1165,7 +1165,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1304,11 +1304,11 @@
       "owner": "Ryan",
       "group": "Group A",
       "groupRecord": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1451,7 +1451,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1594,7 +1594,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1737,7 +1737,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1880,7 +1880,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2023,7 +2023,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2166,7 +2166,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2309,7 +2309,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2452,7 +2452,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2595,7 +2595,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2738,7 +2738,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2881,7 +2881,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3024,7 +3024,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3167,7 +3167,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3310,7 +3310,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3453,7 +3453,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3596,7 +3596,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3739,7 +3739,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3882,7 +3882,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -4025,7 +4025,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -4168,7 +4168,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -4311,7 +4311,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -4454,7 +4454,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T20:39:04.697Z",
+  "lastUpdated": "2026-06-11T22:07:19.689Z",
   "groups": [
     {
       "group": "Group A",
@@ -18,9 +18,9 @@
           "draw": 0,
           "lost": 0,
           "points": 3,
-          "goalsFor": 1,
+          "goalsFor": 2,
           "goalsAgainst": 0,
-          "goalDifference": 1
+          "goalDifference": 2
         },
         {
           "position": 2,
@@ -73,8 +73,8 @@
           "lost": 1,
           "points": 0,
           "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1
+          "goalsAgainst": 2,
+          "goalDifference": -2
         }
       ]
     },
@@ -700,24 +700,6 @@
         {
           "position": 1,
           "team": {
-            "id": 762,
-            "name": "Argentina",
-            "shortName": "Argentina",
-            "tla": "ARG",
-            "crest": "https://crests.football-data.org/762.png"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 2,
-          "team": {
             "id": 778,
             "name": "Algeria",
             "shortName": "Algeria",
@@ -734,13 +716,13 @@
           "goalDifference": 0
         },
         {
-          "position": 3,
+          "position": 1,
           "team": {
-            "id": 816,
-            "name": "Austria",
-            "shortName": "Austria",
-            "tla": "AUT",
-            "crest": "https://crests.football-data.org/816.svg"
+            "id": 762,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "tla": "ARG",
+            "crest": "https://crests.football-data.org/762.png"
           },
           "playedGames": 0,
           "won": 0,
@@ -752,13 +734,31 @@
           "goalDifference": 0
         },
         {
-          "position": 4,
+          "position": 1,
           "team": {
             "id": 8049,
             "name": "Jordan",
             "shortName": "Jordan",
             "tla": "JOR",
             "crest": "https://crests.football-data.org/8049.png"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 1,
+          "team": {
+            "id": 816,
+            "name": "Austria",
+            "shortName": "Austria",
+            "tla": "AUT",
+            "crest": "https://crests.football-data.org/816.svg"
           },
           "playedGames": 0,
           "won": 0,

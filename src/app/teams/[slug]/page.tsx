@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { getTeamsData } from "@/lib/data";
+import { getScoringRules, getTeamsData } from "@/lib/data";
+import { hasKnockoutInvolvement } from "@/lib/scoring";
 import { slugToTeamName, teamNameToSlug } from "@/lib/teams";
 
 export function generateStaticParams() {
@@ -55,6 +56,14 @@ export default async function TeamPage({
   if (!team) {
     notFound();
   }
+
+  const scoring = getScoringRules();
+  const knockoutProgress =
+    team.knockoutStage ??
+    (team.matches.some((match) => match.stage === "GROUP_STAGE") &&
+    !hasKnockoutInvolvement(team.name, team.matches)
+      ? "Group stage"
+      : "Not started");
 
   const playedMatches = team.matches
     .filter((match) => match.status === "FINISHED")
@@ -125,9 +134,7 @@ export default async function TeamPage({
           <dl className="space-y-3 text-sm">
             <div className="flex justify-between">
               <dt className="text-white/60">Progress</dt>
-              <dd className="font-medium text-white">
-                {team.knockoutStage ?? "Not started"}
-              </dd>
+              <dd className="font-medium text-white">{knockoutProgress}</dd>
             </div>
             <div className="flex justify-between">
               <dt className="text-white/60">Upcoming</dt>
@@ -147,13 +154,13 @@ export default async function TeamPage({
           <div className="flex justify-between rounded-xl bg-black/20 px-4 py-3">
             <dt className="text-white/60">Group wins</dt>
             <dd className="text-white">
-              {team.scoreBreakdown.groupWins} × pts
+              {team.scoreBreakdown.groupWins} × {scoring.group_win} pts
             </dd>
           </div>
           <div className="flex justify-between rounded-xl bg-black/20 px-4 py-3">
             <dt className="text-white/60">Group draws</dt>
             <dd className="text-white">
-              {team.scoreBreakdown.groupDraws} × pts
+              {team.scoreBreakdown.groupDraws} × {scoring.group_draw} pts
             </dd>
           </div>
           <div className="flex justify-between rounded-xl bg-black/20 px-4 py-3">

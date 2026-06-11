@@ -39,6 +39,124 @@ export function getKnockoutWinPoints(
   return scoring[key] as number;
 }
 
+export function computeGroupRecordFromMatches(
+  teamName: string,
+  matches: MatchSummary[],
+): TeamData["groupRecord"] {
+  let wins = 0;
+  let draws = 0;
+  let losses = 0;
+
+  for (const match of matches) {
+    if (match.stage !== "GROUP_STAGE" || match.status !== "FINISHED") {
+      continue;
+    }
+    if (match.homeTeam.name !== teamName && match.awayTeam.name !== teamName) {
+      continue;
+    }
+
+    const isHome = match.homeTeam.name === teamName;
+    const teamWon =
+      (isHome && match.winner === "HOME") ||
+      (!isHome && match.winner === "AWAY");
+    const teamDrew = match.winner === "DRAW";
+    const teamLost =
+      (isHome && match.winner === "AWAY") ||
+      (!isHome && match.winner === "HOME");
+
+    if (teamWon) {
+      wins += 1;
+    } else if (teamDrew) {
+      draws += 1;
+    } else if (teamLost) {
+      losses += 1;
+    }
+  }
+
+  return { wins, draws, losses };
+}
+
+interface GroupTableRow {
+  teamName: string;
+  points: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  goalDifference: number;
+}
+
+/** Group positions from FINISHED group-stage matches (1-based). */
+export function computeGroupPositionsFromMatches(
+  allMatches: MatchSummary[],
+): Map<string, number> {
+  const tables = new Map<string, Map<string, GroupTableRow>>();
+
+  for (const match of allMatches) {
+    if (match.stage !== "GROUP_STAGE" || match.status !== "FINISHED") {
+      continue;
+    }
+    if (!match.group || match.homeScore === null || match.awayScore === null) {
+      continue;
+    }
+
+    if (!tables.has(match.group)) {
+      tables.set(match.group, new Map());
+    }
+    const table = tables.get(match.group)!;
+
+    for (const teamName of [match.homeTeam.name, match.awayTeam.name]) {
+      if (!table.has(teamName)) {
+        table.set(teamName, {
+          teamName,
+          points: 0,
+          goalsFor: 0,
+          goalsAgainst: 0,
+          goalDifference: 0,
+        });
+      }
+    }
+
+    const home = table.get(match.homeTeam.name)!;
+    const away = table.get(match.awayTeam.name)!;
+    home.goalsFor += match.homeScore;
+    home.goalsAgainst += match.awayScore;
+    away.goalsFor += match.awayScore;
+    away.goalsAgainst += match.homeScore;
+
+    if (match.winner === "HOME") {
+      home.points += 3;
+    } else if (match.winner === "AWAY") {
+      away.points += 3;
+    } else if (match.winner === "DRAW") {
+      home.points += 1;
+      away.points += 1;
+    }
+  }
+
+  const positions = new Map<string, number>();
+
+  for (const table of tables.values()) {
+    for (const row of table.values()) {
+      row.goalDifference = row.goalsFor - row.goalsAgainst;
+    }
+
+    const ranked = [...table.values()].sort((a, b) => {
+      if (b.points !== a.points) {
+        return b.points - a.points;
+      }
+      if (b.goalDifference !== a.goalDifference) {
+        return b.goalDifference - a.goalDifference;
+      }
+      return b.goalsFor - a.goalsFor;
+    });
+
+    ranked.forEach((row, index) => {
+      positions.set(row.teamName, index + 1);
+    });
+  }
+
+  return positions;
+}
+
 export function calculateTeamScore(
   teamName: string,
   matches: MatchSummary[],
