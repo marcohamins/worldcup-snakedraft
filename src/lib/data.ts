@@ -45,7 +45,8 @@ export function getHistory(): HistorySnapshot[] {
 export function getLeaderboard(): LeaderboardEntry[] {
   const participants = getParticipants();
   const teams = getTeamsData().teams;
-  return calculateLeaderboard(participants, teams);
+  const draft = getDraft();
+  return calculateLeaderboard(participants, teams, draft);
 }
 
 export { teamNameToSlug, slugToTeamName } from "./teams";

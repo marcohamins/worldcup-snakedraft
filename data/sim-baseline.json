@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-06-11T20:29:49.211Z",
+  "iterations": 2000,
+  "stageMedians": {
+    "GROUP_STAGE": {
+      "Marco": 33,
+      "Peter": 30,
+      "Chris": 27,
+      "Davis": 30,
+      "Dylan": 28,
+      "Ryan": 26,
+      "Jackson": 30,
+      "Will": 22
+    },
+    "LAST_32": {
+      "Marco": 42,
+      "Peter": 39,
+      "Chris": 34,
+      "Davis": 39,
+      "Dylan": 36,
+      "Ryan": 33,
+      "Jackson": 38,
+      "Will": 28
+    },
+    "LAST_16": {
+      "Marco": 49,
+      "Peter": 44,
+      "Chris": 39,
+      "Davis": 44,
+      "Dylan": 41,
+      "Ryan": 37,
+      "Jackson": 43,
+      "Will": 30
+    },
+    "QUARTER_FINALS": {
+      "Marco": 53,
+      "Peter": 47.5,
+      "Chris": 42,
+      "Davis": 47,
+      "Dylan": 44,
+      "Ryan": 38,
+      "Jackson": 46,
+      "Will": 31
+    },
+    "SEMI_FINALS": {
+      "Marco": 55,
+      "Peter": 49,
+      "Chris": 43,
+      "Davis": 48,
+      "Dylan": 46,
+      "Ryan": 39,
+      "Jackson": 47,
+      "Will": 31
+    },
+    "FINAL": {
+      "Marco": 57,
+      "Peter": 50,
+      "Chris": 44,
+      "Davis": 49,
+      "Dylan": 47,
+      "Ryan": 39,
+      "Jackson": 47,
+      "Will": 31
+    }
+  },
+  "finalMedians": {
+    "Marco": 57,
+    "Peter": 50,
+    "Chris": 44,
+    "Davis": 49,
+    "Dylan": 47,
+    "Ryan": 39,
+    "Jackson": 47,
+    "Will": 31
+  }
+}

@@ -1,3 +1,4 @@
+import simBaseline from "../../../data/sim-baseline.json";
 import bracketMatrix from "../../../data/bracket-matrix.json";
 import draft from "../../../data/draft.json";
 import fixturesData from "../../../data/fixtures.json";
@@ -10,6 +11,7 @@ import teamsData from "../../../data/teams.json";
 import teamsMeta from "../../../data/teams-meta.json";
 
 import type { ScoringRules, TeamData } from "../types";
+import type { SimBaseline } from "./baseline";
 import type {
   BracketMatrix,
   SimulationData,
@@ -29,5 +31,6 @@ export function loadSimulationData(): SimulationData {
     scoring: scoring as ScoringRules,
     draft: draft as Record<string, string>,
     participants: participantsData.participants,
+    baseline: simBaseline as SimBaseline,
   };
 }

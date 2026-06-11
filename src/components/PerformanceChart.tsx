@@ -15,8 +15,7 @@ interface PerformanceChartProps {
   data: {
     participant: string;
     actual: number;
-    baseline: number | null;
-    updated: number;
+    expected: number;
   }[];
 }
 
@@ -41,8 +40,7 @@ export function PerformanceChart({ data }: PerformanceChartProps) {
           />
           <Legend wrapperStyle={{ fontSize: "11px" }} />
           <Bar dataKey="actual" name="Actual" fill="#2dd4bf" />
-          <Bar dataKey="baseline" name="Baseline expected" fill="#a78bfa" />
-          <Bar dataKey="updated" name="Updated projection" fill="#d4af37" />
+          <Bar dataKey="expected" name="Expected" fill="#a78bfa" />
         </BarChart>
       </ResponsiveContainer>
     </div>

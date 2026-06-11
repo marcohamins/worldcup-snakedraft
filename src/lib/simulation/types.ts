@@ -1,4 +1,5 @@
 import type { MatchSummary, ScoringRules, TeamData } from "../types";
+import type { SimBaseline } from "./baseline";
 import type { StageCheckpoint } from "./stages";
 
 export interface SimConfig {
@@ -70,6 +71,7 @@ export interface SimulationData {
   scoring: ScoringRules;
   draft: Record<string, string>;
   participants: string[];
+  baseline: SimBaseline;
 }
 
 export interface ParticipantProjection {

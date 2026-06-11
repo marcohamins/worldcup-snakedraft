@@ -1,4 +1,5 @@
-import type { ParticipantPoolStats, TeamData } from "./types";
+import type { DraftData, ParticipantPoolStats, TeamData } from "./types";
+import { getOwnedTeams } from "./draft";
 
 export function calculateTeamMatchStats(
   teamName: string,
@@ -49,9 +50,10 @@ export function calculateTeamMatchStats(
 export function calculateParticipantPoolStats(
   participants: string[],
   teams: TeamData[],
+  draft: DraftData,
 ): ParticipantPoolStats[] {
   return participants.map((participant) => {
-    const ownedTeams = teams.filter((team) => team.owner === participant);
+    const ownedTeams = getOwnedTeams(participant, teams, draft);
     const totals = ownedTeams.reduce(
       (acc, team) => {
         const stats =

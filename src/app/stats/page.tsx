@@ -1,5 +1,5 @@
 import { PoolStatsTable } from "@/components/PoolStatsTable";
-import { getParticipants, getTeamsData } from "@/lib/data";
+import { getDraft, getParticipants, getTeamsData } from "@/lib/data";
 import { calculateParticipantPoolStats } from "@/lib/stats";
 
 function topBy<T extends { participant: string }>(
@@ -17,9 +17,11 @@ function topBy<T extends { participant: string }>(
 export default function StatsPage() {
   const participants = getParticipants();
   const teamsData = getTeamsData();
+  const draft = getDraft();
   const poolStats = calculateParticipantPoolStats(
     participants,
     teamsData.teams,
+    draft,
   );
 
   const topScorer = topBy(poolStats, "goalsFor");

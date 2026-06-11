@@ -9,6 +9,7 @@
     "lint": "eslint",
     "update-data": "tsx scripts/update-tournament-data.ts",
     "generate-fixtures": "tsx scripts/generate-fixtures.ts",
+    "generate-baseline": "tsx scripts/generate-sim-baseline.ts",
     "validate-bracket": "tsx scripts/validate-bracket-matrix.ts"
   },
   "dependencies": {

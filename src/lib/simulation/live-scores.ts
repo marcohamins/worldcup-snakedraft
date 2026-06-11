@@ -1,5 +1,6 @@
+import { getOwnedTeams } from "../draft";
 import { calculateTeamScore } from "../scoring";
-import type { ScoringRules, TeamData } from "../types";
+import type { DraftData, ScoringRules, TeamData } from "../types";
 import {
   getCompletedCheckpoint,
   matchesThroughStage,
@@ -65,3 +66,19 @@ export function getLiveParticipantScores(
 }
 
 export { getCompletedCheckpoint };
+
+export function getCurrentLiveScores(
+  participants: string[],
+  draft: DraftData,
+  teams: TeamData[],
+): Record<string, number> {
+  return Object.fromEntries(
+    participants.map((participant) => [
+      participant,
+      getOwnedTeams(participant, teams, draft).reduce(
+        (sum, team) => sum + team.score,
+        0,
+      ),
+    ]),
+  );
+}

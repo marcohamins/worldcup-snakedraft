@@ -1,10 +1,12 @@
 import type {
+  DraftData,
   LeaderboardEntry,
   MatchSummary,
   ScoreBreakdown,
   ScoringRules,
   TeamData,
 } from "./types";
+import { getOwnedTeams } from "./draft";
 
 const KNOCKOUT_STAGE_POINTS: Record<string, keyof ScoringRules> = {
   LAST_32: "round_of_32_win",
@@ -122,18 +124,21 @@ export function calculateTeamScore(
 export function calculatePlayerScore(
   participant: string,
   teams: TeamData[],
+  draft: DraftData,
 ): number {
-  return teams
-    .filter((team) => team.owner === participant)
-    .reduce((sum, team) => sum + team.score, 0);
+  return getOwnedTeams(participant, teams, draft).reduce(
+    (sum, team) => sum + team.score,
+    0,
+  );
 }
 
 export function calculateLeaderboard(
   participants: string[],
   teams: TeamData[],
+  draft: DraftData,
 ): LeaderboardEntry[] {
   const scored = participants.map((participant) => {
-    const ownedTeams = teams.filter((team) => team.owner === participant);
+    const ownedTeams = getOwnedTeams(participant, teams, draft);
     const totalScore = ownedTeams.reduce((sum, team) => sum + team.score, 0);
     const teamsRemaining = ownedTeams.filter((team) => team.remaining).length;
     const bestTeam = ownedTeams.reduce<TeamData | null>((best, team) => {
