@@ -1,4 +1,5 @@
-import type { MatchSummary, ScoringRules } from "../types";
+import type { MatchSummary, ScoringRules, TeamData } from "../types";
+import type { StageCheckpoint } from "./stages";
 
 export interface SimConfig {
   ratingScale: number;
@@ -60,6 +61,7 @@ export interface GroupTableRow {
 
 export interface SimulationData {
   fixtures: MatchSummary[];
+  teams: TeamData[];
   teamsMeta: Record<string, TeamMeta>;
   peleRatings: Record<string, number>;
   peleOverrides: Record<string, string>;
@@ -84,6 +86,9 @@ export interface MonteCarloResult {
   iterations: number;
   finishedMatches: number;
   remainingMatches: number;
+  totalMatches: number;
+  anchorResults: boolean;
   projections: ParticipantProjection[];
   histogramBins: { participant: string; bins: { score: number; count: number }[] }[];
+  stageMedians: Partial<Record<StageCheckpoint, Record<string, number>>>;
 }

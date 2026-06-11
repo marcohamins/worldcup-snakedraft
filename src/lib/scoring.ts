@@ -143,6 +143,13 @@ export function calculateLeaderboard(
       return best;
     }, null);
 
+    const worstTeam = ownedTeams.reduce<TeamData | null>((worst, team) => {
+      if (!worst || team.score < worst.score) {
+        return team;
+      }
+      return worst;
+    }, null);
+
     const teamScores = Object.fromEntries(
       ownedTeams.map((team) => [team.name, team.score]),
     );
@@ -151,8 +158,17 @@ export function calculateLeaderboard(
       participant,
       totalScore,
       teamsRemaining,
+      ownedTeams: ownedTeams.map((team) => ({
+        name: team.name,
+        crest: team.crest,
+        remaining: team.remaining,
+        score: team.score,
+      })),
       bestTeam: bestTeam
         ? { name: bestTeam.name, score: bestTeam.score }
+        : null,
+      worstTeam: worstTeam
+        ? { name: worstTeam.name, score: worstTeam.score }
         : null,
       teamScores,
     };
@@ -173,7 +189,9 @@ export function calculateLeaderboard(
     totalScore: entry.totalScore,
     teamsRemaining: entry.teamsRemaining,
     pointsBehindLeader: leaderScore - entry.totalScore,
+    ownedTeams: entry.ownedTeams,
     bestTeam: entry.bestTeam,
+    worstTeam: entry.worstTeam,
     teamScores: entry.teamScores,
   }));
 }

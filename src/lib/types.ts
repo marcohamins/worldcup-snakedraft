@@ -122,13 +122,22 @@ export interface HistorySnapshot {
   [participant: string]: string | number;
 }
 
+export interface OwnedTeamSummary {
+  name: string;
+  crest: string;
+  remaining: boolean;
+  score: number;
+}
+
 export interface LeaderboardEntry {
   rank: number;
   participant: string;
   totalScore: number;
   teamsRemaining: number;
   pointsBehindLeader: number;
+  ownedTeams: OwnedTeamSummary[];
   bestTeam: { name: string; score: number } | null;
+  worstTeam: { name: string; score: number } | null;
   teamScores: Record<string, number>;
 }
 

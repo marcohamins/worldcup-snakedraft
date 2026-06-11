@@ -1,5 +1,4 @@
 import type { MatchSummary, TeamInfo } from "../types";
-import { calculateTeamScore } from "../scoring";
 import { buildRoundOf32Pairings } from "./bracket";
 import {
   buildTeamsByGroup,
@@ -13,11 +12,18 @@ import {
   sampleWinner,
   scoresFromWinner,
 } from "./probabilities";
+import { scoreParticipants } from "./participant-scoring";
 import { createRng, type Rng } from "./rng";
+import type { StageCheckpoint } from "./stages";
 import type {
   ResolvedMatch,
   SimulationData,
 } from "./types";
+
+export interface SimulationOptions {
+  /** When false, ignore real results and simulate the full tournament (baseline). */
+  anchorResults?: boolean;
+}
 
 function teamInfo(name: string, meta?: TeamInfo): TeamInfo {
   if (meta) {
@@ -63,8 +69,13 @@ function buildRatings(data: SimulationData): Map<string, number> {
 
 function extractLockedResults(
   fixtures: MatchSummary[],
+  anchorResults: boolean,
 ): Map<number, ResolvedMatch> {
   const locked = new Map<number, ResolvedMatch>();
+
+  if (!anchorResults) {
+    return locked;
+  }
 
   for (const fixture of fixtures) {
     if (fixture.status !== "FINISHED") {
@@ -166,16 +177,43 @@ function playKnockoutMatch(
   };
 }
 
+function snapshotStage(
+  stageScores: Partial<Record<StageCheckpoint, Record<string, number>>>,
+  checkpoint: StageCheckpoint,
+  data: SimulationData,
+  allMatches: MatchSummary[],
+  tables: Map<string, Map<string, import("./types").GroupTableRow>>,
+  groupLetters: string[],
+  teamsByGroup: Map<string, string[]>,
+): void {
+  stageScores[checkpoint] = scoreParticipants(
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+    checkpoint,
+  );
+}
+
 export function runSimulation(
   data: SimulationData,
   seed: number,
-): { participantScores: Record<string, number>; matches: MatchSummary[] } {
+  options: SimulationOptions = {},
+): {
+  participantScores: Record<string, number>;
+  stageScores: Partial<Record<StageCheckpoint, Record<string, number>>>;
+  matches: MatchSummary[];
+} {
+  const anchorResults = options.anchorResults ?? true;
   const rng = createRng(seed);
   const ratings = buildRatings(data);
   const teamInfoMap = buildTeamInfoMap(data);
   const groupLetters = data.bracketMatrix.structure.groupLetters;
   const teamsByGroup = buildTeamsByGroup(data.teamsMeta);
-  const lockedResults = extractLockedResults(data.fixtures);
+  const lockedResults = extractLockedResults(data.fixtures, anchorResults);
+  const stageScores: Partial<Record<StageCheckpoint, Record<string, number>>> =
+    {};
   const simulatedGroup = simulateUnresolvedGroupMatches(
     data.fixtures,
     lockedResults,
@@ -199,6 +237,16 @@ export function runSimulation(
     ratings,
     groupMatches,
   );
+  snapshotStage(
+    stageScores,
+    "GROUP_STAGE",
+    data,
+    groupMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+  );
+
   const { first, second, third, thirdStats } = rankGroupTables(tables);
   const qualifyingGroups = rankThirdPlaceTeams(thirdStats);
 
@@ -236,6 +284,15 @@ export function runSimulation(
     allMatches.push(result.match);
     matchWinners.set(pairing.matchNumber, result.winner);
   }
+  snapshotStage(
+    stageScores,
+    "LAST_32",
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+  );
 
   const playFeederRound = (
     round: { match: number; feederA: number; feederB: number }[],
@@ -267,8 +324,35 @@ export function runSimulation(
 
   const { structure } = data.bracketMatrix;
   playFeederRound(structure.roundOf16, "LAST_16");
+  snapshotStage(
+    stageScores,
+    "LAST_16",
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+  );
   playFeederRound(structure.quarterFinals, "QUARTER_FINALS");
+  snapshotStage(
+    stageScores,
+    "QUARTER_FINALS",
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+  );
   playFeederRound(structure.semiFinals, "SEMI_FINALS");
+  snapshotStage(
+    stageScores,
+    "SEMI_FINALS",
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+  );
 
   if (semiLosers.length === 2) {
     const thirdPlace = playKnockoutMatch(
@@ -301,68 +385,25 @@ export function runSimulation(
     allMatches.push(finalResult.match);
   }
 
-  const draftedTeams = Object.keys(data.draft);
-  const participantScores: Record<string, number> = Object.fromEntries(
-    data.participants.map((participant) => [participant, 0]),
+  snapshotStage(
+    stageScores,
+    "FINAL",
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
   );
 
-  for (const teamName of draftedTeams) {
-    const meta = data.teamsMeta[teamName];
-    const groupLetter = meta?.group ?? null;
-    const groupComplete = groupLetters.every((letter) => {
-      const table = tables.get(letter);
-      if (!table) {
-        return false;
-      }
-      const teamsInGroup = teamsByGroup.get(letter) ?? [];
-      const playedCounts = teamsInGroup.map((name) => {
-        return allMatches.filter(
-          (match) =>
-            match.stage === "GROUP_STAGE" &&
-            match.group === `Group ${letter}` &&
-            match.status === "FINISHED" &&
-            (match.homeTeam.name === name || match.awayTeam.name === name),
-        ).length;
-      });
-      return playedCounts.every((count) => count >= 3);
-    });
+  const participantScores = scoreParticipants(
+    data,
+    allMatches,
+    tables,
+    groupLetters,
+    teamsByGroup,
+  );
 
-    const standing = groupLetter ? tables.get(groupLetter)?.get(teamName) : null;
-    let groupPosition: number | null = null;
-    if (standing && groupLetter) {
-      const ranked = [...(tables.get(groupLetter)?.values() ?? [])].sort(
-        (a, b) => {
-          if (b.points !== a.points) {
-            return b.points - a.points;
-          }
-          if (b.goalDifference !== a.goalDifference) {
-            return b.goalDifference - a.goalDifference;
-          }
-          if (b.goalsFor !== a.goalsFor) {
-            return b.goalsFor - a.goalsFor;
-          }
-          return b.peleRating - a.peleRating;
-        },
-      );
-      groupPosition =
-        ranked.findIndex((row) => row.teamName === teamName) + 1 || null;
-    }
-
-    const score = calculateTeamScore(
-      teamName,
-      allMatches,
-      groupPosition,
-      groupComplete,
-      data.scoring,
-    ).total;
-
-    const owner = data.draft[teamName];
-    if (owner) {
-      participantScores[owner] = (participantScores[owner] ?? 0) + score;
-    }
-  }
-
-  return { participantScores, matches: allMatches };
+  return { participantScores, stageScores, matches: allMatches };
 }
 
 export function countMatchStatus(fixtures: MatchSummary[]): {

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 
+import { TeamFlags } from "@/components/TeamFlags";
 import { teamNameToSlug } from "@/lib/teams";
 import type { LeaderboardEntry } from "@/lib/types";
 
@@ -12,7 +13,8 @@ type SortKey =
   | "totalScore"
   | "teamsRemaining"
   | "pointsBehindLeader"
-  | "bestTeam";
+  | "bestTeam"
+  | "worstTeam";
 
 interface LeaderboardTableProps {
   entries: LeaderboardEntry[];
@@ -44,6 +46,10 @@ export function LeaderboardTable({ entries }: LeaderboardTableProps) {
           comparison =
             (a.bestTeam?.score ?? 0) - (b.bestTeam?.score ?? 0);
           break;
+        case "worstTeam":
+          comparison =
+            (a.worstTeam?.score ?? 0) - (b.worstTeam?.score ?? 0);
+          break;
         default:
           comparison = a.rank - b.rank;
       }
@@ -62,11 +68,12 @@ export function LeaderboardTable({ entries }: LeaderboardTableProps) {
     setAscending(key === "participant");
   }
 
-  function header(label: string, key: SortKey) {
+  function header(label: string, key: SortKey, title?: string) {
     const active = sortKey === key;
     return (
       <button
         type="button"
+        title={title}
         onClick={() => handleSort(key)}
         className={`text-left text-xs font-semibold uppercase tracking-wide ${
           active ? "text-gold" : "text-white/60"
@@ -87,8 +94,15 @@ export function LeaderboardTable({ entries }: LeaderboardTableProps) {
             <th className="px-4 py-3">{header("Participant", "participant")}</th>
             <th className="px-4 py-3">{header("Score", "totalScore")}</th>
             <th className="px-4 py-3">{header("Teams Left", "teamsRemaining")}</th>
-            <th className="px-4 py-3">{header("Behind", "pointsBehindLeader")}</th>
+            <th className="px-4 py-3">
+              {header(
+                "Pts Behind",
+                "pointsBehindLeader",
+                "Points behind the current leader",
+              )}
+            </th>
             <th className="px-4 py-3">{header("Best Team", "bestTeam")}</th>
+            <th className="px-4 py-3">{header("Worst Team", "worstTeam")}</th>
           </tr>
         </thead>
         <tbody>
@@ -104,7 +118,14 @@ export function LeaderboardTable({ entries }: LeaderboardTableProps) {
               <td className="px-4 py-3 text-lg font-bold text-white">
                 {entry.totalScore}
               </td>
-              <td className="px-4 py-3 text-white/80">{entry.teamsRemaining}</td>
+              <td className="px-4 py-3">
+                <div className="flex items-center gap-2">
+                  <TeamFlags teams={entry.ownedTeams} />
+                  <span className="text-xs text-white/50">
+                    {entry.teamsRemaining}/{entry.ownedTeams.length}
+                  </span>
+                </div>
+              </td>
               <td className="px-4 py-3 text-white/60">
                 {entry.pointsBehindLeader === 0
                   ? "—"
@@ -117,6 +138,18 @@ export function LeaderboardTable({ entries }: LeaderboardTableProps) {
                     className="text-emerald hover:text-gold"
                   >
                     {entry.bestTeam.name} ({entry.bestTeam.score})
+                  </Link>
+                ) : (
+                  "—"
+                )}
+              </td>
+              <td className="px-4 py-3">
+                {entry.worstTeam ? (
+                  <Link
+                    href={`/teams/${teamNameToSlug(entry.worstTeam.name)}/`}
+                    className="text-rose-400/80 hover:text-gold"
+                  >
+                    {entry.worstTeam.name} ({entry.worstTeam.score})
                   </Link>
                 ) : (
                   "—"

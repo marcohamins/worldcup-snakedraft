@@ -6,9 +6,10 @@ import peleOverrides from "../../../data/pele-overrides.json";
 import peleRatings from "../../../data/pele-ratings.json";
 import scoring from "../../../data/scoring.json";
 import simConfig from "../../../data/sim-config.json";
+import teamsData from "../../../data/teams.json";
 import teamsMeta from "../../../data/teams-meta.json";
 
-import type { ScoringRules } from "../types";
+import type { ScoringRules, TeamData } from "../types";
 import type {
   BracketMatrix,
   SimulationData,
@@ -19,6 +20,7 @@ import type {
 export function loadSimulationData(): SimulationData {
   return {
     fixtures: fixturesData.fixtures,
+    teams: teamsData.teams as TeamData[],
     teamsMeta: teamsMeta as Record<string, TeamMeta>,
     peleRatings: peleRatings as Record<string, number>,
     peleOverrides: peleOverrides as Record<string, string>,

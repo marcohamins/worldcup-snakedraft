@@ -12,8 +12,24 @@ import {
   YAxis,
 } from "recharts";
 
+import { PerformanceChart } from "@/components/PerformanceChart";
+import {
+  clearBaseline,
+  loadBaseline,
+  saveBaseline,
+  type SimBaseline,
+} from "@/lib/simulation/baseline-storage";
+import {
+  getCompletedCheckpoint,
+  getLiveParticipantScores,
+} from "@/lib/simulation/live-scores";
 import { loadSimulationData } from "@/lib/simulation/load-data";
 import { runMonteCarlo } from "@/lib/simulation/monte-carlo";
+import {
+  formatCheckpointLabel,
+  STAGE_CHECKPOINTS,
+  type StageCheckpoint,
+} from "@/lib/simulation/stages";
 
 const COLORS = [
   "#d4af37",
@@ -34,13 +50,66 @@ export function SimulatorPanel() {
   const [result, setResult] = useState<ReturnType<typeof runMonteCarlo> | null>(
     null,
   );
+  const [baseline, setBaseline] = useState<SimBaseline | null>(() =>
+    typeof window !== "undefined" ? loadBaseline() : null,
+  );
   const [isPending, startTransition] = useTransition();
+
+  const currentCheckpoint = useMemo(
+    () => getCompletedCheckpoint(simulationData.fixtures),
+    [simulationData.fixtures],
+  );
+
+  const actualScores = useMemo(() => {
+    if (!currentCheckpoint) {
+      return null;
+    }
+    return getLiveParticipantScores(
+      simulationData.participants,
+      simulationData.draft,
+      simulationData.teams,
+      currentCheckpoint,
+      simulationData.scoring,
+    );
+  }, [currentCheckpoint, simulationData]);
 
   function handleRun() {
     startTransition(() => {
-      const next = runMonteCarlo(simulationData, simCount);
+      const next = runMonteCarlo(simulationData, simCount, {
+        anchorResults: true,
+      });
       setResult(next);
+      setBaseline(loadBaseline());
     });
+  }
+
+  function handleSaveBaseline() {
+    startTransition(() => {
+      const baselineRun = runMonteCarlo(simulationData, simCount, {
+        anchorResults: false,
+      });
+      const finalMedians = Object.fromEntries(
+        simulationData.participants.map((participant) => {
+          const projection = baselineRun.projections.find(
+            (entry) => entry.participant === participant,
+          );
+          return [participant, projection?.median ?? 0];
+        }),
+      );
+      const snapshot: SimBaseline = {
+        capturedAt: new Date().toISOString(),
+        iterations: simCount,
+        stageMedians: baselineRun.stageMedians as SimBaseline["stageMedians"],
+        finalMedians,
+      };
+      saveBaseline(snapshot);
+      setBaseline(snapshot);
+    });
+  }
+
+  function handleClearBaseline() {
+    clearBaseline();
+    setBaseline(null);
   }
 
   const chartData = useMemo(() => {
@@ -67,6 +136,22 @@ export function SimulatorPanel() {
       return row;
     });
   }, [result]);
+
+  const performanceData = useMemo(() => {
+    if (!result || !currentCheckpoint || !actualScores) {
+      return [];
+    }
+
+    const baselineAtStage = baseline?.stageMedians[currentCheckpoint];
+
+    return simulationData.participants.map((participant) => ({
+      participant,
+      actual: actualScores[participant] ?? 0,
+      baseline: baselineAtStage?.[participant] ?? null,
+      updated: result.projections.find((p) => p.participant === participant)
+        ?.mean ?? 0,
+    }));
+  }, [result, currentCheckpoint, actualScores, baseline, simulationData.participants]);
 
   const leader = result?.projections[0];
 
@@ -113,9 +198,9 @@ export function SimulatorPanel() {
 
         {result && (
           <p className="mt-4 text-sm text-white/60">
-            {result.finishedMatches} matches completed · simulating{" "}
-            {result.remainingMatches} remaining · {result.iterations.toLocaleString()}{" "}
-            runs
+            {result.finishedMatches} group matches locked ·{" "}
+            {result.totalMatches - result.finishedMatches} simulated per run
+            (72 group + 32 knockout) · {result.iterations.toLocaleString()} runs
           </p>
         )}
       </section>
@@ -145,17 +230,192 @@ export function SimulatorPanel() {
           </div>
           <div className="rounded-2xl border border-accent-blue/30 bg-accent-blue/10 p-5">
             <p className="text-xs uppercase tracking-wide text-accent-blue">
-              Model
+              Tournament stage
             </p>
             <p className="mt-1 text-lg font-bold text-white">
-              PELE + Elo expectancy
+              {currentCheckpoint
+                ? formatCheckpointLabel(currentCheckpoint)
+                : "Not started"}
             </p>
             <p className="text-sm text-white/70">
-              Draws scale with rating gap; knockouts resolve to a winner
+              {currentCheckpoint
+                ? "Latest completed round for performance tracking"
+                : "Performance tracking activates after the first round"}
             </p>
           </div>
         </div>
       )}
+
+      <section className="rounded-3xl border border-white/10 bg-navy-light/60 p-6">
+        <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h3 className="text-lg font-semibold text-white">
+              Performance vs baseline
+            </h3>
+            <p className="mt-1 max-w-2xl text-sm text-white/60">
+              Save a pre-tournament baseline once your draft is set. After each
+              round, compare actual points to the baseline expectation at that
+              stage, plus the updated full-tournament projection from the
+              current bracket.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={handleSaveBaseline}
+              disabled={isPending}
+              className="rounded-full border border-gold/40 px-4 py-2 text-sm font-medium text-gold transition hover:bg-gold/10 disabled:opacity-60"
+            >
+              {baseline ? "Re-save baseline" : "Save baseline"}
+            </button>
+            {baseline && (
+              <button
+                type="button"
+                onClick={handleClearBaseline}
+                className="rounded-full border border-white/10 px-4 py-2 text-sm text-white/60 transition hover:bg-white/5"
+              >
+                Clear baseline
+              </button>
+            )}
+          </div>
+        </div>
+
+        {baseline && (
+          <p className="mb-4 text-xs text-white/50">
+            Baseline saved{" "}
+            {new Date(baseline.capturedAt).toLocaleString(undefined, {
+              dateStyle: "medium",
+              timeStyle: "short",
+            })}{" "}
+            · {baseline.iterations.toLocaleString()} pre-tournament sims
+          </p>
+        )}
+
+        {!baseline && (
+          <p className="rounded-2xl border border-dashed border-white/10 bg-black/20 p-4 text-sm text-white/50">
+            No baseline saved yet. Run &quot;Save baseline&quot; before the
+            tournament starts (or anytime) to lock in pre-tournament expected
+            points at each stage.
+          </p>
+        )}
+
+        {baseline && result && currentCheckpoint && performanceData.length > 0 && (
+          <>
+            <section className="mb-6 overflow-x-auto">
+              <table className="min-w-full text-sm">
+                <thead className="border-b border-white/10">
+                  <tr>
+                    <th className="px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-white/60">
+                      Participant
+                    </th>
+                    <th className="px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-white/60">
+                      Actual @ {formatCheckpointLabel(currentCheckpoint)}
+                    </th>
+                    <th className="px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-white/60">
+                      Baseline expected
+                    </th>
+                    <th className="px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-white/60">
+                      Updated projection
+                    </th>
+                    <th className="px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-white/60">
+                      vs Baseline
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {performanceData.map((row) => {
+                    const delta =
+                      row.baseline === null
+                        ? null
+                        : row.actual - row.baseline;
+                    return (
+                      <tr
+                        key={row.participant}
+                        className="border-b border-white/5"
+                      >
+                        <td className="px-3 py-2 font-semibold text-white">
+                          {row.participant}
+                        </td>
+                        <td className="px-3 py-2 text-emerald">{row.actual}</td>
+                        <td className="px-3 py-2 text-white/70">
+                          {row.baseline?.toFixed(1) ?? "—"}
+                        </td>
+                        <td className="px-3 py-2 text-gold">
+                          {row.updated.toFixed(1)}
+                        </td>
+                        <td
+                          className={`px-3 py-2 font-semibold ${
+                            delta === null
+                              ? "text-white/40"
+                              : delta >= 0
+                                ? "text-emerald"
+                                : "text-rose-400"
+                          }`}
+                        >
+                          {delta === null
+                            ? "—"
+                            : `${delta >= 0 ? "+" : ""}${delta.toFixed(1)}`}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </section>
+
+            <PerformanceChart data={performanceData} />
+
+            <details className="mt-4">
+              <summary className="cursor-pointer text-sm text-white/50 hover:text-white/70">
+                Stage-by-stage baseline expectations
+              </summary>
+              <div className="mt-3 overflow-x-auto">
+                <table className="min-w-full text-xs">
+                  <thead>
+                    <tr className="border-b border-white/10">
+                      <th className="px-2 py-2 text-left text-white/60">
+                        Stage
+                      </th>
+                      {simulationData.participants.map((participant) => (
+                        <th
+                          key={participant}
+                          className="px-2 py-2 text-left text-white/60"
+                        >
+                          {participant}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {STAGE_CHECKPOINTS.map((stage: StageCheckpoint) => (
+                      <tr key={stage} className="border-b border-white/5">
+                        <td className="px-2 py-2 text-white/80">
+                          {formatCheckpointLabel(stage)}
+                        </td>
+                        {simulationData.participants.map((participant) => (
+                          <td key={participant} className="px-2 py-2 text-white/60">
+                            {baseline.stageMedians[stage]?.[participant]?.toFixed(
+                              1,
+                            ) ?? "—"}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </details>
+          </>
+        )}
+
+        {baseline && result && !currentCheckpoint && (
+          <p className="mt-4 text-sm text-white/50">
+            Tournament hasn&apos;t completed a full round yet — performance
+            comparison will appear once group stage (or a knockout round)
+            finishes.
+          </p>
+        )}
+      </section>
 
       {result && (
         <section className="overflow-x-auto rounded-3xl border border-white/10 bg-navy-light/60">
