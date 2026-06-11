@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T16:51:54.443Z",
+  "lastUpdated": "2026-06-11T19:33:34.472Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1161,11 +1161,11 @@
       "owner": "Ryan",
       "group": "Group A",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
