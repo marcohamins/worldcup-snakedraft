@@ -338,6 +338,15 @@ async function main(): Promise<void> {
   const draftedTeamNames = new Set(Object.keys(draft));
   const teamsToProcess = apiTeams.filter((team) => draftedTeamNames.has(team.name));
 
+  const missingFromApi = [...draftedTeamNames].filter(
+    (name) => !teamsToProcess.some((team) => team.name === name),
+  );
+  if (missingFromApi.length > 0) {
+    throw new Error(
+      `Draft teams not found in API: ${missingFromApi.join(", ")}`,
+    );
+  }
+
   const teams = teamsToProcess.map((team) =>
     buildTeamData(team, draft, matches, standings, rawMatches, scoring),
   );

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T19:33:34.472Z",
+  "lastUpdated": "2026-06-11T20:39:04.679Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -21,7 +21,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -438,6 +438,149 @@
       ]
     },
     {
+      "id": 761,
+      "name": "Paraguay",
+      "shortName": "Paraguay",
+      "tla": "PAR",
+      "crest": "https://crests.football-data.org/761.svg",
+      "owner": "Marco",
+      "group": "Group D",
+      "groupRecord": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      "groupPosition": 1,
+      "groupComplete": false,
+      "matchesPlayed": 0,
+      "upcomingMatch": {
+        "id": 537345,
+        "utcDate": "2026-06-13T01:00:00Z",
+        "status": "TIMED",
+        "stage": "GROUP_STAGE",
+        "group": "Group D",
+        "matchday": 1,
+        "homeTeam": {
+          "id": 771,
+          "name": "United States",
+          "shortName": "USA",
+          "tla": "USA",
+          "crest": "https://crests.football-data.org/usa.svg"
+        },
+        "awayTeam": {
+          "id": 761,
+          "name": "Paraguay",
+          "shortName": "Paraguay",
+          "tla": "PAR",
+          "crest": "https://crests.football-data.org/761.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": null,
+      "eliminated": false,
+      "remaining": true,
+      "score": 0,
+      "scoreBreakdown": {
+        "groupWins": 0,
+        "groupDraws": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
+        "knockoutWins": {},
+        "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      "matches": [
+        {
+          "id": 537345,
+          "utcDate": "2026-06-13T01:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group D",
+          "matchday": 1,
+          "homeTeam": {
+            "id": 771,
+            "name": "United States",
+            "shortName": "USA",
+            "tla": "USA",
+            "crest": "https://crests.football-data.org/usa.svg"
+          },
+          "awayTeam": {
+            "id": 761,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "tla": "PAR",
+            "crest": "https://crests.football-data.org/761.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537347,
+          "utcDate": "2026-06-20T03:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group D",
+          "matchday": 2,
+          "homeTeam": {
+            "id": 803,
+            "name": "Turkey",
+            "shortName": "Turkey",
+            "tla": "TUR",
+            "crest": "https://crests.football-data.org/803.svg"
+          },
+          "awayTeam": {
+            "id": 761,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "tla": "PAR",
+            "crest": "https://crests.football-data.org/761.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537350,
+          "utcDate": "2026-06-26T02:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group D",
+          "matchday": 3,
+          "homeTeam": {
+            "id": 761,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "tla": "PAR",
+            "crest": "https://crests.football-data.org/761.svg"
+          },
+          "awayTeam": {
+            "id": 779,
+            "name": "Australia",
+            "shortName": "Australia",
+            "tla": "AUS",
+            "crest": "https://crests.football-data.org/779.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        }
+      ]
+    },
+    {
       "id": 762,
       "name": "Argentina",
       "shortName": "Argentina",
@@ -586,14 +729,14 @@
       "shortName": "Ghana",
       "tla": "GHA",
       "crest": "https://crests.football-data.org/ghana.svg",
-      "owner": "Ryan",
+      "owner": "Chris",
       "group": "Group L",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -879,7 +1022,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1022,7 +1165,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1451,7 +1594,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1587,14 +1730,14 @@
       "shortName": "Korea Republic",
       "tla": "KOR",
       "crest": "https://crests.football-data.org/772.png",
-      "owner": "Dylan",
+      "owner": "Davis",
       "group": "Group A",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1737,7 +1880,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -1873,7 +2016,7 @@
       "shortName": "Algeria",
       "tla": "ALG",
       "crest": "https://crests.football-data.org/algeria.svg",
-      "owner": "Chris",
+      "owner": "Peter",
       "group": "Group J",
       "groupRecord": {
         "wins": 0,
@@ -2011,149 +2154,6 @@
       ]
     },
     {
-      "id": 779,
-      "name": "Australia",
-      "shortName": "Australia",
-      "tla": "AUS",
-      "crest": "https://crests.football-data.org/779.svg",
-      "owner": "Will",
-      "group": "Group D",
-      "groupRecord": {
-        "wins": 0,
-        "draws": 0,
-        "losses": 0
-      },
-      "groupPosition": 4,
-      "groupComplete": false,
-      "matchesPlayed": 0,
-      "upcomingMatch": {
-        "id": 537346,
-        "utcDate": "2026-06-14T04:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group D",
-        "matchday": 1,
-        "homeTeam": {
-          "id": 779,
-          "name": "Australia",
-          "shortName": "Australia",
-          "tla": "AUS",
-          "crest": "https://crests.football-data.org/779.svg"
-        },
-        "awayTeam": {
-          "id": 803,
-          "name": "Turkey",
-          "shortName": "Turkey",
-          "tla": "TUR",
-          "crest": "https://crests.football-data.org/803.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
-      "score": 0,
-      "scoreBreakdown": {
-        "groupWins": 0,
-        "groupDraws": 0,
-        "groupFirstPlaceBonus": 0,
-        "groupSecondPlaceBonus": 0,
-        "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 0
-      },
-      "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "yellowCards": 0,
-        "redCards": 0
-      },
-      "matches": [
-        {
-          "id": 537346,
-          "utcDate": "2026-06-14T04:00:00Z",
-          "status": "TIMED",
-          "stage": "GROUP_STAGE",
-          "group": "Group D",
-          "matchday": 1,
-          "homeTeam": {
-            "id": 779,
-            "name": "Australia",
-            "shortName": "Australia",
-            "tla": "AUS",
-            "crest": "https://crests.football-data.org/779.svg"
-          },
-          "awayTeam": {
-            "id": 803,
-            "name": "Turkey",
-            "shortName": "Turkey",
-            "tla": "TUR",
-            "crest": "https://crests.football-data.org/803.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
-        },
-        {
-          "id": 537348,
-          "utcDate": "2026-06-19T19:00:00Z",
-          "status": "TIMED",
-          "stage": "GROUP_STAGE",
-          "group": "Group D",
-          "matchday": 2,
-          "homeTeam": {
-            "id": 771,
-            "name": "United States",
-            "shortName": "USA",
-            "tla": "USA",
-            "crest": "https://crests.football-data.org/usa.svg"
-          },
-          "awayTeam": {
-            "id": 779,
-            "name": "Australia",
-            "shortName": "Australia",
-            "tla": "AUS",
-            "crest": "https://crests.football-data.org/779.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
-        },
-        {
-          "id": 537350,
-          "utcDate": "2026-06-26T02:00:00Z",
-          "status": "TIMED",
-          "stage": "GROUP_STAGE",
-          "group": "Group D",
-          "matchday": 3,
-          "homeTeam": {
-            "id": 761,
-            "name": "Paraguay",
-            "shortName": "Paraguay",
-            "tla": "PAR",
-            "crest": "https://crests.football-data.org/761.svg"
-          },
-          "awayTeam": {
-            "id": 779,
-            "name": "Australia",
-            "shortName": "Australia",
-            "tla": "AUS",
-            "crest": "https://crests.football-data.org/779.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
-        }
-      ]
-    },
-    {
       "id": 788,
       "name": "Switzerland",
       "shortName": "Switzerland",
@@ -2166,7 +2166,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2302,14 +2302,14 @@
       "shortName": "Ecuador",
       "tla": "ECU",
       "crest": "https://crests.football-data.org/791.svg",
-      "owner": "Ryan",
+      "owner": "Chris",
       "group": "Group E",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2440,6 +2440,149 @@
       ]
     },
     {
+      "id": 798,
+      "name": "Czechia",
+      "shortName": "Czechia",
+      "tla": "CZE",
+      "crest": "https://crests.football-data.org/798.svg",
+      "owner": "Dylan",
+      "group": "Group A",
+      "groupRecord": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      "groupPosition": 2,
+      "groupComplete": false,
+      "matchesPlayed": 0,
+      "upcomingMatch": {
+        "id": 537328,
+        "utcDate": "2026-06-12T02:00:00Z",
+        "status": "TIMED",
+        "stage": "GROUP_STAGE",
+        "group": "Group A",
+        "matchday": 1,
+        "homeTeam": {
+          "id": 772,
+          "name": "South Korea",
+          "shortName": "Korea Republic",
+          "tla": "KOR",
+          "crest": "https://crests.football-data.org/772.png"
+        },
+        "awayTeam": {
+          "id": 798,
+          "name": "Czechia",
+          "shortName": "Czechia",
+          "tla": "CZE",
+          "crest": "https://crests.football-data.org/798.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": null,
+      "eliminated": false,
+      "remaining": true,
+      "score": 0,
+      "scoreBreakdown": {
+        "groupWins": 0,
+        "groupDraws": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
+        "knockoutWins": {},
+        "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      "matches": [
+        {
+          "id": 537328,
+          "utcDate": "2026-06-12T02:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group A",
+          "matchday": 1,
+          "homeTeam": {
+            "id": 772,
+            "name": "South Korea",
+            "shortName": "Korea Republic",
+            "tla": "KOR",
+            "crest": "https://crests.football-data.org/772.png"
+          },
+          "awayTeam": {
+            "id": 798,
+            "name": "Czechia",
+            "shortName": "Czechia",
+            "tla": "CZE",
+            "crest": "https://crests.football-data.org/798.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537329,
+          "utcDate": "2026-06-18T16:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group A",
+          "matchday": 2,
+          "homeTeam": {
+            "id": 798,
+            "name": "Czechia",
+            "shortName": "Czechia",
+            "tla": "CZE",
+            "crest": "https://crests.football-data.org/798.svg"
+          },
+          "awayTeam": {
+            "id": 774,
+            "name": "South Africa",
+            "shortName": "South Africa",
+            "tla": "RSA",
+            "crest": "https://crests.football-data.org/9396.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537331,
+          "utcDate": "2026-06-25T01:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group A",
+          "matchday": 3,
+          "homeTeam": {
+            "id": 798,
+            "name": "Czechia",
+            "shortName": "Czechia",
+            "tla": "CZE",
+            "crest": "https://crests.football-data.org/798.svg"
+          },
+          "awayTeam": {
+            "id": 769,
+            "name": "Mexico",
+            "shortName": "Mexico",
+            "tla": "MEX",
+            "crest": "https://crests.football-data.org/769.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        }
+      ]
+    },
+    {
       "id": 799,
       "name": "Croatia",
       "shortName": "Croatia",
@@ -2452,7 +2595,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -2583,41 +2726,41 @@
       ]
     },
     {
-      "id": 801,
-      "name": "Saudi Arabia",
-      "shortName": "Saudi Arabia",
-      "tla": "KSA",
-      "crest": "https://crests.football-data.org/saudi_arabia.svg",
-      "owner": "Jackson",
-      "group": "Group H",
+      "id": 803,
+      "name": "Turkey",
+      "shortName": "Turkey",
+      "tla": "TUR",
+      "crest": "https://crests.football-data.org/803.svg",
+      "owner": "Davis",
+      "group": "Group D",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537370,
-        "utcDate": "2026-06-15T22:00:00Z",
+        "id": 537346,
+        "utcDate": "2026-06-14T04:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
-        "group": "Group H",
+        "group": "Group D",
         "matchday": 1,
         "homeTeam": {
-          "id": 801,
-          "name": "Saudi Arabia",
-          "shortName": "Saudi Arabia",
-          "tla": "KSA",
-          "crest": "https://crests.football-data.org/saudi_arabia.svg"
+          "id": 779,
+          "name": "Australia",
+          "shortName": "Australia",
+          "tla": "AUS",
+          "crest": "https://crests.football-data.org/779.svg"
         },
         "awayTeam": {
-          "id": 758,
-          "name": "Uruguay",
-          "shortName": "Uruguay",
-          "tla": "URY",
-          "crest": "https://crests.football-data.org/758.svg"
+          "id": 803,
+          "name": "Turkey",
+          "shortName": "Turkey",
+          "tla": "TUR",
+          "crest": "https://crests.football-data.org/803.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -2646,25 +2789,25 @@
       },
       "matches": [
         {
-          "id": 537370,
-          "utcDate": "2026-06-15T22:00:00Z",
+          "id": 537346,
+          "utcDate": "2026-06-14T04:00:00Z",
           "status": "TIMED",
           "stage": "GROUP_STAGE",
-          "group": "Group H",
+          "group": "Group D",
           "matchday": 1,
           "homeTeam": {
-            "id": 801,
-            "name": "Saudi Arabia",
-            "shortName": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg"
+            "id": 779,
+            "name": "Australia",
+            "shortName": "Australia",
+            "tla": "AUS",
+            "crest": "https://crests.football-data.org/779.svg"
           },
           "awayTeam": {
-            "id": 758,
-            "name": "Uruguay",
-            "shortName": "Uruguay",
-            "tla": "URY",
-            "crest": "https://crests.football-data.org/758.svg"
+            "id": 803,
+            "name": "Turkey",
+            "shortName": "Turkey",
+            "tla": "TUR",
+            "crest": "https://crests.football-data.org/803.svg"
           },
           "homeScore": null,
           "awayScore": null,
@@ -2672,25 +2815,25 @@
           "bookings": []
         },
         {
-          "id": 537371,
-          "utcDate": "2026-06-21T16:00:00Z",
+          "id": 537347,
+          "utcDate": "2026-06-20T03:00:00Z",
           "status": "TIMED",
           "stage": "GROUP_STAGE",
-          "group": "Group H",
+          "group": "Group D",
           "matchday": 2,
           "homeTeam": {
-            "id": 760,
-            "name": "Spain",
-            "shortName": "Spain",
-            "tla": "ESP",
-            "crest": "https://crests.football-data.org/760.svg"
+            "id": 803,
+            "name": "Turkey",
+            "shortName": "Turkey",
+            "tla": "TUR",
+            "crest": "https://crests.football-data.org/803.svg"
           },
           "awayTeam": {
-            "id": 801,
-            "name": "Saudi Arabia",
-            "shortName": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg"
+            "id": 761,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "tla": "PAR",
+            "crest": "https://crests.football-data.org/761.svg"
           },
           "homeScore": null,
           "awayScore": null,
@@ -2698,25 +2841,25 @@
           "bookings": []
         },
         {
-          "id": 537374,
-          "utcDate": "2026-06-27T00:00:00Z",
+          "id": 537349,
+          "utcDate": "2026-06-26T02:00:00Z",
           "status": "TIMED",
           "stage": "GROUP_STAGE",
-          "group": "Group H",
+          "group": "Group D",
           "matchday": 3,
           "homeTeam": {
-            "id": 1930,
-            "name": "Cape Verde Islands",
-            "shortName": "Cape Verde",
-            "tla": "CPV",
-            "crest": "https://crests.football-data.org/cape_verde.svg"
+            "id": 803,
+            "name": "Turkey",
+            "shortName": "Turkey",
+            "tla": "TUR",
+            "crest": "https://crests.football-data.org/803.svg"
           },
           "awayTeam": {
-            "id": 801,
-            "name": "Saudi Arabia",
-            "shortName": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg"
+            "id": 771,
+            "name": "United States",
+            "shortName": "USA",
+            "tla": "USA",
+            "crest": "https://crests.football-data.org/usa.svg"
           },
           "homeScore": null,
           "awayScore": null,
@@ -2731,14 +2874,14 @@
       "shortName": "Senegal",
       "tla": "SEN",
       "crest": "https://crests.football-data.org/senegal.svg",
-      "owner": "Chris",
+      "owner": "Dylan",
       "group": "Group I",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3024,7 +3167,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3155,6 +3298,149 @@
       ]
     },
     {
+      "id": 816,
+      "name": "Austria",
+      "shortName": "Austria",
+      "tla": "AUT",
+      "crest": "https://crests.football-data.org/816.svg",
+      "owner": "Jackson",
+      "group": "Group J",
+      "groupRecord": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0
+      },
+      "groupPosition": 3,
+      "groupComplete": false,
+      "matchesPlayed": 0,
+      "upcomingMatch": {
+        "id": 537398,
+        "utcDate": "2026-06-17T04:00:00Z",
+        "status": "TIMED",
+        "stage": "GROUP_STAGE",
+        "group": "Group J",
+        "matchday": 1,
+        "homeTeam": {
+          "id": 816,
+          "name": "Austria",
+          "shortName": "Austria",
+          "tla": "AUT",
+          "crest": "https://crests.football-data.org/816.svg"
+        },
+        "awayTeam": {
+          "id": 8049,
+          "name": "Jordan",
+          "shortName": "Jordan",
+          "tla": "JOR",
+          "crest": "https://crests.football-data.org/8049.png"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": null,
+      "eliminated": false,
+      "remaining": true,
+      "score": 0,
+      "scoreBreakdown": {
+        "groupWins": 0,
+        "groupDraws": 0,
+        "groupFirstPlaceBonus": 0,
+        "groupSecondPlaceBonus": 0,
+        "groupThirdPlaceAdvanceBonus": 0,
+        "knockoutWins": {},
+        "total": 0
+      },
+      "matchStats": {
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      "matches": [
+        {
+          "id": 537398,
+          "utcDate": "2026-06-17T04:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group J",
+          "matchday": 1,
+          "homeTeam": {
+            "id": 816,
+            "name": "Austria",
+            "shortName": "Austria",
+            "tla": "AUT",
+            "crest": "https://crests.football-data.org/816.svg"
+          },
+          "awayTeam": {
+            "id": 8049,
+            "name": "Jordan",
+            "shortName": "Jordan",
+            "tla": "JOR",
+            "crest": "https://crests.football-data.org/8049.png"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537399,
+          "utcDate": "2026-06-22T17:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group J",
+          "matchday": 2,
+          "homeTeam": {
+            "id": 762,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "tla": "ARG",
+            "crest": "https://crests.football-data.org/762.png"
+          },
+          "awayTeam": {
+            "id": 816,
+            "name": "Austria",
+            "shortName": "Austria",
+            "tla": "AUT",
+            "crest": "https://crests.football-data.org/816.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537402,
+          "utcDate": "2026-06-28T02:00:00Z",
+          "status": "TIMED",
+          "stage": "GROUP_STAGE",
+          "group": "Group J",
+          "matchday": 3,
+          "homeTeam": {
+            "id": 778,
+            "name": "Algeria",
+            "shortName": "Algeria",
+            "tla": "ALG",
+            "crest": "https://crests.football-data.org/algeria.svg"
+          },
+          "awayTeam": {
+            "id": 816,
+            "name": "Austria",
+            "shortName": "Austria",
+            "tla": "AUT",
+            "crest": "https://crests.football-data.org/816.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        }
+      ]
+    },
+    {
       "id": 818,
       "name": "Colombia",
       "shortName": "Colombia",
@@ -3167,7 +3453,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3303,14 +3589,14 @@
       "shortName": "Egypt",
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg",
-      "owner": "Davis",
+      "owner": "Will",
       "group": "Group G",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3453,7 +3739,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3589,14 +3875,14 @@
       "shortName": "Iran",
       "tla": "IRN",
       "crest": "https://crests.football-data.org/iran.svg",
-      "owner": "Will",
+      "owner": "Ryan",
       "group": "Group G",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3732,14 +4018,14 @@
       "shortName": "Ivory Coast",
       "tla": "CIV",
       "crest": "https://crests.football-data.org/787.svg",
-      "owner": "Dylan",
+      "owner": "Ryan",
       "group": "Group E",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -3882,7 +4168,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -4025,7 +4311,7 @@
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
@@ -4161,14 +4447,14 @@
       "shortName": "Scotland",
       "tla": "SCO",
       "crest": "https://crests.football-data.org/814.svg",
-      "owner": "Peter",
+      "owner": "Will",
       "group": "Group C",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
