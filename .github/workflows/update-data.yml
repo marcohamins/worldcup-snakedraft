@@ -1,8 +1,33 @@
 name: Update tournament data
 
+# Scheduled refreshes (~20 min before typical kickoff windows).
+# Cron is UTC. Times below assume US Eastern Daylight Time (UTC-4, Jun–Jul).
+# Each run = 4 API calls (well under football-data.org ~10/min limit).
+#
+# Local (EDT) → UTC cron
+#  11:50 AM → 15:50
+#  12:50 PM → 16:50
+#   2:50 PM → 18:50
+#   3:50 PM → 19:50
+#   5:50 PM → 21:50
+#   6:50 PM → 22:50
+#   8:50 PM → 00:50
+#   9:50 PM → 01:50
+#  11:50 PM → 03:50
+#
+# Manual run: GitHub → Actions → "Update tournament data" → Run workflow
+
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "50 15 * * *"
+    - cron: "50 16 * * *"
+    - cron: "50 18 * * *"
+    - cron: "50 19 * * *"
+    - cron: "50 21 * * *"
+    - cron: "50 22 * * *"
+    - cron: "50 0 * * *"
+    - cron: "50 1 * * *"
+    - cron: "50 3 * * *"
   workflow_dispatch:
 
 permissions:
