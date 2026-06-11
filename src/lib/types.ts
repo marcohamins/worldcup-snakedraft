@@ -119,6 +119,7 @@ export type DraftData = Record<string, string>;
 
 export interface HistorySnapshot {
   timestamp: string;
+  matchday: number;
   [participant: string]: string | number;
 }
 

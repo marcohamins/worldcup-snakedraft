@@ -7,6 +7,7 @@ import type {
   TeamData,
 } from "./types";
 import { getOwnedTeams } from "./draft";
+import { isMatchResolved } from "./matchdays";
 
 const KNOCKOUT_STAGE_POINTS: Record<string, keyof ScoringRules> = {
   LAST_32: "round_of_32_win",
@@ -48,7 +49,7 @@ export function computeGroupRecordFromMatches(
   let losses = 0;
 
   for (const match of matches) {
-    if (match.stage !== "GROUP_STAGE" || match.status !== "FINISHED") {
+    if (match.stage !== "GROUP_STAGE" || !isMatchResolved(match)) {
       continue;
     }
     if (match.homeTeam.name !== teamName && match.awayTeam.name !== teamName) {
@@ -91,7 +92,7 @@ export function computeGroupPositionsFromMatches(
   const tables = new Map<string, Map<string, GroupTableRow>>();
 
   for (const match of allMatches) {
-    if (match.stage !== "GROUP_STAGE" || match.status !== "FINISHED") {
+    if (match.stage !== "GROUP_STAGE" || !isMatchResolved(match)) {
       continue;
     }
     if (!match.group || match.homeScore === null || match.awayScore === null) {
@@ -174,7 +175,7 @@ export function calculateTeamScore(
   const knockoutWins: Record<string, number> = {};
 
   for (const match of teamMatches) {
-    if (match.status !== "FINISHED") {
+    if (!isMatchResolved(match)) {
       continue;
     }
 

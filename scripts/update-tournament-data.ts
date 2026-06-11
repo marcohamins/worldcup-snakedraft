@@ -8,6 +8,10 @@ import {
   hasKnockoutInvolvement,
 } from "../src/lib/scoring";
 import { calculateTeamMatchStats } from "../src/lib/stats";
+import {
+  getCurrentSnapshotMatchday,
+  isMatchResolved,
+} from "../src/lib/matchdays";
 import type {
   DraftData,
   HistorySnapshot,
@@ -83,23 +87,21 @@ function toMatchSummary(match: ApiMatch): MatchSummary {
 
 function isGroupComplete(
   groupName: string | null,
-  standings: ApiStandingsGroup[],
-  matches: ApiMatch[],
+  matches: MatchSummary[],
 ): boolean {
   if (!groupName) {
     return false;
   }
 
-  const apiGroup = `GROUP_${groupName.replace("Group ", "")}`;
   const groupMatches = matches.filter(
-    (match) => match.group === apiGroup && match.stage === "GROUP_STAGE",
+    (match) => match.group === groupName && match.stage === "GROUP_STAGE",
   );
 
   if (groupMatches.length === 0) {
     return false;
   }
 
-  return groupMatches.every((match) => match.status === "FINISHED");
+  return groupMatches.every((match) => isMatchResolved(match));
 }
 
 function getStandingsPlayedGames(
@@ -122,7 +124,7 @@ function countFinishedGroupMatches(
   return matches.filter(
     (match) =>
       match.stage === "GROUP_STAGE" &&
-      match.status === "FINISHED" &&
+      isMatchResolved(match) &&
       (match.homeTeam.name === teamName || match.awayTeam.name === teamName),
   ).length;
 }
@@ -146,7 +148,7 @@ function getKnockoutStage(
     return null;
   }
 
-  if (latest.status !== "FINISHED") {
+  if (!isMatchResolved(latest)) {
     return formatStage(latest.stage);
   }
 
@@ -176,7 +178,7 @@ function isTeamEliminated(
   const knockoutMatches = matches.filter(
     (match) =>
       match.stage !== "GROUP_STAGE" &&
-      match.status === "FINISHED" &&
+      isMatchResolved(match) &&
       (match.homeTeam.name === teamName || match.awayTeam.name === teamName),
   );
 
@@ -210,7 +212,6 @@ function buildTeamData(
   draft: DraftData,
   allMatches: MatchSummary[],
   standings: ApiStandingsGroup[],
-  rawMatches: ApiMatch[],
   scoring: ScoringRules,
   groupPositions: Map<string, number>,
 ): TeamData {
@@ -218,14 +219,12 @@ function buildTeamData(
     entry.table.some((row) => row.team.name === team.name),
   );
   const groupName = standingGroup?.group ?? null;
-  const groupComplete = isGroupComplete(groupName, standings, rawMatches);
+  const groupComplete = isGroupComplete(groupName, allMatches);
   const teamMatches = allMatches.filter(
     (match) =>
       match.homeTeam.name === team.name || match.awayTeam.name === team.name,
   );
-  const playedMatches = teamMatches.filter(
-    (match) => match.status === "FINISHED",
-  );
+  const playedMatches = teamMatches.filter(isMatchResolved);
   const finishedGroupMatches = countFinishedGroupMatches(team.name, allMatches);
   const groupPosition =
     finishedGroupMatches > 0
@@ -291,10 +290,14 @@ function buildTeamData(
 function appendHistory(
   participants: string[],
   teams: TeamData[],
+  allMatches: MatchSummary[],
   existing: HistorySnapshot[],
 ): HistorySnapshot[] {
+  const matchday = getCurrentSnapshotMatchday(allMatches);
+
   const snapshot: HistorySnapshot = {
     timestamp: new Date().toISOString(),
+    matchday,
   };
 
   for (const participant of participants) {
@@ -303,16 +306,29 @@ function appendHistory(
       .reduce((sum, team) => sum + team.score, 0);
   }
 
-  const last = existing.at(-1);
+  const migrated: HistorySnapshot[] = existing.map((entry) => ({
+    ...entry,
+    matchday: typeof entry.matchday === "number" ? entry.matchday : 0,
+  }));
+
+  const existingForDay = migrated.findIndex((entry) => entry.matchday === matchday);
+  const last = migrated.at(-1);
   const unchanged =
     last &&
+    last.matchday === matchday &&
     participants.every((participant) => last[participant] === snapshot[participant]);
 
   if (unchanged) {
-    return existing;
+    return migrated;
   }
 
-  return [...existing, snapshot];
+  if (existingForDay >= 0) {
+    const updated = [...migrated];
+    updated[existingForDay] = snapshot;
+    return updated.sort((a, b) => a.matchday - b.matchday);
+  }
+
+  return [...migrated, snapshot].sort((a, b) => a.matchday - b.matchday);
 }
 
 async function main(): Promise<void> {
@@ -356,7 +372,6 @@ async function main(): Promise<void> {
       draft,
       matches,
       standings,
-      rawMatches,
       scoring,
       groupPositions,
     ),
@@ -404,7 +419,7 @@ async function main(): Promise<void> {
     })),
   };
 
-  const updatedHistory = appendHistory(participants, teams, history);
+  const updatedHistory = appendHistory(participants, teams, matches, history);
 
   writeJson("teams.json", teamsData);
   writeJson("standings.json", standingsData);

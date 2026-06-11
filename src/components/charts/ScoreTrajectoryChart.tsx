@@ -5,12 +5,17 @@ import {
   Legend,
   Line,
   LineChart,
+  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
 
+import {
+  formatMatchdayLabel,
+  visiblePhaseBoundaries,
+} from "@/lib/matchdays";
 import type { HistorySnapshot } from "@/lib/types";
 
 const COLORS = [
@@ -41,14 +46,17 @@ export function ScoreTrajectoryChart({
     );
   }
 
-  const data = history.map((snapshot) => {
+  const sorted: HistorySnapshot[] = [...history]
+    .map((snapshot) => ({
+      ...snapshot,
+      matchday: typeof snapshot.matchday === "number" ? snapshot.matchday : 0,
+    }))
+    .sort((a, b) => a.matchday - b.matchday);
+
+  const data = sorted.map((snapshot) => {
     const point: Record<string, string | number> = {
-      time: new Date(snapshot.timestamp).toLocaleString(undefined, {
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "2-digit",
-      }),
+      matchday: snapshot.matchday,
+      matchdayLabel: formatMatchdayLabel(snapshot.matchday),
     };
 
     for (const participant of participants) {
@@ -58,14 +66,32 @@ export function ScoreTrajectoryChart({
     return point;
   });
 
+  const minMatchday = sorted[0]?.matchday ?? 0;
+  const maxMatchday = sorted.at(-1)?.matchday ?? 0;
+  const boundaries = visiblePhaseBoundaries(minMatchday, maxMatchday);
+
   return (
     <div className="h-80 min-h-80 w-full min-w-0">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke="#ffffff15" />
-          <XAxis dataKey="time" stroke="#ffffff80" tick={{ fontSize: 12 }} />
+          <XAxis
+            type="number"
+            dataKey="matchday"
+            domain={[minMatchday, maxMatchday]}
+            allowDecimals={false}
+            stroke="#ffffff80"
+            tick={{ fontSize: 12 }}
+            tickFormatter={(value) =>
+              value === 0 ? "Pre" : `MD ${value}`
+            }
+          />
           <YAxis stroke="#ffffff80" tick={{ fontSize: 12 }} />
           <Tooltip
+            labelFormatter={(_, payload) => {
+              const label = payload?.[0]?.payload?.matchdayLabel;
+              return typeof label === "string" ? label : "";
+            }}
             contentStyle={{
               background: "#0f172a",
               border: "1px solid #d4af3740",
@@ -73,6 +99,20 @@ export function ScoreTrajectoryChart({
             }}
           />
           <Legend />
+          {boundaries.map((boundary) => (
+            <ReferenceLine
+              key={boundary.x}
+              x={boundary.x}
+              stroke="#ffffff35"
+              strokeDasharray="4 4"
+              label={{
+                value: boundary.label,
+                position: "insideTopLeft",
+                fill: "#ffffff99",
+                fontSize: 10,
+              }}
+            />
+          ))}
           {participants.map((participant, index) => (
             <Line
               key={participant}
@@ -80,7 +120,7 @@ export function ScoreTrajectoryChart({
               dataKey={participant}
               stroke={COLORS[index % COLORS.length]}
               strokeWidth={2}
-              dot={false}
+              dot={{ r: 3 }}
             />
           ))}
         </LineChart>

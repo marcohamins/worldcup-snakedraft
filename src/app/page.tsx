@@ -8,6 +8,7 @@ import {
   getParticipants,
   getTeamsData,
 } from "@/lib/data";
+import { formatEasternDateTime } from "@/lib/datetime";
 
 export default function HomePage() {
   const leaderboard = getLeaderboard();
@@ -26,11 +27,7 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold text-white">Leaderboard</h2>
           </div>
           <p className="text-sm text-white/60">
-            Last updated{" "}
-            {new Date(teamsData.lastUpdated).toLocaleString(undefined, {
-              dateStyle: "medium",
-              timeStyle: "short",
-            })}
+            Last updated {formatEasternDateTime(teamsData.lastUpdated)} ET
           </p>
         </div>
         <LeaderboardTable entries={leaderboard} />

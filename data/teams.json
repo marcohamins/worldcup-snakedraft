@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T22:07:19.688Z",
+  "lastUpdated": "2026-06-11T22:36:28.282Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1312,12 +1312,12 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537327,
-        "utcDate": "2026-06-11T19:00:00Z",
+        "id": 537330,
+        "utcDate": "2026-06-19T01:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group A",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
@@ -1326,11 +1326,11 @@
           "crest": "https://crests.football-data.org/769.svg"
         },
         "awayTeam": {
-          "id": 774,
-          "name": "South Africa",
-          "shortName": "South Africa",
-          "tla": "RSA",
-          "crest": "https://crests.football-data.org/9396.svg"
+          "id": 772,
+          "name": "South Korea",
+          "shortName": "Korea Republic",
+          "tla": "KOR",
+          "crest": "https://crests.football-data.org/772.png"
         },
         "homeScore": null,
         "awayScore": null,
@@ -1361,7 +1361,7 @@
         {
           "id": 537327,
           "utcDate": "2026-06-11T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 1,
