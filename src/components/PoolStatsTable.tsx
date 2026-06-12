@@ -6,13 +6,7 @@ import type { ParticipantPoolStats } from "@/lib/types";
 
 type SortKey = keyof Pick<
   ParticipantPoolStats,
-  | "participant"
-  | "goalsFor"
-  | "goalsAgainst"
-  | "goalDifference"
-  | "yellowCards"
-  | "redCards"
-  | "totalCards"
+  "participant" | "goalsFor" | "goalsAgainst" | "goalDifference"
 >;
 
 interface PoolStatsTableProps {
@@ -24,9 +18,6 @@ const columns: { key: SortKey; label: string }[] = [
   { key: "goalsFor", label: "GF" },
   { key: "goalsAgainst", label: "GA" },
   { key: "goalDifference", label: "GD" },
-  { key: "yellowCards", label: "Yellows" },
-  { key: "redCards", label: "Reds" },
-  { key: "totalCards", label: "Total Cards" },
 ];
 
 export function PoolStatsTable({ stats }: PoolStatsTableProps) {
@@ -100,19 +91,6 @@ export function PoolStatsTable({ stats }: PoolStatsTableProps) {
               >
                 {row.goalDifference > 0 ? "+" : ""}
                 {row.goalDifference}
-              </td>
-              <td className="px-4 py-3">
-                <span className="rounded-full bg-yellow-400/20 px-2 py-0.5 font-medium text-yellow-300">
-                  {row.yellowCards}
-                </span>
-              </td>
-              <td className="px-4 py-3">
-                <span className="rounded-full bg-red-500/20 px-2 py-0.5 font-medium text-red-300">
-                  {row.redCards}
-                </span>
-              </td>
-              <td className="px-4 py-3 font-medium text-white">
-                {row.totalCards}
               </td>
             </tr>
           ))}

@@ -29,7 +29,6 @@ export default function StatsPage() {
     (a, b) => a.goalsAgainst - b.goalsAgainst,
   )[0];
   const bestGd = topBy(poolStats, "goalDifference");
-  const mostCards = topBy(poolStats, "totalCards");
 
   return (
     <div className="space-y-8">
@@ -39,12 +38,11 @@ export default function StatsPage() {
         </p>
         <h2 className="text-3xl font-bold text-white">Pool Stats</h2>
         <p className="mt-2 text-white/60">
-          Goals and discipline across all drafted teams — click column headers to
-          sort.
+          Goals across all drafted teams — click column headers to sort.
         </p>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {topScorer && (
           <div className="rounded-2xl border border-emerald/30 bg-emerald/10 p-4">
             <p className="text-xs uppercase tracking-wide text-emerald">
@@ -80,19 +78,6 @@ export default function StatsPage() {
             <p className="text-2xl font-bold text-gold">
               {bestGd.goalDifference > 0 ? "+" : ""}
               {bestGd.goalDifference}
-            </p>
-          </div>
-        )}
-        {mostCards && mostCards.totalCards > 0 && (
-          <div className="rounded-2xl border border-accent-red/30 bg-accent-red/10 p-4">
-            <p className="text-xs uppercase tracking-wide text-accent-red">
-              Most Cards
-            </p>
-            <p className="mt-1 text-xl font-bold text-white">
-              {mostCards.participant}
-            </p>
-            <p className="text-sm text-white/70">
-              {mostCards.yellowCards}Y · {mostCards.redCards}R
             </p>
           </div>
         )}

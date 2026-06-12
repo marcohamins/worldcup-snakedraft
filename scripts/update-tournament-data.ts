@@ -12,7 +12,6 @@ import {
   getCurrentSnapshotMatchday,
   isMatchResolved,
 } from "../src/lib/matchdays";
-import { applyStandingsFallback } from "../src/lib/standings-fallback";
 import type {
   DraftData,
   HistorySnapshot,
@@ -353,16 +352,7 @@ async function main(): Promise<void> {
   ).participants;
   const history = readJson<HistorySnapshot[]>("history.json");
 
-  const rawSummaries = rawMatches.map(toMatchSummary);
-  const matches = applyStandingsFallback(rawSummaries, standings);
-  for (const match of matches) {
-    const raw = rawSummaries.find((entry) => entry.id === match.id);
-    if (raw && !isMatchResolved(raw) && isMatchResolved(match)) {
-      console.warn(
-        `Standings fallback: ${match.homeTeam.name} ${match.homeScore}-${match.awayScore} ${match.awayTeam.name}`,
-      );
-    }
-  }
+  const matches = rawMatches.map(toMatchSummary);
   const groupPositions = computeGroupPositionsFromMatches(matches);
   const draftedTeamNames = new Set(Object.keys(draft));
   const teamsToProcess = apiTeams.filter((team) => draftedTeamNames.has(team.name));

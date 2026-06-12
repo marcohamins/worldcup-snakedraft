@@ -18,6 +18,7 @@ name: Update tournament data
 #  11:50 PM → 03:50 /  2:15 AM → 06:15
 #
 # Manual run: GitHub → Actions → "Update tournament data" → Run workflow
+# Successful runs trigger "Deploy to GitHub Pages" via workflow_run.
 
 on:
   schedule:
