@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T00:10:39.984Z",
+  "lastUpdated": "2026-06-12T05:02:55.747Z",
   "groups": [
     {
       "group": "Group A",
@@ -31,17 +31,17 @@
             "tla": "KOR",
             "crest": "https://crests.football-data.org/772.png"
           },
-          "playedGames": 0,
-          "won": 0,
+          "playedGames": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 798,
             "name": "Czechia",
@@ -49,14 +49,14 @@
             "tla": "CZE",
             "crest": "https://crests.football-data.org/798.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1
         },
         {
           "position": 4,
