@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T20:56:10.914Z",
+  "lastUpdated": "2026-06-12T21:06:04.985Z",
   "groups": [
     {
       "group": "Group A",
@@ -91,16 +91,34 @@
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
           "playedGames": 1,
-          "won": 1,
-          "draw": 0,
+          "won": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 0,
-          "goalDifference": 1
+          "goalsAgainst": 1,
+          "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 1,
+          "team": {
+            "id": 828,
+            "name": "Canada",
+            "shortName": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "points": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
           "team": {
             "id": 8030,
             "name": "Qatar",
@@ -118,7 +136,7 @@
           "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 788,
             "name": "Switzerland",
@@ -134,24 +152,6 @@
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": 828,
-            "name": "Canada",
-            "shortName": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg"
-          },
-          "playedGames": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1
         }
       ]
     },
