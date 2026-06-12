@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T20:24:12.951Z",
+  "lastUpdated": "2026-06-12T20:56:10.914Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3810,9 +3810,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 1,
-          "winner": "AWAY",
+          "winner": "DRAW",
           "bookings": []
         },
         {
