@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T23:48:04.729Z",
+  "lastUpdated": "2026-06-13T04:51:15.639Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -448,24 +448,24 @@
       "groupRecord": {
         "wins": 0,
         "draws": 0,
-        "losses": 0
+        "losses": 1
       },
-      "groupPosition": null,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537345,
-        "utcDate": "2026-06-13T01:00:00Z",
+        "id": 537347,
+        "utcDate": "2026-06-20T03:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group D",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
+          "id": 803,
+          "name": "Turkey",
+          "shortName": "Turkey",
+          "tla": "TUR",
+          "crest": "https://crests.football-data.org/803.svg"
         },
         "awayTeam": {
           "id": 761,
@@ -493,9 +493,9 @@
         "total": 0
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": -3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -503,7 +503,7 @@
         {
           "id": 537345,
           "utcDate": "2026-06-13T01:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 1,
@@ -521,9 +521,9 @@
             "tla": "PAR",
             "crest": "https://crests.football-data.org/761.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 4,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -1590,20 +1590,20 @@
       "owner": "Will",
       "group": "Group D",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537345,
-        "utcDate": "2026-06-13T01:00:00Z",
+        "id": 537348,
+        "utcDate": "2026-06-19T19:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group D",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -1612,11 +1612,11 @@
           "crest": "https://crests.football-data.org/usa.svg"
         },
         "awayTeam": {
-          "id": 761,
-          "name": "Paraguay",
-          "shortName": "Paraguay",
-          "tla": "PAR",
-          "crest": "https://crests.football-data.org/761.svg"
+          "id": 779,
+          "name": "Australia",
+          "shortName": "Australia",
+          "tla": "AUS",
+          "crest": "https://crests.football-data.org/779.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -1626,20 +1626,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1647,7 +1647,7 @@
         {
           "id": 537345,
           "utcDate": "2026-06-13T01:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 1,
@@ -1665,9 +1665,9 @@
             "tla": "PAR",
             "crest": "https://crests.football-data.org/761.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 4,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         },
         {
