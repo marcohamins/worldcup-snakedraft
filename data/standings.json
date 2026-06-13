@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T22:48:47.026Z",
+  "lastUpdated": "2026-06-13T23:20:46.717Z",
   "groups": [
     {
       "group": "Group A",
@@ -161,6 +161,24 @@
         {
           "position": 1,
           "team": {
+            "id": 764,
+            "name": "Brazil",
+            "shortName": "Brazil",
+            "tla": "BRA",
+            "crest": "https://crests.football-data.org/764.svg"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "points": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        {
+          "position": 1,
+          "team": {
             "id": 815,
             "name": "Morocco",
             "shortName": "Morocco",
@@ -168,16 +186,16 @@
             "crest": "https://crests.football-data.org/morocco.svg"
           },
           "playedGames": 1,
-          "won": 1,
-          "draw": 0,
+          "won": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 0,
-          "goalDifference": 1
+          "goalsAgainst": 1,
+          "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 836,
             "name": "Haiti",
@@ -195,7 +213,7 @@
           "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 8873,
             "name": "Scotland",
@@ -211,24 +229,6 @@
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": 764,
-            "name": "Brazil",
-            "shortName": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg"
-          },
-          "playedGames": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1
         }
       ]
     },

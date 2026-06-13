@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T22:48:47.026Z",
+  "lastUpdated": "2026-06-13T23:20:46.716Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -185,7 +185,7 @@
           "id": 9460,
           "name": "Curaçao",
           "shortName": "Curaçao",
-          "tla": "CUR",
+          "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg"
         },
         "homeScore": null,
@@ -232,7 +232,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
@@ -2166,7 +2166,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
@@ -2315,7 +2315,7 @@
       "upcomingMatch": {
         "id": 537352,
         "utcDate": "2026-06-14T23:00:00Z",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group E",
         "matchday": 1,
@@ -2362,7 +2362,7 @@
         {
           "id": 537352,
           "utcDate": "2026-06-14T23:00:00Z",
-          "status": "SCHEDULED",
+          "status": "TIMED",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 1,
@@ -2403,7 +2403,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
@@ -3736,12 +3736,12 @@
       "group": "Group B",
       "groupRecord": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 0,
       "upcomingMatch": {
         "id": 537336,
         "utcDate": "2026-06-18T22:00:00Z",
@@ -3771,19 +3771,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 0,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 1,
+        "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 0
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -3810,9 +3810,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": 1,
-          "awayScore": 1,
-          "winner": "DRAW",
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         },
         {
@@ -4031,7 +4031,7 @@
       "upcomingMatch": {
         "id": 537352,
         "utcDate": "2026-06-14T23:00:00Z",
-        "status": "SCHEDULED",
+        "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group E",
         "matchday": 1,
@@ -4078,7 +4078,7 @@
         {
           "id": 537352,
           "utcDate": "2026-06-14T23:00:00Z",
-          "status": "SCHEDULED",
+          "status": "TIMED",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 1,
@@ -4138,7 +4138,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "awayTeam": {
