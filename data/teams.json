@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T17:58:32.783Z",
+  "lastUpdated": "2026-06-13T20:07:58.550Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2170,25 +2170,25 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537334,
-        "utcDate": "2026-06-13T19:00:00Z",
+        "id": 537335,
+        "utcDate": "2026-06-18T19:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group B",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 8030,
-          "name": "Qatar",
-          "shortName": "Qatar",
-          "tla": "QAT",
-          "crest": "https://crests.football-data.org/8030.svg"
-        },
-        "awayTeam": {
           "id": 788,
           "name": "Switzerland",
           "shortName": "Switzerland",
           "tla": "SUI",
           "crest": "https://crests.football-data.org/788.svg"
+        },
+        "awayTeam": {
+          "id": 1060,
+          "name": "Bosnia-Herzegovina",
+          "shortName": "Bosnia-H.",
+          "tla": "BIH",
+          "crest": "https://crests.football-data.org/bosnia.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -2219,7 +2219,7 @@
         {
           "id": 537334,
           "utcDate": "2026-06-13T19:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group B",
           "matchday": 1,
@@ -2237,9 +2237,9 @@
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         },
         {

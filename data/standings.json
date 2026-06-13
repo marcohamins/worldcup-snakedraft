@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T17:58:32.783Z",
+  "lastUpdated": "2026-06-13T20:07:58.551Z",
   "groups": [
     {
       "group": "Group A",
@@ -84,6 +84,24 @@
         {
           "position": 1,
           "team": {
+            "id": 788,
+            "name": "Switzerland",
+            "shortName": "Switzerland",
+            "tla": "SUI",
+            "crest": "https://crests.football-data.org/788.svg"
+          },
+          "playedGames": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "points": 3,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1
+        },
+        {
+          "position": 2,
+          "team": {
             "id": 1060,
             "name": "Bosnia-Herzegovina",
             "shortName": "Bosnia-H.",
@@ -100,7 +118,7 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "id": 828,
             "name": "Canada",
@@ -118,7 +136,7 @@
           "goalDifference": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": 8030,
             "name": "Qatar",
@@ -126,32 +144,14 @@
             "tla": "QAT",
             "crest": "https://crests.football-data.org/8030.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "points": 0,
           "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": 788,
-            "name": "Switzerland",
-            "shortName": "Switzerland",
-            "tla": "SUI",
-            "crest": "https://crests.football-data.org/788.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "goalsAgainst": 1,
+          "goalDifference": -1
         }
       ]
     },
