@@ -1,47 +1,14 @@
 name: Update tournament data
 
-# Scheduled refreshes for match windows (US Eastern Daylight Time, UTC-4).
-# Each run = 4 API calls (well under football-data.org ~10/min limit).
-#
-# Pre-kickoff (~20 min before):  11:50, 12:50,  2:50,  3:50,  5:50,  6:50,  8:50,  9:50, 11:50 PM
-# Post-match (~2h15 after):      2:15,  3:15,  5:15,  6:15,  8:15,  9:15, 11:15 PM, 12:15,  2:15 AM
-#
-# Local (EDT) → UTC cron (pre / post)
-#  11:50 AM → 15:50 /  2:15 PM → 18:15
-#  12:50 PM → 16:50 /  3:15 PM → 19:15
-#   2:50 PM → 18:50 /  5:15 PM → 21:15
-#   3:50 PM → 19:50 /  6:15 PM → 22:15
-#   5:50 PM → 21:50 /  8:15 PM → 00:15
-#   6:50 PM → 22:50 /  9:15 PM → 01:15
-#   8:50 PM → 00:50 / 11:15 PM → 03:15
-#   9:50 PM → 01:50 / 12:15 AM → 04:15
-#  11:50 PM → 03:50 /  2:15 AM → 06:15
+# Poll football-data.org every 5 minutes (4 API calls per run).
+# At ~288 runs/day that averages ~0.8 requests/min — under the ~10/min limit.
+# Successful runs trigger "Deploy to GitHub Pages" via workflow_run.
 #
 # Manual run: GitHub → Actions → "Update tournament data" → Run workflow
-# Successful runs trigger "Deploy to GitHub Pages" via workflow_run.
 
 on:
   schedule:
-    # Pre-kickoff
-    - cron: "50 15 * * *"
-    - cron: "50 16 * * *"
-    - cron: "50 18 * * *"
-    - cron: "50 19 * * *"
-    - cron: "50 21 * * *"
-    - cron: "50 22 * * *"
-    - cron: "50 0 * * *"
-    - cron: "50 1 * * *"
-    - cron: "50 3 * * *"
-    # Post-match (results usually final)
-    - cron: "15 18 * * *"
-    - cron: "15 19 * * *"
-    - cron: "15 21 * * *"
-    - cron: "15 22 * * *"
-    - cron: "15 0 * * *"
-    - cron: "15 1 * * *"
-    - cron: "15 3 * * *"
-    - cron: "15 4 * * *"
-    - cron: "15 6 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
