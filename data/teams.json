@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T23:52:14.276Z",
+  "lastUpdated": "2026-06-14T03:27:12.986Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -876,12 +876,12 @@
       "group": "Group C",
       "groupRecord": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537341,
         "utcDate": "2026-06-20T00:30:00Z",
@@ -911,19 +911,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 1,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 0,
+        "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 1
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -932,7 +932,7 @@
         {
           "id": 537339,
           "utcDate": "2026-06-13T22:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group C",
           "matchday": 1,
@@ -3164,12 +3164,12 @@
       "group": "Group C",
       "groupRecord": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 3,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537342,
         "utcDate": "2026-06-19T22:00:00Z",
@@ -3199,19 +3199,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 1,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 0,
+        "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 1
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -3220,7 +3220,7 @@
         {
           "id": 537339,
           "utcDate": "2026-06-13T22:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group C",
           "matchday": 1,
@@ -4450,33 +4450,33 @@
       "owner": "Will",
       "group": "Group C",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537340,
-        "utcDate": "2026-06-14T01:00:00Z",
+        "id": 537342,
+        "utcDate": "2026-06-19T22:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group C",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 836,
-          "name": "Haiti",
-          "shortName": "Haiti",
-          "tla": "HAI",
-          "crest": "https://crests.football-data.org/haiti.svg"
-        },
-        "awayTeam": {
           "id": 8873,
           "name": "Scotland",
           "shortName": "Scotland",
           "tla": "SCO",
           "crest": "https://crests.football-data.org/814.svg"
+        },
+        "awayTeam": {
+          "id": 815,
+          "name": "Morocco",
+          "shortName": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -4486,20 +4486,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 0,
+        "goalsFor": 1,
         "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalDifference": 1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4507,7 +4507,7 @@
         {
           "id": 537340,
           "utcDate": "2026-06-14T01:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group C",
           "matchday": 1,
@@ -4525,9 +4525,9 @@
             "tla": "SCO",
             "crest": "https://crests.football-data.org/814.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         },
         {
