@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T03:28:21.817Z",
+  "lastUpdated": "2026-06-14T08:03:27.665Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -450,7 +450,7 @@
         "draws": 0,
         "losses": 1
       },
-      "groupPosition": 2,
+      "groupPosition": 4,
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
@@ -2736,31 +2736,31 @@
       "groupRecord": {
         "wins": 0,
         "draws": 0,
-        "losses": 0
+        "losses": 1
       },
-      "groupPosition": null,
+      "groupPosition": 3,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537346,
-        "utcDate": "2026-06-14T04:00:00Z",
+        "id": 537347,
+        "utcDate": "2026-06-20T03:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group D",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 779,
-          "name": "Australia",
-          "shortName": "Australia",
-          "tla": "AUS",
-          "crest": "https://crests.football-data.org/779.svg"
-        },
-        "awayTeam": {
           "id": 803,
           "name": "Turkey",
           "shortName": "Turkey",
           "tla": "TUR",
           "crest": "https://crests.football-data.org/803.svg"
+        },
+        "awayTeam": {
+          "id": 761,
+          "name": "Paraguay",
+          "shortName": "Paraguay",
+          "tla": "PAR",
+          "crest": "https://crests.football-data.org/761.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -2782,8 +2782,8 @@
       },
       "matchStats": {
         "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsAgainst": 2,
+        "goalDifference": -2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2791,7 +2791,7 @@
         {
           "id": 537346,
           "utcDate": "2026-06-14T04:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 1,
@@ -2809,9 +2809,9 @@
             "tla": "TUR",
             "crest": "https://crests.football-data.org/803.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         },
         {

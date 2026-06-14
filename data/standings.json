@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T03:28:21.819Z",
+  "lastUpdated": "2026-06-14T08:03:27.665Z",
   "groups": [
     {
       "group": "Group A",
@@ -84,11 +84,11 @@
         {
           "position": 1,
           "team": {
-            "id": 1060,
-            "name": "Bosnia-Herzegovina",
-            "shortName": "Bosnia-H.",
-            "tla": "BIH",
-            "crest": "https://crests.football-data.org/bosnia.svg"
+            "id": 788,
+            "name": "Switzerland",
+            "shortName": "Switzerland",
+            "tla": "SUI",
+            "crest": "https://crests.football-data.org/788.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -100,7 +100,7 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "id": 828,
             "name": "Canada",
@@ -118,7 +118,7 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "id": 8030,
             "name": "Qatar",
@@ -136,13 +136,13 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 4,
           "team": {
-            "id": 788,
-            "name": "Switzerland",
-            "shortName": "Switzerland",
-            "tla": "SUI",
-            "crest": "https://crests.football-data.org/788.svg"
+            "id": 1060,
+            "name": "Bosnia-Herzegovina",
+            "shortName": "Bosnia-H.",
+            "tla": "BIH",
+            "crest": "https://crests.football-data.org/bosnia.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -179,11 +179,11 @@
         {
           "position": 2,
           "team": {
-            "id": 764,
-            "name": "Brazil",
-            "shortName": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg"
+            "id": 815,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/morocco.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -195,13 +195,13 @@
           "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
-            "id": 815,
-            "name": "Morocco",
-            "shortName": "Morocco",
-            "tla": "MAR",
-            "crest": "https://crests.football-data.org/morocco.svg"
+            "id": 764,
+            "name": "Brazil",
+            "shortName": "Brazil",
+            "tla": "BRA",
+            "crest": "https://crests.football-data.org/764.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -262,17 +262,17 @@
             "tla": "AUS",
             "crest": "https://crests.football-data.org/779.svg"
           },
-          "playedGames": 0,
-          "won": 0,
+          "playedGames": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
+          "points": 3,
+          "goalsFor": 2,
           "goalsAgainst": 0,
-          "goalDifference": 0
+          "goalDifference": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 803,
             "name": "Turkey",
@@ -280,14 +280,14 @@
             "tla": "TUR",
             "crest": "https://crests.football-data.org/803.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "points": 0,
           "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "goalsAgainst": 2,
+          "goalDifference": -2
         },
         {
           "position": 4,
