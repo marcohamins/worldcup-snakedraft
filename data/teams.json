@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T16:48:28.102Z",
+  "lastUpdated": "2026-06-14T18:05:33.292Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -168,12 +168,12 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537351,
-        "utcDate": "2026-06-14T17:00:00Z",
+        "id": 537353,
+        "utcDate": "2026-06-20T20:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group E",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -182,11 +182,11 @@
           "crest": "https://crests.football-data.org/759.svg"
         },
         "awayTeam": {
-          "id": 9460,
-          "name": "Curaçao",
-          "shortName": "Curaçao",
-          "tla": "CUW",
-          "crest": "https://crests.football-data.org/curacao.svg"
+          "id": 1935,
+          "name": "Ivory Coast",
+          "shortName": "Ivory Coast",
+          "tla": "CIV",
+          "crest": "https://crests.football-data.org/787.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -217,7 +217,7 @@
         {
           "id": 537351,
           "utcDate": "2026-06-14T17:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 1,
@@ -235,9 +235,9 @@
             "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         },
         {
