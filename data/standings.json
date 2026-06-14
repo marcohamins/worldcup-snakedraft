@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T19:55:15.138Z",
+  "lastUpdated": "2026-06-14T21:12:18.904Z",
   "groups": [
     {
       "group": "Group A",
@@ -398,11 +398,11 @@
             "tla": "JPN",
             "crest": "https://crests.football-data.org/766.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
@@ -416,17 +416,17 @@
             "tla": "NED",
             "crest": "https://crests.football-data.org/8601.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "id": 792,
             "name": "Sweden",
@@ -444,7 +444,7 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "id": 802,
             "name": "Tunisia",
