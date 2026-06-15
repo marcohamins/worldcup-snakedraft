@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T13:39:05.380Z",
+  "lastUpdated": "2026-06-15T18:16:25.557Z",
   "groups": [
     {
       "group": "Group A",
@@ -552,17 +552,35 @@
             "tla": "CPV",
             "crest": "https://crests.football-data.org/cape_verde.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
         },
         {
           "position": 1,
+          "team": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "points": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
           "team": {
             "id": 801,
             "name": "Saudi Arabia",
@@ -580,25 +598,7 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
-          "team": {
-            "id": 760,
-            "name": "Spain",
-            "shortName": "Spain",
-            "tla": "ESP",
-            "crest": "https://crests.football-data.org/760.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 1,
+          "position": 3,
           "team": {
             "id": 758,
             "name": "Uruguay",
