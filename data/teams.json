@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T21:27:59.164Z",
+  "lastUpdated": "2026-06-15T23:19:39.015Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -12,10 +12,10 @@
       "id": 758,
       "name": "Uruguay",
       "shortName": "Uruguay",
-      "tla": "URY",
+      "tla": "URU",
       "crest": "https://crests.football-data.org/758.svg",
       "owner": "Peter",
-      "group": null,
+      "group": "Group H",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
@@ -25,25 +25,25 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537370,
-        "utcDate": "2026-06-15T22:00:00Z",
+        "id": 537372,
+        "utcDate": "2026-06-21T22:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group H",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 801,
-          "name": "Saudi Arabia",
-          "shortName": "Saudi Arabia",
-          "tla": "KSA",
-          "crest": "https://crests.football-data.org/saudi_arabia.svg"
-        },
-        "awayTeam": {
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
           "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
+        },
+        "awayTeam": {
+          "id": 1930,
+          "name": "Cape Verde Islands",
+          "shortName": "Cape Verde",
+          "tla": "CPV",
+          "crest": "https://crests.football-data.org/cape_verde.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -74,7 +74,7 @@
         {
           "id": 537370,
           "utcDate": "2026-06-15T22:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group H",
           "matchday": 1,
@@ -92,9 +92,9 @@
             "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -232,7 +232,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": 7,
@@ -301,7 +301,7 @@
       "tla": "ESP",
       "crest": "https://crests.football-data.org/760.svg",
       "owner": "Marco",
-      "group": "Central Division",
+      "group": "Group H",
       "groupRecord": {
         "wins": 0,
         "draws": 1,
@@ -2330,7 +2330,7 @@
           "id": 9460,
           "name": "Curaçao",
           "shortName": "Curaçao",
-          "tla": "CUR",
+          "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg"
         },
         "homeScore": null,
@@ -2403,7 +2403,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
@@ -3018,7 +3018,7 @@
       "tla": "BEL",
       "crest": "https://crests.football-data.org/805.svg",
       "owner": "Peter",
-      "group": "Central Division",
+      "group": "Group G",
       "groupRecord": {
         "wins": 0,
         "draws": 1,
@@ -3590,7 +3590,7 @@
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg",
       "owner": "Will",
-      "group": "Atlantic Division",
+      "group": "Group G",
       "groupRecord": {
         "wins": 0,
         "draws": 1,
@@ -3876,7 +3876,7 @@
       "tla": "IRN",
       "crest": "https://crests.football-data.org/iran.svg",
       "owner": "Ryan",
-      "group": null,
+      "group": "Group G",
       "groupRecord": {
         "wins": 0,
         "draws": 0,
@@ -4138,7 +4138,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "awayTeam": {
