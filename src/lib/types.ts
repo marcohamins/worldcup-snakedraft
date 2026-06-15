@@ -144,6 +144,7 @@ export interface LeaderboardEntry {
 
 export interface ParticipantPoolStats {
   participant: string;
+  gamesPlayed: number;
   goalsFor: number;
   goalsAgainst: number;
   goalDifference: number;

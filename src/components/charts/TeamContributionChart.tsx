@@ -28,9 +28,75 @@ interface TeamContributionChartProps {
   entries: LeaderboardEntry[];
 }
 
+interface TooltipRow {
+  name: string;
+  value: number;
+  color: string;
+}
+
+function ContributionTooltip({
+  active,
+  payload,
+  label,
+  teamColors,
+  entries,
+}: {
+  active?: boolean;
+  payload?: { dataKey: string; value: number; color: string }[];
+  label?: string;
+  teamColors: Map<string, string>;
+  entries: LeaderboardEntry[];
+}) {
+  if (!active || !payload?.length || !label) {
+    return null;
+  }
+
+  const entry = entries.find((item) => item.participant === label);
+  if (!entry) {
+    return null;
+  }
+
+  const ownedTeams = new Set(Object.keys(entry.teamScores));
+  const rows: TooltipRow[] = payload
+    .filter((item) => ownedTeams.has(String(item.dataKey)))
+    .map((item) => ({
+      name: String(item.dataKey),
+      value: Number(item.value ?? 0),
+      color: teamColors.get(String(item.dataKey)) ?? item.color,
+    }))
+    .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name));
+
+  return (
+    <div className="rounded-xl border border-gold/25 bg-navy px-3 py-2 text-sm shadow-lg">
+      <p className="mb-2 font-semibold text-white">{label}</p>
+      <ul className="space-y-1">
+        {rows.map((row) => (
+          <li key={row.name} className="flex items-center justify-between gap-4">
+            <span className="flex items-center gap-2 text-white/80">
+              <span
+                className="inline-block h-2.5 w-2.5 rounded-sm"
+                style={{ backgroundColor: row.color }}
+              />
+              {row.name}
+            </span>
+            <span className="font-semibold text-gold">{row.value}</span>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-2 border-t border-white/10 pt-2 text-xs text-white/60">
+        Total: {entry.totalScore} pts
+      </p>
+    </div>
+  );
+}
+
 export function TeamContributionChart({ entries }: TeamContributionChartProps) {
   const teamNames = Array.from(
     new Set(entries.flatMap((entry) => Object.keys(entry.teamScores))),
+  );
+
+  const teamColors = new Map(
+    teamNames.map((team, index) => [team, COLORS[index % COLORS.length]]),
   );
 
   const data = entries.map((entry) => {
@@ -53,19 +119,17 @@ export function TeamContributionChart({ entries }: TeamContributionChartProps) {
           <XAxis dataKey="participant" stroke="#ffffff80" tick={{ fontSize: 12 }} />
           <YAxis stroke="#ffffff80" tick={{ fontSize: 12 }} />
           <Tooltip
-            contentStyle={{
-              background: "#0f172a",
-              border: "1px solid #d4af3740",
-              borderRadius: "12px",
-            }}
+            content={
+              <ContributionTooltip teamColors={teamColors} entries={entries} />
+            }
           />
           <Legend wrapperStyle={{ fontSize: "11px" }} />
-          {teamNames.map((team, index) => (
+          {teamNames.map((team) => (
             <Bar
               key={team}
               dataKey={team}
               stackId="points"
-              fill={COLORS[index % COLORS.length]}
+              fill={teamColors.get(team)}
             />
           ))}
         </BarChart>

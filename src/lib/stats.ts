@@ -59,17 +59,19 @@ export function calculateParticipantPoolStats(
         const stats =
           team.matchStats ?? calculateTeamMatchStats(team.name, team.matches);
         return {
+          gamesPlayed: acc.gamesPlayed + team.matchesPlayed,
           goalsFor: acc.goalsFor + stats.goalsFor,
           goalsAgainst: acc.goalsAgainst + stats.goalsAgainst,
           yellowCards: acc.yellowCards + stats.yellowCards,
           redCards: acc.redCards + stats.redCards,
         };
       },
-      { goalsFor: 0, goalsAgainst: 0, yellowCards: 0, redCards: 0 },
+      { gamesPlayed: 0, goalsFor: 0, goalsAgainst: 0, yellowCards: 0, redCards: 0 },
     );
 
     return {
       participant,
+      gamesPlayed: totals.gamesPlayed,
       goalsFor: totals.goalsFor,
       goalsAgainst: totals.goalsAgainst,
       goalDifference: totals.goalsFor - totals.goalsAgainst,
