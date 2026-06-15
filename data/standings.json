@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T18:16:25.557Z",
+  "lastUpdated": "2026-06-15T21:27:59.164Z",
   "groups": [
     {
       "group": "Group A",
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "group": "Group G",
+      "group": "Atlantic Division",
       "table": [
         {
           "position": 1,
@@ -475,15 +475,20 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "points": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
           "goalDifference": 0
-        },
+        }
+      ]
+    },
+    {
+      "group": "Central Division",
+      "table": [
         {
           "position": 1,
           "team": {
@@ -493,55 +498,19 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 1,
-          "team": {
-            "id": 840,
-            "name": "Iran",
-            "shortName": "Iran",
-            "tla": "IRN",
-            "crest": "https://crests.football-data.org/iran.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 1,
-          "team": {
-            "id": 783,
-            "name": "New Zealand",
-            "shortName": "New Zealand",
-            "tla": "NZL",
-            "crest": "https://crests.football-data.org/783.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "points": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
           "goalDifference": 0
         }
       ]
     },
     {
-      "group": "Group H",
+      "group": "Atlantic Division",
       "table": [
         {
           "position": 1,
@@ -560,7 +529,12 @@
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
-        },
+        }
+      ]
+    },
+    {
+      "group": "Central Division",
+      "table": [
         {
           "position": 1,
           "team": {
@@ -575,42 +549,6 @@
           "draw": 1,
           "lost": 0,
           "points": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": 801,
-            "name": "Saudi Arabia",
-            "shortName": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": 758,
-            "name": "Uruguay",
-            "shortName": "Uruguay",
-            "tla": "URY",
-            "crest": "https://crests.football-data.org/758.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
