@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T07:39:05.879Z",
+  "lastUpdated": "2026-06-16T12:30:18.013Z",
   "groups": [
     {
       "group": "Group A",
@@ -469,11 +469,11 @@
         {
           "position": 1,
           "team": {
-            "id": 840,
-            "name": "Iran",
-            "shortName": "Iran",
-            "tla": "IRN",
-            "crest": "https://crests.football-data.org/iran.svg"
+            "id": 783,
+            "name": "New Zealand",
+            "shortName": "New Zealand",
+            "tla": "NZL",
+            "crest": "https://crests.football-data.org/783.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -485,13 +485,13 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
-            "id": 783,
-            "name": "New Zealand",
-            "shortName": "New Zealand",
-            "tla": "NZL",
-            "crest": "https://crests.football-data.org/783.svg"
+            "id": 840,
+            "name": "Iran",
+            "shortName": "Iran",
+            "tla": "IRN",
+            "crest": "https://crests.football-data.org/iran.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -546,11 +546,11 @@
         {
           "position": 1,
           "team": {
-            "id": 801,
-            "name": "Saudi Arabia",
-            "shortName": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg"
+            "id": 758,
+            "name": "Uruguay",
+            "shortName": "Uruguay",
+            "tla": "URU",
+            "crest": "https://crests.football-data.org/758.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -562,13 +562,13 @@
           "goalDifference": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
-            "id": 758,
-            "name": "Uruguay",
-            "shortName": "Uruguay",
-            "tla": "URU",
-            "crest": "https://crests.football-data.org/758.svg"
+            "id": 801,
+            "name": "Saudi Arabia",
+            "shortName": "Saudi Arabia",
+            "tla": "KSA",
+            "crest": "https://crests.football-data.org/saudi_arabia.svg"
           },
           "playedGames": 1,
           "won": 0,
