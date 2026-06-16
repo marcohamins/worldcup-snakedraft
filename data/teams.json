@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T17:35:29.869Z",
+  "lastUpdated": "2026-06-16T20:30:13.328Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -1884,12 +1884,12 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537391,
-        "utcDate": "2026-06-16T19:00:00Z",
+        "id": 537393,
+        "utcDate": "2026-06-22T21:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group I",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
           "id": 773,
           "name": "France",
@@ -1898,11 +1898,11 @@
           "crest": "https://crests.football-data.org/773.svg"
         },
         "awayTeam": {
-          "id": 804,
-          "name": "Senegal",
-          "shortName": "Senegal",
-          "tla": "SEN",
-          "crest": "https://crests.football-data.org/senegal.svg"
+          "id": 8062,
+          "name": "Iraq",
+          "shortName": "Iraq",
+          "tla": "IRQ",
+          "crest": "https://crests.football-data.org/iraq.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -1933,7 +1933,7 @@
         {
           "id": 537391,
           "utcDate": "2026-06-16T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 1,
@@ -1951,9 +1951,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
@@ -2166,7 +2166,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
@@ -2885,18 +2885,18 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537391,
-        "utcDate": "2026-06-16T19:00:00Z",
+        "id": 537394,
+        "utcDate": "2026-06-23T00:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group I",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg"
+          "id": 8872,
+          "name": "Norway",
+          "shortName": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg"
         },
         "awayTeam": {
           "id": 804,
@@ -2934,7 +2934,7 @@
         {
           "id": 537391,
           "utcDate": "2026-06-16T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 1,
@@ -2952,9 +2952,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
@@ -3736,12 +3736,12 @@
       "group": "Group B",
       "groupRecord": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": null,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 0,
       "upcomingMatch": {
         "id": 537336,
         "utcDate": "2026-06-18T22:00:00Z",
@@ -3771,19 +3771,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 0,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 1,
+        "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 0
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -3810,9 +3810,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": 1,
-          "awayScore": 1,
-          "winner": "DRAW",
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         },
         {
