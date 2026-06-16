@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T20:30:13.328Z",
+  "lastUpdated": "2026-06-16T22:32:24.501Z",
   "groups": [
     {
       "group": "Group A",
@@ -630,22 +630,22 @@
             "crest": "https://crests.football-data.org/773.svg"
           },
           "playedGames": 1,
-          "won": 0,
-          "draw": 1,
+          "won": 1,
+          "draw": 0,
           "lost": 0,
-          "points": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
-            "id": 804,
-            "name": "Senegal",
-            "shortName": "Senegal",
-            "tla": "SEN",
-            "crest": "https://crests.football-data.org/senegal.svg"
+            "id": 8062,
+            "name": "Iraq",
+            "shortName": "Iraq",
+            "tla": "IRQ",
+            "crest": "https://crests.football-data.org/iraq.svg"
           },
           "playedGames": 1,
           "won": 0,
@@ -657,25 +657,7 @@
           "goalDifference": 0
         },
         {
-          "position": 3,
-          "team": {
-            "id": 8062,
-            "name": "Iraq",
-            "shortName": "Iraq",
-            "tla": "IRQ",
-            "crest": "https://crests.football-data.org/iraq.svg"
-          },
-          "playedGames": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
-        },
-        {
-          "position": 3,
+          "position": 2,
           "team": {
             "id": 8872,
             "name": "Norway",
@@ -683,14 +665,32 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "playedGames": 0,
+          "playedGames": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 0,
           "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 804,
+            "name": "Senegal",
+            "shortName": "Senegal",
+            "tla": "SEN",
+            "crest": "https://crests.football-data.org/senegal.svg"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "points": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2
         }
       ]
     },
