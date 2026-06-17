@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T21:26:21.687Z",
+  "lastUpdated": "2026-06-17T22:59:26.973Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1447,13 +1447,13 @@
       "owner": "Chris",
       "group": "Group L",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537411,
         "utcDate": "2026-06-23T20:00:00Z",
@@ -1483,20 +1483,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1504,7 +1504,7 @@
         {
           "id": 537409,
           "utcDate": "2026-06-17T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 1,
@@ -1522,7 +1522,7 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "homeScore": 3,
+          "homeScore": 4,
           "awayScore": 2,
           "winner": "HOME",
           "bookings": []
@@ -2593,11 +2593,11 @@
       "groupRecord": {
         "wins": 0,
         "draws": 0,
-        "losses": 0
+        "losses": 1
       },
-      "groupPosition": null,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537412,
         "utcDate": "2026-06-23T23:00:00Z",
@@ -2638,9 +2638,9 @@
         "total": 0
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "goalDifference": -2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2648,7 +2648,7 @@
         {
           "id": 537409,
           "utcDate": "2026-06-17T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 1,
@@ -2666,7 +2666,7 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "homeScore": 3,
+          "homeScore": 4,
           "awayScore": 2,
           "winner": "HOME",
           "bookings": []
