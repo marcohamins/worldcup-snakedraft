@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T05:06:32.744Z",
+  "lastUpdated": "2026-06-17T10:01:14.945Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -232,7 +232,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": 7,
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -2023,7 +2023,7 @@
         "draws": 0,
         "losses": 1
       },
-      "groupPosition": 2,
+      "groupPosition": 4,
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
@@ -2330,7 +2330,7 @@
           "id": 9460,
           "name": "Curaçao",
           "shortName": "Curaçao",
-          "tla": "CUR",
+          "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg"
         },
         "homeScore": null,
@@ -2403,7 +2403,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
@@ -3306,13 +3306,13 @@
       "owner": "Jackson",
       "group": "Group J",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537399,
         "utcDate": "2026-06-22T17:00:00Z",
@@ -3342,20 +3342,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3363,7 +3363,7 @@
         {
           "id": 537398,
           "utcDate": "2026-06-17T04:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group J",
           "matchday": 1,
@@ -3381,8 +3381,8 @@
             "tla": "JOR",
             "crest": "https://crests.football-data.org/8049.png"
           },
-          "homeScore": 1,
-          "awayScore": 0,
+          "homeScore": 3,
+          "awayScore": 1,
           "winner": "HOME",
           "bookings": []
         },
@@ -4138,7 +4138,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "awayTeam": {
