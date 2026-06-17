@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T19:20:27.891Z",
+  "lastUpdated": "2026-06-17T21:26:21.687Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -232,7 +232,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": 7,
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -1455,12 +1455,12 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537409,
-        "utcDate": "2026-06-17T20:00:00Z",
+        "id": 537411,
+        "utcDate": "2026-06-23T20:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group L",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -1469,11 +1469,11 @@
           "crest": "https://crests.football-data.org/770.svg"
         },
         "awayTeam": {
-          "id": 799,
-          "name": "Croatia",
-          "shortName": "Croatia",
-          "tla": "CRO",
-          "crest": "https://crests.football-data.org/799.svg"
+          "id": 763,
+          "name": "Ghana",
+          "shortName": "Ghana",
+          "tla": "GHA",
+          "crest": "https://crests.football-data.org/ghana.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -1504,7 +1504,7 @@
         {
           "id": 537409,
           "utcDate": "2026-06-17T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 1,
@@ -1522,9 +1522,9 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 3,
+          "awayScore": 2,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -2330,7 +2330,7 @@
           "id": 9460,
           "name": "Curaçao",
           "shortName": "Curaçao",
-          "tla": "CUR",
+          "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg"
         },
         "homeScore": null,
@@ -2403,7 +2403,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "homeScore": null,
@@ -2599,18 +2599,18 @@
       "groupComplete": false,
       "matchesPlayed": 0,
       "upcomingMatch": {
-        "id": 537409,
-        "utcDate": "2026-06-17T20:00:00Z",
+        "id": 537412,
+        "utcDate": "2026-06-23T23:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group L",
-        "matchday": 1,
+        "matchday": 2,
         "homeTeam": {
-          "id": 770,
-          "name": "England",
-          "shortName": "England",
-          "tla": "ENG",
-          "crest": "https://crests.football-data.org/770.svg"
+          "id": 1836,
+          "name": "Panama",
+          "shortName": "Panama",
+          "tla": "PAN",
+          "crest": "https://crests.football-data.org/panama.svg"
         },
         "awayTeam": {
           "id": 799,
@@ -2648,7 +2648,7 @@
         {
           "id": 537409,
           "utcDate": "2026-06-17T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 1,
@@ -2666,9 +2666,9 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 3,
+          "awayScore": 2,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -4138,7 +4138,7 @@
             "id": 9460,
             "name": "Curaçao",
             "shortName": "Curaçao",
-            "tla": "CUR",
+            "tla": "CUW",
             "crest": "https://crests.football-data.org/curacao.svg"
           },
           "awayTeam": {
