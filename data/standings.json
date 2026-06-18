@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T21:13:14.739Z",
+  "lastUpdated": "2026-06-18T23:11:46.853Z",
   "groups": [
     {
       "group": "Group A",
@@ -108,14 +108,14 @@
             "tla": "CAN",
             "crest": "https://crests.football-data.org/canada.svg"
           },
-          "playedGames": 1,
-          "won": 0,
+          "playedGames": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
-          "points": 1,
-          "goalsFor": 1,
+          "points": 4,
+          "goalsFor": 4,
           "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalDifference": 3
         },
         {
           "position": 3,
@@ -144,14 +144,14 @@
             "tla": "QAT",
             "crest": "https://crests.football-data.org/8030.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalsAgainst": 4,
+          "goalDifference": -3
         }
       ]
     },
