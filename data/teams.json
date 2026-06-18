@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T16:19:33.945Z",
+  "lastUpdated": "2026-06-18T18:39:17.955Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2449,12 +2449,12 @@
       "group": "Group A",
       "groupRecord": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1
       },
       "groupPosition": 3,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537331,
         "utcDate": "2026-06-25T01:00:00Z",
@@ -2484,19 +2484,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 1,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 0,
+        "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 1
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
         "goalDifference": -1,
         "yellowCards": 0,
         "redCards": 0
@@ -2531,7 +2531,7 @@
         {
           "id": 537329,
           "utcDate": "2026-06-18T16:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 2,
@@ -2550,8 +2550,8 @@
             "crest": "https://crests.football-data.org/9396.svg"
           },
           "homeScore": 1,
-          "awayScore": 0,
-          "winner": "HOME",
+          "awayScore": 1,
+          "winner": "DRAW",
           "bookings": []
         },
         {
