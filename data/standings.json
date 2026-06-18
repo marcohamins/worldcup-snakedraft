@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T18:39:17.955Z",
+  "lastUpdated": "2026-06-18T21:13:14.739Z",
   "groups": [
     {
       "group": "Group A",
@@ -90,14 +90,14 @@
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "playedGames": 1,
-          "won": 0,
+          "playedGames": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
-          "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
+          "points": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3
         },
         {
           "position": 2,
@@ -120,29 +120,29 @@
         {
           "position": 3,
           "team": {
-            "id": 8030,
-            "name": "Qatar",
-            "shortName": "Qatar",
-            "tla": "QAT",
-            "crest": "https://crests.football-data.org/8030.svg"
-          },
-          "playedGames": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
-        },
-        {
-          "position": 4,
-          "team": {
             "id": 1060,
             "name": "Bosnia-Herzegovina",
             "shortName": "Bosnia-H.",
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 1,
+          "lost": 1,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 8030,
+            "name": "Qatar",
+            "shortName": "Qatar",
+            "tla": "QAT",
+            "crest": "https://crests.football-data.org/8030.svg"
           },
           "playedGames": 1,
           "won": 0,
