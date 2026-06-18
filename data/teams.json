@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:43:39.411Z",
+  "lastUpdated": "2026-06-18T16:19:33.945Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -732,13 +732,13 @@
       "owner": "Chris",
       "group": "Group L",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": null,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 0,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537411,
         "utcDate": "2026-06-23T20:00:00Z",
@@ -768,20 +768,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 0,
+        "goalsFor": 1,
         "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalDifference": 1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -789,7 +789,7 @@
         {
           "id": 537410,
           "utcDate": "2026-06-17T23:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 1,
@@ -2456,12 +2456,12 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537329,
-        "utcDate": "2026-06-18T16:00:00Z",
+        "id": 537331,
+        "utcDate": "2026-06-25T01:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group A",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
           "id": 798,
           "name": "Czechia",
@@ -2470,11 +2470,11 @@
           "crest": "https://crests.football-data.org/798.svg"
         },
         "awayTeam": {
-          "id": 774,
-          "name": "South Africa",
-          "shortName": "South Africa",
-          "tla": "RSA",
-          "crest": "https://crests.football-data.org/9396.svg"
+          "id": 769,
+          "name": "Mexico",
+          "shortName": "Mexico",
+          "tla": "MEX",
+          "crest": "https://crests.football-data.org/769.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -2531,7 +2531,7 @@
         {
           "id": 537329,
           "utcDate": "2026-06-18T16:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 2,
@@ -2549,9 +2549,9 @@
             "tla": "RSA",
             "crest": "https://crests.football-data.org/9396.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -2595,7 +2595,7 @@
         "draws": 0,
         "losses": 1
       },
-      "groupPosition": 2,
+      "groupPosition": 4,
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
