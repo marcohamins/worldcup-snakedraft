@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T19:05:15.477Z",
+  "lastUpdated": "2026-06-19T20:44:42.543Z",
   "groups": [
     {
       "group": "Group A",
@@ -245,13 +245,13 @@
             "crest": "https://crests.football-data.org/usa.svg"
           },
           "playedGames": 2,
-          "won": 1,
-          "draw": 1,
+          "won": 2,
+          "draw": 0,
           "lost": 0,
-          "points": 4,
-          "goalsFor": 4,
+          "points": 6,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 3
+          "goalDifference": 5
         },
         {
           "position": 2,
@@ -264,12 +264,12 @@
           },
           "playedGames": 2,
           "won": 1,
-          "draw": 1,
-          "lost": 0,
-          "points": 4,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
           "goalsFor": 2,
-          "goalsAgainst": 0,
-          "goalDifference": 2
+          "goalsAgainst": 2,
+          "goalDifference": 0
         },
         {
           "position": 3,
