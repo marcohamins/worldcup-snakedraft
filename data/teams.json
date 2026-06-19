@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T23:11:46.853Z",
+  "lastUpdated": "2026-06-19T02:07:16.767Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1312,25 +1312,25 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537330,
-        "utcDate": "2026-06-19T01:00:00Z",
+        "id": 537331,
+        "utcDate": "2026-06-25T01:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group A",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
+          "id": 798,
+          "name": "Czechia",
+          "shortName": "Czechia",
+          "tla": "CZE",
+          "crest": "https://crests.football-data.org/798.svg"
+        },
+        "awayTeam": {
           "id": 769,
           "name": "Mexico",
           "shortName": "Mexico",
           "tla": "MEX",
           "crest": "https://crests.football-data.org/769.svg"
-        },
-        "awayTeam": {
-          "id": 772,
-          "name": "South Korea",
-          "shortName": "Korea Republic",
-          "tla": "KOR",
-          "crest": "https://crests.football-data.org/772.png"
         },
         "homeScore": null,
         "awayScore": null,
@@ -1387,7 +1387,7 @@
         {
           "id": 537330,
           "utcDate": "2026-06-19T01:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 2,
@@ -1405,9 +1405,9 @@
             "tla": "KOR",
             "crest": "https://crests.football-data.org/772.png"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
@@ -1741,18 +1741,18 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537330,
-        "utcDate": "2026-06-19T01:00:00Z",
+        "id": 537332,
+        "utcDate": "2026-06-25T01:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group A",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
-          "id": 769,
-          "name": "Mexico",
-          "shortName": "Mexico",
-          "tla": "MEX",
-          "crest": "https://crests.football-data.org/769.svg"
+          "id": 774,
+          "name": "South Africa",
+          "shortName": "South Africa",
+          "tla": "RSA",
+          "crest": "https://crests.football-data.org/9396.svg"
         },
         "awayTeam": {
           "id": 772,
@@ -1816,7 +1816,7 @@
         {
           "id": 537330,
           "utcDate": "2026-06-19T01:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 2,
@@ -1834,9 +1834,9 @@
             "tla": "KOR",
             "crest": "https://crests.football-data.org/772.png"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
@@ -2166,7 +2166,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
@@ -3735,13 +3735,13 @@
       "owner": "Jackson",
       "group": "Group B",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537337,
         "utcDate": "2026-06-24T19:00:00Z",
@@ -3771,20 +3771,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 4,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 4
       },
       "matchStats": {
-        "goalsFor": 1,
+        "goalsFor": 7,
         "goalsAgainst": 1,
-        "goalDifference": 0,
+        "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3818,7 +3818,7 @@
         {
           "id": 537336,
           "utcDate": "2026-06-18T22:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group B",
           "matchday": 2,
@@ -3836,7 +3836,7 @@
             "tla": "QAT",
             "crest": "https://crests.football-data.org/8030.svg"
           },
-          "homeScore": 3,
+          "homeScore": 6,
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
