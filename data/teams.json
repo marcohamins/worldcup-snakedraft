@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T02:07:16.767Z",
+  "lastUpdated": "2026-06-19T07:25:09.149Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1304,13 +1304,13 @@
       "owner": "Ryan",
       "group": "Group A",
       "groupRecord": {
-        "wins": 1,
+        "wins": 2,
         "draws": 0,
         "losses": 0
       },
       "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537331,
         "utcDate": "2026-06-25T01:00:00Z",
@@ -1340,20 +1340,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 3,
+      "score": 6,
       "scoreBreakdown": {
-        "groupWins": 1,
+        "groupWins": 2,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 3
+        "total": 6
       },
       "matchStats": {
-        "goalsFor": 2,
+        "goalsFor": 3,
         "goalsAgainst": 0,
-        "goalDifference": 2,
+        "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1387,7 +1387,7 @@
         {
           "id": 537330,
           "utcDate": "2026-06-19T01:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 2,
@@ -1405,9 +1405,9 @@
             "tla": "KOR",
             "crest": "https://crests.football-data.org/772.png"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -1735,11 +1735,11 @@
       "groupRecord": {
         "wins": 1,
         "draws": 0,
-        "losses": 0
+        "losses": 1
       },
       "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537332,
         "utcDate": "2026-06-25T01:00:00Z",
@@ -1781,8 +1781,8 @@
       },
       "matchStats": {
         "goalsFor": 2,
-        "goalsAgainst": 1,
-        "goalDifference": 1,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1816,7 +1816,7 @@
         {
           "id": 537330,
           "utcDate": "2026-06-19T01:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group A",
           "matchday": 2,
@@ -1834,9 +1834,9 @@
             "tla": "KOR",
             "crest": "https://crests.football-data.org/772.png"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -2166,7 +2166,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
@@ -3736,12 +3736,12 @@
       "group": "Group B",
       "groupRecord": {
         "wins": 1,
-        "draws": 1,
+        "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 2,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537337,
         "utcDate": "2026-06-24T19:00:00Z",
@@ -3771,19 +3771,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 3,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 1,
+        "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 7,
-        "goalsAgainst": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 0,
         "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
@@ -3810,9 +3810,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": 1,
-          "awayScore": 1,
-          "winner": "DRAW",
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         },
         {
