@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T16:05:19.013Z",
+  "lastUpdated": "2026-06-20T20:23:41.460Z",
   "groups": [
     {
       "group": "Group A",
@@ -321,11 +321,11 @@
             "tla": "GER",
             "crest": "https://crests.football-data.org/759.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 7,
           "goalsAgainst": 1,
           "goalDifference": 6
@@ -339,11 +339,11 @@
             "tla": "CIV",
             "crest": "https://crests.football-data.org/787.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 1,
           "goalsAgainst": 0,
           "goalDifference": 1
@@ -392,47 +392,47 @@
         {
           "position": 1,
           "team": {
+            "id": 8601,
+            "name": "Netherlands",
+            "shortName": "Netherlands",
+            "tla": "NED",
+            "crest": "https://crests.football-data.org/8601.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
+        },
+        {
+          "position": 2,
+          "team": {
             "id": 792,
             "name": "Sweden",
             "shortName": "Sweden",
             "tla": "SWE",
             "crest": "https://crests.football-data.org/792.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "points": 3,
-          "goalsFor": 5,
-          "goalsAgainst": 1,
-          "goalDifference": 4
+          "goalsFor": 6,
+          "goalsAgainst": 6,
+          "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 766,
             "name": "Japan",
             "shortName": "Japan",
             "tla": "JPN",
             "crest": "https://crests.football-data.org/766.svg"
-          },
-          "playedGames": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": 8601,
-            "name": "Netherlands",
-            "shortName": "Netherlands",
-            "tla": "NED",
-            "crest": "https://crests.football-data.org/8601.svg"
           },
           "playedGames": 1,
           "won": 0,
