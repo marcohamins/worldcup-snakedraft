@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T21:53:37.820Z",
+  "lastUpdated": "2026-06-20T00:01:28.339Z",
   "groups": [
     {
       "group": "Group A",
@@ -161,35 +161,35 @@
         {
           "position": 1,
           "team": {
-            "id": 8873,
-            "name": "Scotland",
-            "shortName": "Scotland",
-            "tla": "SCO",
-            "crest": "https://crests.football-data.org/814.svg"
-          },
-          "playedGames": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "points": 3,
-          "goalsFor": 1,
-          "goalsAgainst": 0,
-          "goalDifference": 1
-        },
-        {
-          "position": 2,
-          "team": {
             "id": 815,
             "name": "Morocco",
             "shortName": "Morocco",
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "playedGames": 1,
-          "won": 0,
+          "playedGames": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
-          "points": 1,
+          "points": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 8873,
+            "name": "Scotland",
+            "shortName": "Scotland",
+            "tla": "SCO",
+            "crest": "https://crests.football-data.org/814.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
           "goalsFor": 1,
           "goalsAgainst": 1,
           "goalDifference": 0
