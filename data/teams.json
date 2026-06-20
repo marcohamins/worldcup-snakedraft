@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T04:36:39.122Z",
+  "lastUpdated": "2026-06-20T08:05:21.996Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -446,13 +446,13 @@
       "owner": "Marco",
       "group": "Group D",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 1
       },
-      "groupPosition": 4,
+      "groupPosition": 3,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537350,
         "utcDate": "2026-06-26T02:00:00Z",
@@ -482,20 +482,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 4,
-        "goalDifference": -3,
+        "goalDifference": -2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -529,7 +529,7 @@
         {
           "id": 537347,
           "utcDate": "2026-06-20T03:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 2,
@@ -2166,7 +2166,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
@@ -2736,11 +2736,11 @@
       "groupRecord": {
         "wins": 0,
         "draws": 0,
-        "losses": 1
+        "losses": 2
       },
-      "groupPosition": 3,
+      "groupPosition": 4,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537349,
         "utcDate": "2026-06-26T02:00:00Z",
@@ -2782,8 +2782,8 @@
       },
       "matchStats": {
         "goalsFor": 0,
-        "goalsAgainst": 2,
-        "goalDifference": -2,
+        "goalsAgainst": 3,
+        "goalDifference": -3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2817,7 +2817,7 @@
         {
           "id": 537347,
           "utcDate": "2026-06-20T03:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 2,
@@ -3736,12 +3736,12 @@
       "group": "Group B",
       "groupRecord": {
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537337,
         "utcDate": "2026-06-24T19:00:00Z",
@@ -3771,19 +3771,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 3,
+      "score": 4,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 0,
+        "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 3
+        "total": 4
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
         "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
@@ -3810,9 +3810,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "winner": "DRAW",
           "bookings": []
         },
         {
