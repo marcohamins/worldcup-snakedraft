@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T20:23:41.459Z",
+  "lastUpdated": "2026-06-20T21:46:12.727Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -261,8 +261,8 @@
             "tla": "CIV",
             "crest": "https://crests.football-data.org/787.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 1,
+          "awayScore": 1,
           "winner": "DRAW",
           "bookings": []
         },
@@ -4122,8 +4122,8 @@
             "tla": "CIV",
             "crest": "https://crests.football-data.org/787.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 1,
+          "awayScore": 1,
           "winner": "DRAW",
           "bookings": []
         },
