@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T20:19:57.866Z",
+  "lastUpdated": "2026-06-21T21:48:22.753Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -321,7 +321,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -350,9 +350,9 @@
         "total": 4
       },
       "matchStats": {
-        "goalsFor": 5,
+        "goalsFor": 4,
         "goalsAgainst": 0,
-        "goalDifference": 5,
+        "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -404,7 +404,7 @@
             "tla": "KSA",
             "crest": "https://crests.football-data.org/saudi_arabia.svg"
           },
-          "homeScore": 5,
+          "homeScore": 4,
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -3021,12 +3021,12 @@
       "group": "Group G",
       "groupRecord": {
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537367,
         "utcDate": "2026-06-27T03:00:00Z",
@@ -3056,15 +3056,15 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 2,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 1,
+        "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 2
       },
       "matchStats": {
         "goalsFor": 1,
@@ -3103,7 +3103,7 @@
         {
           "id": 537365,
           "utcDate": "2026-06-21T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 2,
@@ -3879,12 +3879,12 @@
       "group": "Group G",
       "groupRecord": {
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0
       },
       "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537368,
         "utcDate": "2026-06-27T03:00:00Z",
@@ -3914,15 +3914,15 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 2,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 1,
+        "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 2
       },
       "matchStats": {
         "goalsFor": 2,
@@ -3961,7 +3961,7 @@
         {
           "id": 537365,
           "utcDate": "2026-06-21T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 2,
