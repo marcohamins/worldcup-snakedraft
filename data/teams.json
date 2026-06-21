@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T18:50:43.685Z",
+  "lastUpdated": "2026-06-21T20:19:57.866Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3028,25 +3028,25 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537365,
-        "utcDate": "2026-06-21T19:00:00Z",
+        "id": 537367,
+        "utcDate": "2026-06-27T03:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group G",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
+          "id": 783,
+          "name": "New Zealand",
+          "shortName": "New Zealand",
+          "tla": "NZL",
+          "crest": "https://crests.football-data.org/783.svg"
+        },
+        "awayTeam": {
           "id": 805,
           "name": "Belgium",
           "shortName": "Belgium",
           "tla": "BEL",
           "crest": "https://crests.football-data.org/805.svg"
-        },
-        "awayTeam": {
-          "id": 840,
-          "name": "Iran",
-          "shortName": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -3103,7 +3103,7 @@
         {
           "id": 537365,
           "utcDate": "2026-06-21T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 2,
@@ -3121,9 +3121,9 @@
             "tla": "IRN",
             "crest": "https://crests.football-data.org/iran.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
@@ -3886,18 +3886,18 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537365,
-        "utcDate": "2026-06-21T19:00:00Z",
+        "id": 537368,
+        "utcDate": "2026-06-27T03:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group G",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
+          "id": 825,
+          "name": "Egypt",
+          "shortName": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg"
         },
         "awayTeam": {
           "id": 840,
@@ -3961,7 +3961,7 @@
         {
           "id": 537365,
           "utcDate": "2026-06-21T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 2,
@@ -3979,9 +3979,9 @@
             "tla": "IRN",
             "crest": "https://crests.football-data.org/iran.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
