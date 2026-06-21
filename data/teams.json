@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T09:04:01.028Z",
+  "lastUpdated": "2026-06-21T11:51:29.335Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2166,7 +2166,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
@@ -3736,12 +3736,12 @@
       "group": "Group B",
       "groupRecord": {
         "wins": 1,
-        "draws": 1,
+        "draws": 0,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 2,
+      "matchesPlayed": 1,
       "upcomingMatch": {
         "id": 537337,
         "utcDate": "2026-06-24T19:00:00Z",
@@ -3771,19 +3771,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 3,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 1,
+        "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 7,
-        "goalsAgainst": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 0,
         "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
@@ -3810,9 +3810,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": 1,
-          "awayScore": 1,
-          "winner": "DRAW",
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         },
         {
