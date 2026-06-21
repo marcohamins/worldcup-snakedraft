@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T15:31:43.185Z",
+  "lastUpdated": "2026-06-21T17:09:36.922Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -311,25 +311,25 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537371,
-        "utcDate": "2026-06-21T16:00:00Z",
+        "id": 537373,
+        "utcDate": "2026-06-27T00:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group H",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
+          "id": 758,
+          "name": "Uruguay",
+          "shortName": "Uruguay",
+          "tla": "URY",
+          "crest": "https://crests.football-data.org/758.svg"
+        },
+        "awayTeam": {
           "id": 760,
           "name": "Spain",
           "shortName": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 801,
-          "name": "Saudi Arabia",
-          "shortName": "Saudi Arabia",
-          "tla": "KSA",
-          "crest": "https://crests.football-data.org/saudi_arabia.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -386,7 +386,7 @@
         {
           "id": 537371,
           "utcDate": "2026-06-21T16:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group H",
           "matchday": 2,
@@ -404,9 +404,9 @@
             "tla": "KSA",
             "crest": "https://crests.football-data.org/saudi_arabia.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 3,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
