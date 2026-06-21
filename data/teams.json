@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T17:09:36.922Z",
+  "lastUpdated": "2026-06-21T18:50:43.685Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -303,13 +303,13 @@
       "owner": "Marco",
       "group": "Group H",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 3,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537373,
         "utcDate": "2026-06-27T00:00:00Z",
@@ -321,7 +321,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -339,20 +339,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 4,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 4
       },
       "matchStats": {
-        "goalsFor": 0,
+        "goalsFor": 5,
         "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -386,7 +386,7 @@
         {
           "id": 537371,
           "utcDate": "2026-06-21T16:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group H",
           "matchday": 2,
@@ -404,7 +404,7 @@
             "tla": "KSA",
             "crest": "https://crests.football-data.org/saudi_arabia.svg"
           },
-          "homeScore": 3,
+          "homeScore": 5,
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
