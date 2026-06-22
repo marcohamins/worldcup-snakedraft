@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T16:04:42.174Z",
+  "lastUpdated": "2026-06-22T19:40:23.429Z",
   "groups": [
     {
       "group": "Group A",
@@ -706,14 +706,14 @@
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
           },
-          "playedGames": 1,
-          "won": 1,
+          "playedGames": 2,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "points": 3,
-          "goalsFor": 3,
+          "points": 6,
+          "goalsFor": 5,
           "goalsAgainst": 0,
-          "goalDifference": 3
+          "goalDifference": 5
         },
         {
           "position": 2,
@@ -724,14 +724,14 @@
             "tla": "AUT",
             "crest": "https://crests.football-data.org/816.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "points": 3,
           "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2
+          "goalsAgainst": 3,
+          "goalDifference": 0
         },
         {
           "position": 3,
