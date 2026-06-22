@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T22:54:41.895Z",
+  "lastUpdated": "2026-06-22T00:10:33.483Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -118,8 +118,8 @@
             "tla": "CPV",
             "crest": "https://crests.football-data.org/cape_verde.svg"
           },
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 2,
+          "awayScore": 2,
           "winner": "DRAW",
           "bookings": []
         },
