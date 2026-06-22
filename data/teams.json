@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T19:40:23.429Z",
+  "lastUpdated": "2026-06-22T21:49:33.496Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -321,7 +321,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -1884,25 +1884,25 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537393,
-        "utcDate": "2026-06-22T21:00:00Z",
+        "id": 537395,
+        "utcDate": "2026-06-26T19:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group I",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
+          "id": 8872,
+          "name": "Norway",
+          "shortName": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg"
+        },
+        "awayTeam": {
           "id": 773,
           "name": "France",
           "shortName": "France",
           "tla": "FRA",
           "crest": "https://crests.football-data.org/773.svg"
-        },
-        "awayTeam": {
-          "id": 8062,
-          "name": "Iraq",
-          "shortName": "Iraq",
-          "tla": "IRQ",
-          "crest": "https://crests.football-data.org/iraq.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -1959,7 +1959,7 @@
         {
           "id": 537393,
           "utcDate": "2026-06-22T21:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 2,
@@ -1977,9 +1977,9 @@
             "tla": "IRQ",
             "crest": "https://crests.football-data.org/iraq.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         },
         {
