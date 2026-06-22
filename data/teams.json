@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T00:10:33.483Z",
+  "lastUpdated": "2026-06-22T05:31:30.301Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -18,12 +18,12 @@
       "group": "Group H",
       "groupRecord": {
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0
       },
       "groupPosition": 2,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537373,
         "utcDate": "2026-06-27T00:00:00Z",
@@ -53,19 +53,19 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 2,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 1,
+        "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 2
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -100,7 +100,7 @@
         {
           "id": 537372,
           "utcDate": "2026-06-21T22:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group H",
           "matchday": 2,
@@ -3024,7 +3024,7 @@
         "draws": 2,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 3,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
@@ -3592,33 +3592,33 @@
       "owner": "Will",
       "group": "Group G",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 4,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
-        "id": 537366,
-        "utcDate": "2026-06-22T01:00:00Z",
+        "id": 537368,
+        "utcDate": "2026-06-27T03:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group G",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
-          "id": 783,
-          "name": "New Zealand",
-          "shortName": "New Zealand",
-          "tla": "NZL",
-          "crest": "https://crests.football-data.org/783.svg"
-        },
-        "awayTeam": {
           "id": 825,
           "name": "Egypt",
           "shortName": "Egypt",
           "tla": "EGY",
           "crest": "https://crests.football-data.org/825.svg"
+        },
+        "awayTeam": {
+          "id": 840,
+          "name": "Iran",
+          "shortName": "Iran",
+          "tla": "IRN",
+          "crest": "https://crests.football-data.org/iran.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -3628,20 +3628,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 1,
+      "score": 4,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 1
+        "total": 4
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "goalDifference": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3675,7 +3675,7 @@
         {
           "id": 537366,
           "utcDate": "2026-06-22T01:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 2,
@@ -3693,9 +3693,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 3,
+          "winner": "AWAY",
           "bookings": []
         },
         {
@@ -3882,7 +3882,7 @@
         "draws": 2,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
