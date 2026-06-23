@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T22:03:12.351Z",
+  "lastUpdated": "2026-06-23T23:18:38.640Z",
   "groups": [
     {
       "group": "Group A",
@@ -896,11 +896,11 @@
             "tla": "PAN",
             "crest": "https://crests.football-data.org/panama.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 1,
           "goalDifference": -1
@@ -914,11 +914,11 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 0,
+          "points": 1,
           "goalsFor": 2,
           "goalsAgainst": 4,
           "goalDifference": -2
