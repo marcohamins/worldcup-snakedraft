@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:09:06.323Z",
+  "lastUpdated": "2026-06-23T00:21:04.116Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1959,7 +1959,7 @@
         {
           "id": 537393,
           "utcDate": "2026-06-22T21:00:00Z",
-          "status": "PAUSED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 2,
@@ -1977,7 +1977,7 @@
             "tla": "IRQ",
             "crest": "https://crests.football-data.org/iraq.svg"
           },
-          "homeScore": 1,
+          "homeScore": 2,
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
@@ -2885,25 +2885,25 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537394,
-        "utcDate": "2026-06-23T00:00:00Z",
+        "id": 537396,
+        "utcDate": "2026-06-26T19:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group I",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
-          "id": 8872,
-          "name": "Norway",
-          "shortName": "Norway",
-          "tla": "NOR",
-          "crest": "https://crests.football-data.org/813.svg"
-        },
-        "awayTeam": {
           "id": 804,
           "name": "Senegal",
           "shortName": "Senegal",
           "tla": "SEN",
           "crest": "https://crests.football-data.org/senegal.svg"
+        },
+        "awayTeam": {
+          "id": 8062,
+          "name": "Iraq",
+          "shortName": "Iraq",
+          "tla": "IRQ",
+          "crest": "https://crests.football-data.org/iraq.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -2960,7 +2960,7 @@
         {
           "id": 537394,
           "utcDate": "2026-06-23T00:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 2,
@@ -2978,9 +2978,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {
@@ -4315,12 +4315,12 @@
       "groupComplete": false,
       "matchesPlayed": 1,
       "upcomingMatch": {
-        "id": 537394,
-        "utcDate": "2026-06-23T00:00:00Z",
+        "id": 537395,
+        "utcDate": "2026-06-26T19:00:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group I",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4329,11 +4329,11 @@
           "crest": "https://crests.football-data.org/813.svg"
         },
         "awayTeam": {
-          "id": 804,
-          "name": "Senegal",
-          "shortName": "Senegal",
-          "tla": "SEN",
-          "crest": "https://crests.football-data.org/senegal.svg"
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -4390,7 +4390,7 @@
         {
           "id": 537394,
           "utcDate": "2026-06-23T00:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 2,
@@ -4408,9 +4408,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         },
         {

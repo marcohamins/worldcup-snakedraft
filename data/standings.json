@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:09:06.323Z",
+  "lastUpdated": "2026-06-23T00:21:04.116Z",
   "groups": [
     {
       "group": "Group A",
@@ -647,11 +647,11 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 4,
           "goalsAgainst": 1,
           "goalDifference": 3
@@ -665,11 +665,11 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 0,
+          "points": 1,
           "goalsFor": 1,
           "goalsAgainst": 3,
           "goalDifference": -2
