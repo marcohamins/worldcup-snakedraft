@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T18:28:47.454Z",
+  "lastUpdated": "2026-06-23T20:36:10.343Z",
   "groups": [
     {
       "group": "Group A",
@@ -788,9 +788,9 @@
           "draw": 1,
           "lost": 0,
           "points": 4,
-          "goalsFor": 4,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 3
+          "goalDifference": 5
         },
         {
           "position": 2,
@@ -843,8 +843,8 @@
           "lost": 2,
           "points": 0,
           "goalsFor": 1,
-          "goalsAgainst": 6,
-          "goalDifference": -5
+          "goalsAgainst": 8,
+          "goalDifference": -7
         }
       ]
     },
@@ -860,11 +860,11 @@
             "tla": "ENG",
             "crest": "https://crests.football-data.org/770.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 4,
           "goalsAgainst": 2,
           "goalDifference": 2
@@ -878,11 +878,11 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 1,
           "goalsAgainst": 0,
           "goalDifference": 1
