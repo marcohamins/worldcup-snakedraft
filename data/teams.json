@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T00:15:19.358Z",
+  "lastUpdated": "2026-06-24T04:41:12.412Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -321,7 +321,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -1022,7 +1022,7 @@
         "draws": 1,
         "losses": 0
       },
-      "groupPosition": 1,
+      "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
@@ -2591,13 +2591,13 @@
       "owner": "Dylan",
       "group": "Group L",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 1
       },
-      "groupPosition": 4,
+      "groupPosition": 3,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
         "id": 537414,
         "utcDate": "2026-06-27T21:00:00Z",
@@ -2627,20 +2627,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 0,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 2,
+        "goalsFor": 3,
         "goalsAgainst": 4,
-        "goalDifference": -2,
+        "goalDifference": -1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2674,7 +2674,7 @@
         {
           "id": 537412,
           "utcDate": "2026-06-23T23:00:00Z",
-          "status": "LIVE",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 2,
@@ -2693,8 +2693,8 @@
             "crest": "https://crests.football-data.org/799.svg"
           },
           "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         },
         {
@@ -3449,20 +3449,20 @@
       "owner": "Davis",
       "group": "Group K",
       "groupRecord": {
-        "wins": 1,
+        "wins": 2,
         "draws": 0,
         "losses": 0
       },
-      "groupPosition": 2,
+      "groupPosition": 1,
       "groupComplete": false,
-      "matchesPlayed": 1,
+      "matchesPlayed": 2,
       "upcomingMatch": {
-        "id": 537406,
-        "utcDate": "2026-06-24T02:00:00Z",
+        "id": 537407,
+        "utcDate": "2026-06-27T23:30:00Z",
         "status": "TIMED",
         "stage": "GROUP_STAGE",
         "group": "Group K",
-        "matchday": 2,
+        "matchday": 3,
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
@@ -3471,11 +3471,11 @@
           "crest": "https://crests.football-data.org/818.svg"
         },
         "awayTeam": {
-          "id": 1934,
-          "name": "Congo DR",
-          "shortName": "Congo DR",
-          "tla": "COD",
-          "crest": "https://crests.football-data.org/congo_dr.svg"
+          "id": 765,
+          "name": "Portugal",
+          "shortName": "Portugal",
+          "tla": "POR",
+          "crest": "https://crests.football-data.org/765.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -3485,20 +3485,20 @@
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 3,
+      "score": 6,
       "scoreBreakdown": {
-        "groupWins": 1,
+        "groupWins": 2,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 3
+        "total": 6
       },
       "matchStats": {
-        "goalsFor": 3,
+        "goalsFor": 4,
         "goalsAgainst": 1,
-        "goalDifference": 2,
+        "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3532,7 +3532,7 @@
         {
           "id": 537406,
           "utcDate": "2026-06-24T02:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group K",
           "matchday": 2,
@@ -3550,9 +3550,9 @@
             "tla": "COD",
             "crest": "https://crests.football-data.org/congo_dr.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         },
         {

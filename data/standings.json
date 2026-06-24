@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T00:15:19.359Z",
+  "lastUpdated": "2026-06-24T04:41:12.412Z",
   "groups": [
     {
       "group": "Group A",
@@ -777,6 +777,24 @@
         {
           "position": 1,
           "team": {
+            "id": 818,
+            "name": "Colombia",
+            "shortName": "Colombia",
+            "tla": "COL",
+            "crest": "https://crests.football-data.org/818.svg"
+          },
+          "playedGames": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "points": 6,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3
+        },
+        {
+          "position": 2,
+          "team": {
             "id": 765,
             "name": "Portugal",
             "shortName": "Portugal",
@@ -793,24 +811,6 @@
           "goalDifference": 5
         },
         {
-          "position": 2,
-          "team": {
-            "id": 818,
-            "name": "Colombia",
-            "shortName": "Colombia",
-            "tla": "COL",
-            "crest": "https://crests.football-data.org/818.svg"
-          },
-          "playedGames": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "points": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2
-        },
-        {
           "position": 3,
           "team": {
             "id": 1934,
@@ -819,14 +819,14 @@
             "tla": "COD",
             "crest": "https://crests.football-data.org/congo_dr.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalsAgainst": 2,
+          "goalDifference": -1
         },
         {
           "position": 4,
@@ -890,6 +890,24 @@
         {
           "position": 3,
           "team": {
+            "id": 799,
+            "name": "Croatia",
+            "shortName": "Croatia",
+            "tla": "CRO",
+            "crest": "https://crests.football-data.org/799.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1
+        },
+        {
+          "position": 4,
+          "team": {
             "id": 1836,
             "name": "Panama",
             "shortName": "Panama",
@@ -898,29 +916,11 @@
           },
           "playedGames": 2,
           "won": 0,
-          "draw": 1,
-          "lost": 1,
-          "points": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 0,
           "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": 799,
-            "name": "Croatia",
-            "shortName": "Croatia",
-            "tla": "CRO",
-            "crest": "https://crests.football-data.org/799.svg"
-          },
-          "playedGames": 2,
-          "won": 0,
-          "draw": 1,
-          "lost": 1,
-          "points": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
+          "goalsAgainst": 2,
           "goalDifference": -2
         }
       ]
