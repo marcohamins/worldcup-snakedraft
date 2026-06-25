@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T17:56:37.510Z",
+  "lastUpdated": "2026-06-25T20:04:41.102Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -193,7 +193,7 @@
         "winner": null,
         "bookings": []
       },
-      "knockoutStage": null,
+      "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
       "score": 6,
@@ -291,6 +291,32 @@
           "awayScore": null,
           "winner": null,
           "bookings": []
+        },
+        {
+          "id": 537415,
+          "utcDate": "2026-06-29T20:30:00Z",
+          "status": "TIMED",
+          "stage": "LAST_32",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 759,
+            "name": "Germany",
+            "shortName": "Germany",
+            "tla": "GER",
+            "crest": "https://crests.football-data.org/759.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -321,7 +347,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -420,7 +446,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URY",
+            "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -622,7 +648,7 @@
         "winner": null,
         "bookings": []
       },
-      "knockoutStage": null,
+      "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
       "score": 6,
@@ -715,6 +741,32 @@
             "shortName": "Argentina",
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537427,
+          "utcDate": "2026-07-03T22:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_32",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 762,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "tla": "ARG",
+            "crest": "https://crests.football-data.org/762.png"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
           },
           "homeScore": null,
           "awayScore": null,
@@ -1286,8 +1338,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": null,
-      "knockoutStage": null,
+      "upcomingMatch": {
+        "id": 537425,
+        "utcDate": "2026-07-01T01:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_32",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 769,
+          "name": "Mexico",
+          "shortName": "Mexico",
+          "tla": "MEX",
+          "crest": "https://crests.football-data.org/769.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
       "score": 12,
@@ -1384,6 +1461,32 @@
           "homeScore": 0,
           "awayScore": 3,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537425,
+          "utcDate": "2026-07-01T01:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_32",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 769,
+            "name": "Mexico",
+            "shortName": "Mexico",
+            "tla": "MEX",
+            "crest": "https://crests.football-data.org/769.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -1573,7 +1676,7 @@
         "winner": null,
         "bookings": []
       },
-      "knockoutStage": null,
+      "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
       "score": 6,
@@ -1666,6 +1769,32 @@
             "shortName": "USA",
             "tla": "USA",
             "crest": "https://crests.football-data.org/usa.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
+        },
+        {
+          "id": 537421,
+          "utcDate": "2026-07-02T00:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_32",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 771,
+            "name": "United States",
+            "shortName": "USA",
+            "tla": "USA",
+            "crest": "https://crests.football-data.org/usa.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
           },
           "homeScore": null,
           "awayScore": null,
