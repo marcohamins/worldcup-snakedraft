@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:52:50.231Z",
+  "lastUpdated": "2026-06-25T00:02:10.684Z",
   "groups": [
     {
       "group": "Group A",
@@ -172,9 +172,9 @@
           "draw": 1,
           "lost": 0,
           "points": 7,
-          "goalsFor": 5,
+          "goalsFor": 7,
           "goalsAgainst": 1,
-          "goalDifference": 4
+          "goalDifference": 6
         },
         {
           "position": 2,
@@ -186,13 +186,13 @@
             "crest": "https://crests.football-data.org/morocco.svg"
           },
           "playedGames": 3,
-          "won": 1,
+          "won": 2,
           "draw": 1,
-          "lost": 1,
-          "points": 4,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0
+          "lost": 0,
+          "points": 7,
+          "goalsFor": 6,
+          "goalsAgainst": 3,
+          "goalDifference": 3
         },
         {
           "position": 3,
@@ -209,8 +209,8 @@
           "lost": 2,
           "points": 3,
           "goalsFor": 1,
-          "goalsAgainst": 2,
-          "goalDifference": -1
+          "goalsAgainst": 4,
+          "goalDifference": -3
         },
         {
           "position": 4,
@@ -222,13 +222,13 @@
             "crest": "https://crests.football-data.org/haiti.svg"
           },
           "playedGames": 3,
-          "won": 1,
+          "won": 0,
           "draw": 0,
-          "lost": 2,
-          "points": 3,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "goalDifference": -3
+          "lost": 3,
+          "points": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 8,
+          "goalDifference": -6
         }
       ]
     },

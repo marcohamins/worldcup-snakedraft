@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:52:50.230Z",
+  "lastUpdated": "2026-06-25T00:02:10.683Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -959,7 +959,7 @@
         {
           "id": 537343,
           "utcDate": "2026-06-24T22:00:00Z",
-          "status": "LIVE",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group C",
           "matchday": 3,
@@ -978,7 +978,7 @@
             "crest": "https://crests.football-data.org/764.svg"
           },
           "homeScore": 0,
-          "awayScore": 2,
+          "awayScore": 3,
           "winner": "AWAY",
           "bookings": []
         }
@@ -3197,7 +3197,7 @@
         {
           "id": 537344,
           "utcDate": "2026-06-24T22:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group C",
           "matchday": 3,
@@ -3215,9 +3215,9 @@
             "tla": "HAI",
             "crest": "https://crests.football-data.org/haiti.svg"
           },
-          "homeScore": 2,
+          "homeScore": 4,
           "awayScore": 2,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -4434,7 +4434,7 @@
         {
           "id": 537343,
           "utcDate": "2026-06-24T22:00:00Z",
-          "status": "LIVE",
+          "status": "PAUSED",
           "stage": "GROUP_STAGE",
           "group": "Group C",
           "matchday": 3,
@@ -4453,7 +4453,7 @@
             "crest": "https://crests.football-data.org/764.svg"
           },
           "homeScore": 0,
-          "awayScore": 2,
+          "awayScore": 3,
           "winner": "AWAY",
           "bookings": []
         }
