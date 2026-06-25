@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T20:04:41.102Z",
+  "lastUpdated": "2026-06-25T21:51:30.786Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -168,25 +168,25 @@
       "groupComplete": false,
       "matchesPlayed": 2,
       "upcomingMatch": {
-        "id": 537355,
-        "utcDate": "2026-06-25T20:00:00Z",
+        "id": 537415,
+        "utcDate": "2026-06-29T20:30:00Z",
         "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group E",
-        "matchday": 3,
+        "stage": "LAST_32",
+        "group": null,
+        "matchday": null,
         "homeTeam": {
-          "id": 791,
-          "name": "Ecuador",
-          "shortName": "Ecuador",
-          "tla": "ECU",
-          "crest": "https://crests.football-data.org/791.svg"
-        },
-        "awayTeam": {
           "id": 759,
           "name": "Germany",
           "shortName": "Germany",
           "tla": "GER",
           "crest": "https://crests.football-data.org/759.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
         },
         "homeScore": null,
         "awayScore": null,
@@ -269,7 +269,7 @@
         {
           "id": 537355,
           "utcDate": "2026-06-25T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 3,
@@ -287,9 +287,9 @@
             "tla": "GER",
             "crest": "https://crests.football-data.org/759.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         },
         {
@@ -2341,32 +2341,7 @@
       "groupPosition": 3,
       "groupComplete": false,
       "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537355,
-        "utcDate": "2026-06-25T20:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group E",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 791,
-          "name": "Ecuador",
-          "shortName": "Ecuador",
-          "tla": "ECU",
-          "crest": "https://crests.football-data.org/791.svg"
-        },
-        "awayTeam": {
-          "id": 759,
-          "name": "Germany",
-          "shortName": "Germany",
-          "tla": "GER",
-          "crest": "https://crests.football-data.org/759.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
@@ -2443,7 +2418,7 @@
         {
           "id": 537355,
           "utcDate": "2026-06-25T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 3,
@@ -2461,9 +2436,9 @@
             "tla": "GER",
             "crest": "https://crests.football-data.org/759.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3982,32 +3957,7 @@
       "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537356,
-        "utcDate": "2026-06-25T20:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group E",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 9460,
-          "name": "Curaçao",
-          "shortName": "Curaçao",
-          "tla": "CUW",
-          "crest": "https://crests.football-data.org/curacao.svg"
-        },
-        "awayTeam": {
-          "id": 1935,
-          "name": "Ivory Coast",
-          "shortName": "Ivory Coast",
-          "tla": "CIV",
-          "crest": "https://crests.football-data.org/787.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
@@ -4084,7 +4034,7 @@
         {
           "id": 537356,
           "utcDate": "2026-06-25T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group E",
           "matchday": 3,
@@ -4102,9 +4052,9 @@
             "tla": "CIV",
             "crest": "https://crests.football-data.org/787.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
