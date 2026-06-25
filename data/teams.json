@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T15:45:22.333Z",
+  "lastUpdated": "2026-06-25T17:56:37.510Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -35,7 +35,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -89,7 +89,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "homeScore": 1,
@@ -108,7 +108,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -134,7 +134,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
@@ -321,7 +321,7 @@
           "id": 758,
           "name": "Uruguay",
           "shortName": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg"
         },
         "awayTeam": {
@@ -420,7 +420,7 @@
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
-            "tla": "URU",
+            "tla": "URY",
             "crest": "https://crests.football-data.org/758.svg"
           },
           "awayTeam": {
