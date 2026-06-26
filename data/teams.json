@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T00:22:12.638Z",
+  "lastUpdated": "2026-06-26T04:48:18.240Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -422,50 +422,25 @@
       "group": "Group D",
       "groupRecord": {
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1
       },
       "groupPosition": 3,
-      "groupComplete": false,
-      "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537350,
-        "utcDate": "2026-06-26T02:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group D",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 761,
-          "name": "Paraguay",
-          "shortName": "Paraguay",
-          "tla": "PAR",
-          "crest": "https://crests.football-data.org/761.svg"
-        },
-        "awayTeam": {
-          "id": 779,
-          "name": "Australia",
-          "shortName": "Australia",
-          "tla": "AUS",
-          "crest": "https://crests.football-data.org/779.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "groupComplete": true,
+      "matchesPlayed": 3,
+      "upcomingMatch": null,
       "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
-      "score": 3,
+      "eliminated": true,
+      "remaining": false,
+      "score": 4,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 0,
+        "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 3
+        "total": 4
       },
       "matchStats": {
         "goalsFor": 2,
@@ -530,7 +505,7 @@
         {
           "id": 537350,
           "utcDate": "2026-06-26T02:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 3,
@@ -548,9 +523,9 @@
             "tla": "AUS",
             "crest": "https://crests.football-data.org/779.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -1112,29 +1087,29 @@
       "group": "Group F",
       "groupRecord": {
         "wins": 1,
-        "draws": 1,
+        "draws": 2,
         "losses": 0
       },
       "groupPosition": 2,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 7,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 1,
+        "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
-        "groupSecondPlaceBonus": 0,
+        "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 7
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
         "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
@@ -1195,7 +1170,7 @@
         {
           "id": 537362,
           "utcDate": "2026-06-25T23:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group F",
           "matchday": 3,
@@ -1214,8 +1189,8 @@
             "crest": "https://crests.football-data.org/792.svg"
           },
           "homeScore": 1,
-          "awayScore": 0,
-          "winner": "HOME",
+          "awayScore": 1,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -1492,54 +1467,29 @@
       "groupRecord": {
         "wins": 2,
         "draws": 0,
-        "losses": 0
+        "losses": 1
       },
       "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537349,
-        "utcDate": "2026-06-26T02:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group D",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 803,
-          "name": "Turkey",
-          "shortName": "Turkey",
-          "tla": "TUR",
-          "crest": "https://crests.football-data.org/803.svg"
-        },
-        "awayTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "groupComplete": true,
+      "matchesPlayed": 3,
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 6,
+      "score": 9,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 0,
-        "groupFirstPlaceBonus": 0,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 6
+        "total": 9
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 1,
-        "goalDifference": 5,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
+        "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1599,7 +1549,7 @@
         {
           "id": 537349,
           "utcDate": "2026-06-26T02:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 3,
@@ -1617,9 +1567,9 @@
             "tla": "USA",
             "crest": "https://crests.football-data.org/usa.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 3,
+          "awayScore": 2,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -2534,56 +2484,31 @@
       "owner": "Davis",
       "group": "Group D",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 2
       },
       "groupPosition": 4,
-      "groupComplete": false,
-      "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537349,
-        "utcDate": "2026-06-26T02:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group D",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 803,
-          "name": "Turkey",
-          "shortName": "Turkey",
-          "tla": "TUR",
-          "crest": "https://crests.football-data.org/803.svg"
-        },
-        "awayTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "groupComplete": true,
+      "matchesPlayed": 3,
+      "upcomingMatch": null,
       "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
-      "score": 0,
+      "eliminated": true,
+      "remaining": false,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 0,
-        "goalsAgainst": 3,
-        "goalDifference": -3,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": -2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2643,7 +2568,7 @@
         {
           "id": 537349,
           "utcDate": "2026-06-26T02:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group D",
           "matchday": 3,
@@ -2661,9 +2586,9 @@
             "tla": "USA",
             "crest": "https://crests.football-data.org/usa.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 3,
+          "awayScore": 2,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3889,31 +3814,31 @@
       "owner": "Jackson",
       "group": "Group F",
       "groupRecord": {
-        "wins": 1,
+        "wins": 2,
         "draws": 1,
         "losses": 0
       },
       "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 10,
       "scoreBreakdown": {
-        "groupWins": 1,
+        "groupWins": 2,
         "groupDraws": 1,
-        "groupFirstPlaceBonus": 0,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 10
       },
       "matchStats": {
-        "goalsFor": 7,
-        "goalsAgainst": 3,
-        "goalDifference": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3973,7 +3898,7 @@
         {
           "id": 537361,
           "utcDate": "2026-06-25T23:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group F",
           "matchday": 3,
@@ -3992,7 +3917,7 @@
             "crest": "https://crests.football-data.org/8601.svg"
           },
           "homeScore": 1,
-          "awayScore": 2,
+          "awayScore": 3,
           "winner": "AWAY",
           "bookings": []
         }
