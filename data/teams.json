@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T19:17:55.408Z",
+  "lastUpdated": "2026-06-26T20:59:58.625Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2066,7 +2066,7 @@
         {
           "id": 537395,
           "utcDate": "2026-06-26T19:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 3,
@@ -2084,8 +2084,8 @@
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg"
           },
-          "homeScore": 0,
-          "awayScore": 1,
+          "homeScore": 1,
+          "awayScore": 3,
           "winner": "AWAY",
           "bookings": []
         }
@@ -2993,7 +2993,7 @@
         {
           "id": 537396,
           "utcDate": "2026-06-26T19:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 3,
@@ -3011,7 +3011,7 @@
             "tla": "IRQ",
             "crest": "https://crests.football-data.org/iraq.svg"
           },
-          "homeScore": 1,
+          "homeScore": 5,
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
@@ -4451,7 +4451,7 @@
         {
           "id": 537395,
           "utcDate": "2026-06-26T19:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 3,
@@ -4469,8 +4469,8 @@
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg"
           },
-          "homeScore": 0,
-          "awayScore": 1,
+          "homeScore": 1,
+          "awayScore": 3,
           "winner": "AWAY",
           "bookings": []
         }
