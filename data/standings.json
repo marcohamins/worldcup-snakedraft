@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T17:24:20.200Z",
+  "lastUpdated": "2026-06-26T19:17:55.408Z",
   "groups": [
     {
       "group": "Group A",
@@ -629,11 +629,11 @@
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 2,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 6,
+          "points": 7,
           "goalsFor": 6,
           "goalsAgainst": 1,
           "goalDifference": 5
@@ -647,11 +647,11 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 2,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 6,
+          "points": 7,
           "goalsFor": 7,
           "goalsAgainst": 3,
           "goalDifference": 4
@@ -665,11 +665,11 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
-          "points": 0,
+          "points": 1,
           "goalsFor": 3,
           "goalsAgainst": 6,
           "goalDifference": -3
@@ -683,11 +683,11 @@
             "tla": "IRQ",
             "crest": "https://crests.football-data.org/iraq.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
-          "points": 0,
+          "points": 1,
           "goalsFor": 1,
           "goalsAgainst": 7,
           "goalDifference": -6
