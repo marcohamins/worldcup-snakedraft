@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T20:59:58.625Z",
+  "lastUpdated": "2026-06-26T22:21:06.431Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1982,31 +1982,31 @@
       "owner": "Peter",
       "group": "Group I",
       "groupRecord": {
-        "wins": 2,
+        "wins": 3,
         "draws": 0,
         "losses": 0
       },
       "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 6,
+      "score": 12,
       "scoreBreakdown": {
-        "groupWins": 2,
+        "groupWins": 3,
         "groupDraws": 0,
-        "groupFirstPlaceBonus": 0,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 6
+        "total": 12
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 1,
-        "goalDifference": 5,
+        "goalsFor": 10,
+        "goalsAgainst": 2,
+        "goalDifference": 8,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2066,7 +2066,7 @@
         {
           "id": 537395,
           "utcDate": "2026-06-26T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 3,
@@ -2085,7 +2085,7 @@
             "crest": "https://crests.football-data.org/773.svg"
           },
           "homeScore": 1,
-          "awayScore": 3,
+          "awayScore": 4,
           "winner": "AWAY",
           "bookings": []
         }
@@ -2909,31 +2909,31 @@
       "owner": "Dylan",
       "group": "Group I",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 2
       },
       "groupPosition": 3,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
-      "score": 0,
+      "eliminated": true,
+      "remaining": false,
+      "score": 3,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 0
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 3,
+        "goalsFor": 8,
         "goalsAgainst": 6,
-        "goalDifference": -3,
+        "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2993,7 +2993,7 @@
         {
           "id": 537396,
           "utcDate": "2026-06-26T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 3,
@@ -4369,29 +4369,29 @@
       "groupRecord": {
         "wins": 2,
         "draws": 0,
-        "losses": 0
+        "losses": 1
       },
       "groupPosition": 2,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 6,
+      "score": 8,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
-        "groupSecondPlaceBonus": 0,
+        "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 6
+        "total": 8
       },
       "matchStats": {
-        "goalsFor": 7,
-        "goalsAgainst": 3,
-        "goalDifference": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 7,
+        "goalDifference": 1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4451,7 +4451,7 @@
         {
           "id": 537395,
           "utcDate": "2026-06-26T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group I",
           "matchday": 3,
@@ -4470,7 +4470,7 @@
             "crest": "https://crests.football-data.org/773.svg"
           },
           "homeScore": 1,
-          "awayScore": 3,
+          "awayScore": 4,
           "winner": "AWAY",
           "bookings": []
         }
