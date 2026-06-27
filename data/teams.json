@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T21:15:48.650Z",
+  "lastUpdated": "2026-06-27T22:32:10.644Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -793,7 +793,7 @@
         {
           "id": 537414,
           "utcDate": "2026-06-27T21:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 3,
@@ -811,9 +811,9 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -1580,8 +1580,8 @@
             "crest": "https://crests.football-data.org/770.svg"
           },
           "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "awayScore": 2,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -2632,7 +2632,7 @@
         {
           "id": 537414,
           "utcDate": "2026-06-27T21:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 3,
@@ -2650,9 +2650,9 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
