@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:32:10.644Z",
+  "lastUpdated": "2026-06-27T23:37:20.132Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -711,15 +711,15 @@
       "groupRecord": {
         "wins": 1,
         "draws": 1,
-        "losses": 0
+        "losses": 1
       },
-      "groupPosition": 2,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupPosition": 3,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 4,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -731,9 +731,9 @@
         "total": 4
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 0,
-        "goalDifference": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -793,7 +793,7 @@
         {
           "id": 537414,
           "utcDate": "2026-06-27T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 3,
@@ -811,8 +811,8 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "homeScore": 1,
-          "awayScore": 0,
+          "homeScore": 2,
+          "awayScore": 1,
           "winner": "HOME",
           "bookings": []
         }
@@ -1003,32 +1003,7 @@
       "groupPosition": 2,
       "groupComplete": false,
       "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537407,
-        "utcDate": "2026-06-27T23:30:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group K",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 818,
-          "name": "Colombia",
-          "shortName": "Colombia",
-          "tla": "COL",
-          "crest": "https://crests.football-data.org/818.svg"
-        },
-        "awayTeam": {
-          "id": 765,
-          "name": "Portugal",
-          "shortName": "Portugal",
-          "tla": "POR",
-          "crest": "https://crests.football-data.org/765.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
@@ -1105,7 +1080,7 @@
         {
           "id": 537407,
           "utcDate": "2026-06-27T23:30:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "GROUP_STAGE",
           "group": "Group K",
           "matchday": 3,
@@ -1123,9 +1098,9 @@
             "tla": "POR",
             "crest": "https://crests.football-data.org/765.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -1477,31 +1452,31 @@
       "owner": "Chris",
       "group": "Group L",
       "groupRecord": {
-        "wins": 1,
+        "wins": 2,
         "draws": 1,
         "losses": 0
       },
       "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 10,
       "scoreBreakdown": {
-        "groupWins": 1,
+        "groupWins": 2,
         "groupDraws": 1,
-        "groupFirstPlaceBonus": 0,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 10
       },
       "matchStats": {
-        "goalsFor": 4,
+        "goalsFor": 6,
         "goalsAgainst": 2,
-        "goalDifference": 2,
+        "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1561,7 +1536,7 @@
         {
           "id": 537413,
           "utcDate": "2026-06-27T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 3,
@@ -2548,31 +2523,31 @@
       "owner": "Dylan",
       "group": "Group L",
       "groupRecord": {
-        "wins": 1,
+        "wins": 2,
         "draws": 0,
         "losses": 1
       },
-      "groupPosition": 3,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupPosition": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 3,
+      "score": 8,
       "scoreBreakdown": {
-        "groupWins": 1,
+        "groupWins": 2,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
-        "groupSecondPlaceBonus": 0,
+        "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 3
+        "total": 8
       },
       "matchStats": {
-        "goalsFor": 3,
-        "goalsAgainst": 4,
-        "goalDifference": -1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2632,7 +2607,7 @@
         {
           "id": 537414,
           "utcDate": "2026-06-27T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group L",
           "matchday": 3,
@@ -2650,8 +2625,8 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "homeScore": 1,
-          "awayScore": 0,
+          "homeScore": 2,
+          "awayScore": 1,
           "winner": "HOME",
           "bookings": []
         }
@@ -3339,32 +3314,7 @@
       "groupPosition": 1,
       "groupComplete": false,
       "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537407,
-        "utcDate": "2026-06-27T23:30:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group K",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 818,
-          "name": "Colombia",
-          "shortName": "Colombia",
-          "tla": "COL",
-          "crest": "https://crests.football-data.org/818.svg"
-        },
-        "awayTeam": {
-          "id": 765,
-          "name": "Portugal",
-          "shortName": "Portugal",
-          "tla": "POR",
-          "crest": "https://crests.football-data.org/765.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
@@ -3441,7 +3391,7 @@
         {
           "id": 537407,
           "utcDate": "2026-06-27T23:30:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "GROUP_STAGE",
           "group": "Group K",
           "matchday": 3,
@@ -3459,9 +3409,9 @@
             "tla": "POR",
             "crest": "https://crests.football-data.org/765.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
