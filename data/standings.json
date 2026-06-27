@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T20:01:10.361Z",
+  "lastUpdated": "2026-06-27T21:15:48.650Z",
   "groups": [
     {
       "group": "Group A",
@@ -860,11 +860,11 @@
             "tla": "ENG",
             "crest": "https://crests.football-data.org/770.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "points": 4,
+          "points": 5,
           "goalsFor": 4,
           "goalsAgainst": 2,
           "goalDifference": 2
@@ -878,11 +878,11 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "points": 4,
+          "points": 5,
           "goalsFor": 1,
           "goalsAgainst": 0,
           "goalDifference": 1
@@ -896,11 +896,11 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 3,
+          "points": 4,
           "goalsFor": 3,
           "goalsAgainst": 4,
           "goalDifference": -1
@@ -914,11 +914,11 @@
             "tla": "PAN",
             "crest": "https://crests.football-data.org/panama.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 2,
           "goalDifference": -2
