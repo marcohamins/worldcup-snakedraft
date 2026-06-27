@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T01:34:47.781Z",
+  "lastUpdated": "2026-06-27T05:36:39.019Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -19,15 +19,15 @@
       "groupRecord": {
         "wins": 0,
         "draws": 2,
-        "losses": 0
+        "losses": 1
       },
-      "groupPosition": 2,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupPosition": 3,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 2,
       "scoreBreakdown": {
         "groupWins": 0,
@@ -40,8 +40,8 @@
       },
       "matchStats": {
         "goalsFor": 3,
-        "goalsAgainst": 3,
-        "goalDifference": 0,
+        "goalsAgainst": 4,
+        "goalDifference": -1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -101,7 +101,7 @@
         {
           "id": 537373,
           "utcDate": "2026-06-27T00:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group H",
           "matchday": 3,
@@ -142,33 +142,8 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537415,
-        "utcDate": "2026-06-29T20:30:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 759,
-          "name": "Germany",
-          "shortName": "Germany",
-          "tla": "GER",
-          "crest": "https://crests.football-data.org/759.svg"
-        },
-        "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 9,
@@ -266,32 +241,6 @@
           "awayScore": 1,
           "winner": "HOME",
           "bookings": []
-        },
-        {
-          "id": 537415,
-          "utcDate": "2026-06-29T20:30:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 759,
-            "name": "Germany",
-            "shortName": "Germany",
-            "tla": "GER",
-            "crest": "https://crests.football-data.org/759.svg"
-          },
-          "awayTeam": {
-            "id": null,
-            "name": null,
-            "shortName": null,
-            "tla": null,
-            "crest": null
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
         }
       ]
     },
@@ -304,31 +253,31 @@
       "owner": "Marco",
       "group": "Group H",
       "groupRecord": {
-        "wins": 1,
+        "wins": 2,
         "draws": 1,
         "losses": 0
       },
       "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 10,
       "scoreBreakdown": {
-        "groupWins": 1,
+        "groupWins": 2,
         "groupDraws": 1,
-        "groupFirstPlaceBonus": 0,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 10
       },
       "matchStats": {
-        "goalsFor": 4,
+        "goalsFor": 5,
         "goalsAgainst": 0,
-        "goalDifference": 4,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -388,7 +337,7 @@
         {
           "id": 537373,
           "utcDate": "2026-06-27T00:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group H",
           "matchday": 3,
@@ -573,7 +522,7 @@
         "winner": null,
         "bookings": []
       },
-      "knockoutStage": "Last 32",
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 6,
@@ -666,32 +615,6 @@
             "shortName": "Argentina",
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
-        },
-        {
-          "id": 537427,
-          "utcDate": "2026-07-03T22:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 762,
-            "name": "Argentina",
-            "shortName": "Argentina",
-            "tla": "ARG",
-            "crest": "https://crests.football-data.org/762.png"
-          },
-          "awayTeam": {
-            "id": null,
-            "name": null,
-            "shortName": null,
-            "tla": null,
-            "crest": null
           },
           "homeScore": null,
           "awayScore": null,
@@ -859,33 +782,8 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537423,
-        "utcDate": "2026-06-29T17:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 764,
-          "name": "Brazil",
-          "shortName": "Brazil",
-          "tla": "BRA",
-          "crest": "https://crests.football-data.org/764.svg"
-        },
-        "awayTeam": {
-          "id": 766,
-          "name": "Japan",
-          "shortName": "Japan",
-          "tla": "JPN",
-          "crest": "https://crests.football-data.org/766.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 10,
@@ -982,32 +880,6 @@
           "homeScore": 0,
           "awayScore": 3,
           "winner": "AWAY",
-          "bookings": []
-        },
-        {
-          "id": 537423,
-          "utcDate": "2026-06-29T17:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 764,
-            "name": "Brazil",
-            "shortName": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg"
-          },
-          "awayTeam": {
-            "id": 766,
-            "name": "Japan",
-            "shortName": "Japan",
-            "tla": "JPN",
-            "crest": "https://crests.football-data.org/766.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
           "bookings": []
         }
       ]
@@ -1171,33 +1043,8 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537423,
-        "utcDate": "2026-06-29T17:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 764,
-          "name": "Brazil",
-          "shortName": "Brazil",
-          "tla": "BRA",
-          "crest": "https://crests.football-data.org/764.svg"
-        },
-        "awayTeam": {
-          "id": 766,
-          "name": "Japan",
-          "shortName": "Japan",
-          "tla": "JPN",
-          "crest": "https://crests.football-data.org/766.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 7,
@@ -1295,32 +1142,6 @@
           "awayScore": 1,
           "winner": "DRAW",
           "bookings": []
-        },
-        {
-          "id": 537423,
-          "utcDate": "2026-06-29T17:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 764,
-            "name": "Brazil",
-            "shortName": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg"
-          },
-          "awayTeam": {
-            "id": 766,
-            "name": "Japan",
-            "shortName": "Japan",
-            "tla": "JPN",
-            "crest": "https://crests.football-data.org/766.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
         }
       ]
     },
@@ -1340,33 +1161,8 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537425,
-        "utcDate": "2026-07-01T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 769,
-          "name": "Mexico",
-          "shortName": "Mexico",
-          "tla": "MEX",
-          "crest": "https://crests.football-data.org/769.svg"
-        },
-        "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 12,
@@ -1463,32 +1259,6 @@
           "homeScore": 0,
           "awayScore": 3,
           "winner": "AWAY",
-          "bookings": []
-        },
-        {
-          "id": 537425,
-          "utcDate": "2026-07-01T01:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 769,
-            "name": "Mexico",
-            "shortName": "Mexico",
-            "tla": "MEX",
-            "crest": "https://crests.football-data.org/769.svg"
-          },
-          "awayTeam": {
-            "id": null,
-            "name": null,
-            "shortName": null,
-            "tla": null,
-            "crest": null
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
           "bookings": []
         }
       ]
@@ -1652,33 +1422,8 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537421,
-        "utcDate": "2026-07-02T00:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
-        },
-        "awayTeam": {
-          "id": 1060,
-          "name": "Bosnia-Herzegovina",
-          "shortName": "Bosnia-H.",
-          "tla": "BIH",
-          "crest": "https://crests.football-data.org/bosnia.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 9,
@@ -1775,32 +1520,6 @@
           "homeScore": 3,
           "awayScore": 2,
           "winner": "HOME",
-          "bookings": []
-        },
-        {
-          "id": 537421,
-          "utcDate": "2026-07-02T00:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 771,
-            "name": "United States",
-            "shortName": "USA",
-            "tla": "USA",
-            "crest": "https://crests.football-data.org/usa.svg"
-          },
-          "awayTeam": {
-            "id": 1060,
-            "name": "Bosnia-Herzegovina",
-            "shortName": "Bosnia-H.",
-            "tla": "BIH",
-            "crest": "https://crests.football-data.org/bosnia.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
           "bookings": []
         }
       ]
@@ -2200,33 +1919,8 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537429,
-        "utcDate": "2026-07-03T03:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 10,
@@ -2323,32 +2017,6 @@
           "homeScore": 2,
           "awayScore": 1,
           "winner": "HOME",
-          "bookings": []
-        },
-        {
-          "id": 537429,
-          "utcDate": "2026-07-03T03:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 788,
-            "name": "Switzerland",
-            "shortName": "Switzerland",
-            "tla": "SUI",
-            "crest": "https://crests.football-data.org/788.svg"
-          },
-          "awayTeam": {
-            "id": null,
-            "name": null,
-            "shortName": null,
-            "tla": null,
-            "crest": null
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
           "bookings": []
         }
       ]
@@ -2977,56 +2645,31 @@
       "owner": "Peter",
       "group": "Group G",
       "groupRecord": {
-        "wins": 0,
+        "wins": 1,
         "draws": 2,
         "losses": 0
       },
-      "groupPosition": 3,
-      "groupComplete": false,
-      "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537367,
-        "utcDate": "2026-06-27T03:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group G",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 783,
-          "name": "New Zealand",
-          "shortName": "New Zealand",
-          "tla": "NZL",
-          "crest": "https://crests.football-data.org/783.svg"
-        },
-        "awayTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "groupPosition": 1,
+      "groupComplete": true,
+      "matchesPlayed": 3,
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 2,
+      "score": 8,
       "scoreBreakdown": {
-        "groupWins": 0,
+        "groupWins": 1,
         "groupDraws": 2,
-        "groupFirstPlaceBonus": 0,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 2
+        "total": 8
       },
       "matchStats": {
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "goalDifference": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3086,7 +2729,7 @@
         {
           "id": 537367,
           "utcDate": "2026-06-27T03:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 3,
@@ -3104,9 +2747,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 5,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -3127,33 +2770,8 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537418,
-        "utcDate": "2026-06-30T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 8601,
-          "name": "Netherlands",
-          "shortName": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 9,
@@ -3250,32 +2868,6 @@
           "homeScore": 4,
           "awayScore": 2,
           "winner": "HOME",
-          "bookings": []
-        },
-        {
-          "id": 537418,
-          "utcDate": "2026-06-30T01:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 8601,
-            "name": "Netherlands",
-            "shortName": "Netherlands",
-            "tla": "NED",
-            "crest": "https://crests.football-data.org/8601.svg"
-          },
-          "awayTeam": {
-            "id": 815,
-            "name": "Morocco",
-            "shortName": "Morocco",
-            "tla": "MAR",
-            "crest": "https://crests.football-data.org/morocco.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
           "bookings": []
         }
       ]
@@ -3576,54 +3168,29 @@
       "group": "Group G",
       "groupRecord": {
         "wins": 1,
-        "draws": 1,
+        "draws": 2,
         "losses": 0
       },
-      "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537368,
-        "utcDate": "2026-06-27T03:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group G",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 825,
-          "name": "Egypt",
-          "shortName": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg"
-        },
-        "awayTeam": {
-          "id": 840,
-          "name": "Iran",
-          "shortName": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "groupPosition": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
+      "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 7,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 1,
+        "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
-        "groupSecondPlaceBonus": 0,
+        "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 7
       },
       "matchStats": {
-        "goalsFor": 4,
-        "goalsAgainst": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
         "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
@@ -3684,7 +3251,7 @@
         {
           "id": 537368,
           "utcDate": "2026-06-27T03:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 3,
@@ -3702,9 +3269,9 @@
             "tla": "IRN",
             "crest": "https://crests.football-data.org/iran.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -3725,33 +3292,8 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537417,
-        "utcDate": "2026-06-28T19:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 774,
-          "name": "South Africa",
-          "shortName": "South Africa",
-          "tla": "RSA",
-          "crest": "https://crests.football-data.org/9396.svg"
-        },
-        "awayTeam": {
-          "id": 828,
-          "name": "Canada",
-          "shortName": "Canada",
-          "tla": "CAN",
-          "crest": "https://crests.football-data.org/canada.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 6,
@@ -3849,32 +3391,6 @@
           "awayScore": 1,
           "winner": "HOME",
           "bookings": []
-        },
-        {
-          "id": 537417,
-          "utcDate": "2026-06-28T19:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 774,
-            "name": "South Africa",
-            "shortName": "South Africa",
-            "tla": "RSA",
-            "crest": "https://crests.football-data.org/9396.svg"
-          },
-          "awayTeam": {
-            "id": 828,
-            "name": "Canada",
-            "shortName": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
-          "bookings": []
         }
       ]
     },
@@ -3888,54 +3404,29 @@
       "group": "Group G",
       "groupRecord": {
         "wins": 0,
-        "draws": 2,
+        "draws": 3,
         "losses": 0
       },
-      "groupPosition": 2,
-      "groupComplete": false,
-      "matchesPlayed": 2,
-      "upcomingMatch": {
-        "id": 537368,
-        "utcDate": "2026-06-27T03:00:00Z",
-        "status": "TIMED",
-        "stage": "GROUP_STAGE",
-        "group": "Group G",
-        "matchday": 3,
-        "homeTeam": {
-          "id": 825,
-          "name": "Egypt",
-          "shortName": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg"
-        },
-        "awayTeam": {
-          "id": 840,
-          "name": "Iran",
-          "shortName": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "groupPosition": 3,
+      "groupComplete": true,
+      "matchesPlayed": 3,
+      "upcomingMatch": null,
       "knockoutStage": null,
-      "eliminated": false,
-      "remaining": true,
-      "score": 2,
+      "eliminated": true,
+      "remaining": false,
+      "score": 3,
       "scoreBreakdown": {
         "groupWins": 0,
-        "groupDraws": 2,
+        "groupDraws": 3,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 2
+        "total": 3
       },
       "matchStats": {
-        "goalsFor": 2,
-        "goalsAgainst": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -3996,7 +3487,7 @@
         {
           "id": 537368,
           "utcDate": "2026-06-27T03:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group G",
           "matchday": 3,
@@ -4014,9 +3505,9 @@
             "tla": "IRN",
             "crest": "https://crests.football-data.org/iran.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -4155,33 +3646,8 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537418,
-        "utcDate": "2026-06-30T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 8601,
-          "name": "Netherlands",
-          "shortName": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
-      "knockoutStage": "Last 32",
+      "upcomingMatch": null,
+      "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
       "score": 10,
@@ -4278,32 +3744,6 @@
           "homeScore": 1,
           "awayScore": 3,
           "winner": "AWAY",
-          "bookings": []
-        },
-        {
-          "id": 537418,
-          "utcDate": "2026-06-30T01:00:00Z",
-          "status": "TIMED",
-          "stage": "LAST_32",
-          "group": null,
-          "matchday": null,
-          "homeTeam": {
-            "id": 8601,
-            "name": "Netherlands",
-            "shortName": "Netherlands",
-            "tla": "NED",
-            "crest": "https://crests.football-data.org/8601.svg"
-          },
-          "awayTeam": {
-            "id": 815,
-            "name": "Morocco",
-            "shortName": "Morocco",
-            "tla": "MAR",
-            "crest": "https://crests.football-data.org/morocco.svg"
-          },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
           "bookings": []
         }
       ]
