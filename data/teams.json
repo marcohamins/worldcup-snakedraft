@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T19:59:55.474Z",
+  "lastUpdated": "2026-06-28T21:13:14.062Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4213,25 +4213,27 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 6,
+      "score": 10,
       "scoreBreakdown": {
         "groupWins": 1,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 6
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 10
       },
       "matchStats": {
-        "goalsFor": 8,
+        "goalsFor": 9,
         "goalsAgainst": 3,
-        "goalDifference": 5,
+        "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4317,7 +4319,7 @@
         {
           "id": 537417,
           "utcDate": "2026-06-28T19:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4336,8 +4338,8 @@
             "crest": "https://crests.football-data.org/canada.svg"
           },
           "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
