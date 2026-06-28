@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T01:50:53.190Z",
+  "lastUpdated": "2026-06-28T06:05:20.288Z",
   "groups": [
     {
       "group": "Group A",
@@ -706,14 +706,14 @@
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
           },
-          "playedGames": 2,
-          "won": 2,
+          "playedGames": 3,
+          "won": 3,
           "draw": 0,
           "lost": 0,
-          "points": 6,
-          "goalsFor": 5,
-          "goalsAgainst": 0,
-          "goalDifference": 5
+          "points": 9,
+          "goalsFor": 8,
+          "goalsAgainst": 1,
+          "goalDifference": 7
         },
         {
           "position": 2,
@@ -724,13 +724,13 @@
             "tla": "AUT",
             "crest": "https://crests.football-data.org/816.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
+          "points": 4,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
           "goalDifference": 0
         },
         {
@@ -742,13 +742,13 @@
             "tla": "ALG",
             "crest": "https://crests.football-data.org/algeria.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 3,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
+          "points": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 7,
           "goalDifference": -2
         },
         {
@@ -760,14 +760,14 @@
             "tla": "JOR",
             "crest": "https://crests.football-data.org/8049.png"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "won": 0,
           "draw": 0,
-          "lost": 2,
+          "lost": 3,
           "points": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3
+          "goalsFor": 3,
+          "goalsAgainst": 8,
+          "goalDifference": -5
         }
       ]
     },
