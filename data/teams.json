@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:37:20.132Z",
+  "lastUpdated": "2026-06-28T01:50:53.189Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -997,25 +997,25 @@
       "group": "Group K",
       "groupRecord": {
         "wins": 1,
-        "draws": 1,
+        "draws": 2,
         "losses": 0
       },
       "groupPosition": 2,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 4,
+      "score": 7,
       "scoreBreakdown": {
         "groupWins": 1,
-        "groupDraws": 1,
+        "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
-        "groupSecondPlaceBonus": 0,
+        "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 4
+        "total": 7
       },
       "matchStats": {
         "goalsFor": 6,
@@ -1080,7 +1080,7 @@
         {
           "id": 537407,
           "utcDate": "2026-06-27T23:30:00Z",
-          "status": "LIVE",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group K",
           "matchday": 3,
@@ -3308,25 +3308,25 @@
       "group": "Group K",
       "groupRecord": {
         "wins": 2,
-        "draws": 0,
+        "draws": 1,
         "losses": 0
       },
       "groupPosition": 1,
-      "groupComplete": false,
-      "matchesPlayed": 2,
+      "groupComplete": true,
+      "matchesPlayed": 3,
       "upcomingMatch": null,
       "knockoutStage": null,
       "eliminated": false,
       "remaining": true,
-      "score": 6,
+      "score": 10,
       "scoreBreakdown": {
         "groupWins": 2,
-        "groupDraws": 0,
-        "groupFirstPlaceBonus": 0,
+        "groupDraws": 1,
+        "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {},
-        "total": 6
+        "total": 10
       },
       "matchStats": {
         "goalsFor": 4,
@@ -3391,7 +3391,7 @@
         {
           "id": 537407,
           "utcDate": "2026-06-27T23:30:00Z",
-          "status": "LIVE",
+          "status": "FINISHED",
           "stage": "GROUP_STAGE",
           "group": "Group K",
           "matchday": 3,
