@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T18:40:51.020Z",
+  "lastUpdated": "2026-06-28T19:59:55.474Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4214,32 +4214,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537417,
-        "utcDate": "2026-06-28T19:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 774,
-          "name": "South Africa",
-          "shortName": "South Africa",
-          "tla": "RSA",
-          "crest": "https://crests.football-data.org/9396.svg"
-        },
-        "awayTeam": {
-          "id": 828,
-          "name": "Canada",
-          "shortName": "Canada",
-          "tla": "CAN",
-          "crest": "https://crests.football-data.org/canada.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -4342,7 +4317,7 @@
         {
           "id": 537417,
           "utcDate": "2026-06-28T19:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4360,9 +4335,9 @@
             "tla": "CAN",
             "crest": "https://crests.football-data.org/canada.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
