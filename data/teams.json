@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:27:13.665Z",
+  "lastUpdated": "2026-06-29T21:09:52.497Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -142,32 +142,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537415,
-        "utcDate": "2026-06-29T20:30:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 759,
-          "name": "Germany",
-          "shortName": "Germany",
-          "tla": "GER",
-          "crest": "https://crests.football-data.org/759.svg"
-        },
-        "awayTeam": {
-          "id": 761,
-          "name": "Paraguay",
-          "shortName": "Paraguay",
-          "tla": "PAR",
-          "crest": "https://crests.football-data.org/761.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -270,7 +245,7 @@
         {
           "id": 537415,
           "utcDate": "2026-06-29T20:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -288,9 +263,9 @@
             "tla": "PAR",
             "crest": "https://crests.football-data.org/761.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -480,32 +455,7 @@
       "groupPosition": 3,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537415,
-        "utcDate": "2026-06-29T20:30:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 759,
-          "name": "Germany",
-          "shortName": "Germany",
-          "tla": "GER",
-          "crest": "https://crests.football-data.org/759.svg"
-        },
-        "awayTeam": {
-          "id": 761,
-          "name": "Paraguay",
-          "shortName": "Paraguay",
-          "tla": "PAR",
-          "crest": "https://crests.football-data.org/761.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -608,7 +558,7 @@
         {
           "id": 537415,
           "utcDate": "2026-06-29T20:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -626,9 +576,9 @@
             "tla": "PAR",
             "crest": "https://crests.football-data.org/761.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
