@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T17:46:16.950Z",
+  "lastUpdated": "2026-06-29T19:27:13.665Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -986,25 +986,27 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 10,
+      "score": 14,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 10
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 14
       },
       "matchStats": {
-        "goalsFor": 7,
-        "goalsAgainst": 1,
-        "goalDifference": 6,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": 7,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1090,7 +1092,7 @@
         {
           "id": 537423,
           "utcDate": "2026-06-29T17:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -1108,9 +1110,9 @@
             "tla": "JPN",
             "crest": "https://crests.football-data.org/766.svg"
           },
-          "homeScore": 0,
+          "homeScore": 2,
           "awayScore": 1,
-          "winner": "AWAY",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -1299,11 +1301,11 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 7,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -1315,9 +1317,9 @@
         "total": 7
       },
       "matchStats": {
-        "goalsFor": 7,
-        "goalsAgainst": 3,
-        "goalDifference": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 5,
+        "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1403,7 +1405,7 @@
         {
           "id": 537423,
           "utcDate": "2026-06-29T17:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -1421,9 +1423,9 @@
             "tla": "JPN",
             "crest": "https://crests.football-data.org/766.svg"
           },
-          "homeScore": 0,
+          "homeScore": 2,
           "awayScore": 1,
-          "winner": "AWAY",
+          "winner": "HOME",
           "bookings": []
         }
       ]
