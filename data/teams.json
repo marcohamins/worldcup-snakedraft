@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T01:39:04.572Z",
+  "lastUpdated": "2026-06-29T06:23:23.959Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4214,8 +4214,33 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537376,
+        "utcDate": "2026-07-04T17:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 828,
+          "name": "Canada",
+          "shortName": "Canada",
+          "tla": "CAN",
+          "crest": "https://crests.football-data.org/canada.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 10,
@@ -4340,6 +4365,32 @@
           "homeScore": 0,
           "awayScore": 1,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537376,
+          "utcDate": "2026-07-04T17:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 828,
+            "name": "Canada",
+            "shortName": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
