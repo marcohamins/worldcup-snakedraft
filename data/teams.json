@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T18:14:38.281Z",
+  "lastUpdated": "2026-06-30T20:22:19.638Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4562,11 +4562,11 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 8,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -4578,9 +4578,9 @@
         "total": 8
       },
       "matchStats": {
-        "goalsFor": 4,
-        "goalsAgainst": 2,
-        "goalDifference": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": 1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4666,7 +4666,7 @@
         {
           "id": 537424,
           "utcDate": "2026-06-30T17:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4684,8 +4684,8 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "homeScore": 0,
-          "awayScore": 1,
+          "homeScore": 1,
+          "awayScore": 2,
           "winner": "AWAY",
           "bookings": []
         }
@@ -4850,25 +4850,27 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 8,
+      "score": 12,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 8
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 12
       },
       "matchStats": {
-        "goalsFor": 8,
-        "goalsAgainst": 7,
-        "goalDifference": 1,
+        "goalsFor": 10,
+        "goalsAgainst": 8,
+        "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4954,7 +4956,7 @@
         {
           "id": 537424,
           "utcDate": "2026-06-30T17:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4972,8 +4974,8 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "homeScore": 0,
-          "awayScore": 1,
+          "homeScore": 1,
+          "awayScore": 2,
           "winner": "AWAY",
           "bookings": []
         }
