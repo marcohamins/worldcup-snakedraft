@@ -11,6 +11,7 @@ import { calculateTeamMatchStats } from "../src/lib/stats";
 import {
   getCurrentSnapshotMatchday,
   isMatchResolved,
+  normalizeMatchResult,
 } from "../src/lib/matchdays";
 import type {
   DraftData,
@@ -352,7 +353,16 @@ async function main(): Promise<void> {
   ).participants;
   const history = readJson<HistorySnapshot[]>("history.json");
 
-  const matches = rawMatches.map(toMatchSummary);
+  const rawSummaries = rawMatches.map(toMatchSummary);
+  const matches = rawSummaries.map(normalizeMatchResult);
+  for (const match of matches) {
+    const raw = rawSummaries.find((entry) => entry.id === match.id);
+    if (raw && !isMatchResolved(raw) && isMatchResolved(match)) {
+      console.warn(
+        `Inferred winner: ${match.homeTeam.name} ${match.homeScore}-${match.awayScore} ${match.awayTeam.name} (${match.winner})`,
+      );
+    }
+  }
   const groupPositions = computeGroupPositionsFromMatches(matches);
   const draftedTeamNames = new Set(Object.keys(draft));
   const teamsToProcess = apiTeams.filter((team) => draftedTeamNames.has(team.name));

@@ -18,6 +18,36 @@ export const PHASE_BOUNDARIES: { x: number; label: string }[] = [
   { x: 7.5, label: "End of Semi-finals" },
 ];
 
+export function inferWinnerFromScores(
+  homeScore: number,
+  awayScore: number,
+): MatchSummary["winner"] {
+  if (homeScore > awayScore) {
+    return "HOME";
+  }
+  if (awayScore > homeScore) {
+    return "AWAY";
+  }
+  return "DRAW";
+}
+
+/** Fill missing winner on FINISHED matches that have full-time scores. */
+export function normalizeMatchResult(match: MatchSummary): MatchSummary {
+  if (
+    match.status !== "FINISHED" ||
+    match.homeScore === null ||
+    match.awayScore === null ||
+    match.winner !== null
+  ) {
+    return match;
+  }
+
+  return {
+    ...match,
+    winner: inferWinnerFromScores(match.homeScore, match.awayScore),
+  };
+}
+
 export function isMatchResolved(match: MatchSummary): boolean {
   return (
     match.status === "FINISHED" &&

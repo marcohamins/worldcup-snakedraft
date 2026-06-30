@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "update-data": "tsx scripts/update-tournament-data.ts",
+    "verify-scores": "tsx scripts/verify-scores.ts",
     "generate-fixtures": "tsx scripts/generate-fixtures.ts",
     "generate-baseline": "tsx scripts/generate-sim-baseline.ts",
     "validate-bracket": "tsx scripts/validate-bracket-matrix.ts"
