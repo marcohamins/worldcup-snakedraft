@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:53:05.931Z",
+  "lastUpdated": "2026-06-30T23:05:06.033Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2124,25 +2124,27 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 12,
+      "score": 16,
       "scoreBreakdown": {
         "groupWins": 3,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 12
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 16
       },
       "matchStats": {
-        "goalsFor": 10,
+        "goalsFor": 13,
         "goalsAgainst": 2,
-        "goalDifference": 8,
+        "goalDifference": 11,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2228,7 +2230,7 @@
         {
           "id": 537416,
           "utcDate": "2026-06-30T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -2246,7 +2248,7 @@
             "tla": "SWE",
             "crest": "https://crests.football-data.org/792.svg"
           },
-          "homeScore": 1,
+          "homeScore": 3,
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
