@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T02:10:58.179Z",
+  "lastUpdated": "2026-06-30T05:52:05.127Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3441,7 +3441,7 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
@@ -3457,8 +3457,8 @@
         "total": 9
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 3,
+        "goalsFor": 10,
+        "goalsAgainst": 7,
         "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
@@ -3545,7 +3545,7 @@
         {
           "id": 537418,
           "utcDate": "2026-06-30T01:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3563,8 +3563,8 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 4,
+          "awayScore": 4,
           "winner": "DRAW",
           "bookings": []
         }
@@ -4576,7 +4576,7 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
@@ -4592,8 +4592,8 @@
         "total": 10
       },
       "matchStats": {
-        "goalsFor": 10,
-        "goalsAgainst": 4,
+        "goalsFor": 14,
+        "goalsAgainst": 8,
         "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
@@ -4680,7 +4680,7 @@
         {
           "id": 537418,
           "utcDate": "2026-06-30T01:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4698,8 +4698,8 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 4,
+          "awayScore": 4,
           "winner": "DRAW",
           "bookings": []
         }
