@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T23:30:29.763Z",
+  "lastUpdated": "2026-06-30T01:33:12.480Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -157,9 +157,9 @@
         "total": 9
       },
       "matchStats": {
-        "goalsFor": 10,
-        "goalsAgainst": 4,
-        "goalDifference": 6,
+        "goalsFor": 14,
+        "goalsAgainst": 9,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -245,7 +245,7 @@
         {
           "id": 537415,
           "utcDate": "2026-06-29T20:30:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -470,9 +470,9 @@
         "total": 5
       },
       "matchStats": {
-        "goalsFor": 2,
-        "goalsAgainst": 4,
-        "goalDifference": -2,
+        "goalsFor": 7,
+        "goalsAgainst": 8,
+        "goalDifference": -1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -558,7 +558,7 @@
         {
           "id": 537415,
           "utcDate": "2026-06-29T20:30:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3440,32 +3440,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537418,
-        "utcDate": "2026-06-30T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 8601,
-          "name": "Netherlands",
-          "shortName": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -3568,7 +3543,7 @@
         {
           "id": 537418,
           "utcDate": "2026-06-30T01:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3586,9 +3561,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -4600,32 +4575,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537418,
-        "utcDate": "2026-06-30T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 8601,
-          "name": "Netherlands",
-          "shortName": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -4728,7 +4678,7 @@
         {
           "id": 537418,
           "utcDate": "2026-06-30T01:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4746,9 +4696,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
