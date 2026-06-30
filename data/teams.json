@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T01:33:12.480Z",
+  "lastUpdated": "2026-06-30T02:10:58.179Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -141,11 +141,11 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 9,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -265,7 +265,7 @@
           },
           "homeScore": 4,
           "awayScore": 5,
-          "winner": null,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -454,20 +454,22 @@
       },
       "groupPosition": 3,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 5,
+      "score": 9,
       "scoreBreakdown": {
         "groupWins": 1,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 1,
-        "knockoutWins": {},
-        "total": 5
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 9
       },
       "matchStats": {
         "goalsFor": 7,
@@ -578,7 +580,7 @@
           },
           "homeScore": 4,
           "awayScore": 5,
-          "winner": null,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -3543,7 +3545,7 @@
         {
           "id": 537418,
           "utcDate": "2026-06-30T01:00:00Z",
-          "status": "IN_PLAY",
+          "status": "PAUSED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4678,7 +4680,7 @@
         {
           "id": 537418,
           "utcDate": "2026-06-30T01:00:00Z",
-          "status": "IN_PLAY",
+          "status": "PAUSED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
