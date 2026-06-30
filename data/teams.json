@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T05:52:05.127Z",
+  "lastUpdated": "2026-06-30T08:57:22.683Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -455,8 +455,33 @@
       "groupPosition": 3,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537375,
+        "utcDate": "2026-07-04T21:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 761,
+          "name": "Paraguay",
+          "shortName": "Paraguay",
+          "tla": "PAR",
+          "crest": "https://crests.football-data.org/761.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 9,
@@ -581,6 +606,32 @@
           "homeScore": 4,
           "awayScore": 5,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537375,
+          "utcDate": "2026-07-04T21:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 761,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "tla": "PAR",
+            "crest": "https://crests.football-data.org/761.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -939,8 +990,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537377,
+        "utcDate": "2026-07-05T20:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 764,
+          "name": "Brazil",
+          "shortName": "Brazil",
+          "tla": "BRA",
+          "crest": "https://crests.football-data.org/764.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 14,
@@ -1065,6 +1141,32 @@
           "homeScore": 2,
           "awayScore": 1,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537377,
+          "utcDate": "2026-07-05T20:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 764,
+            "name": "Brazil",
+            "shortName": "Brazil",
+            "tla": "BRA",
+            "crest": "https://crests.football-data.org/764.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -3442,24 +3544,51 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537376,
+        "utcDate": "2026-07-04T17:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 828,
+          "name": "Canada",
+          "shortName": "Canada",
+          "tla": "CAN",
+          "crest": "https://crests.football-data.org/canada.svg"
+        },
+        "awayTeam": {
+          "id": 815,
+          "name": "Morocco",
+          "shortName": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
-      "score": 9,
+      "score": 13,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 9
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 13
       },
       "matchStats": {
         "goalsFor": 10,
-        "goalsAgainst": 7,
-        "goalDifference": 3,
+        "goalsAgainst": 6,
+        "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3563,9 +3692,35 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": 4,
+          "homeScore": 3,
           "awayScore": 4,
-          "winner": "DRAW",
+          "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537376,
+          "utcDate": "2026-07-04T17:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 828,
+            "name": "Canada",
+            "shortName": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg"
+          },
+          "awayTeam": {
+            "id": 815,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/morocco.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -4108,11 +4263,11 @@
           "crest": "https://crests.football-data.org/canada.svg"
         },
         "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 815,
+          "name": "Morocco",
+          "shortName": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -4261,11 +4416,11 @@
             "crest": "https://crests.football-data.org/canada.svg"
           },
           "awayTeam": {
-            "id": null,
-            "name": null,
-            "shortName": null,
-            "tla": null,
-            "crest": null
+            "id": 815,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/morocco.svg"
           },
           "homeScore": null,
           "awayScore": null,
@@ -4579,8 +4734,8 @@
       "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 10,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -4592,9 +4747,9 @@
         "total": 10
       },
       "matchStats": {
-        "goalsFor": 14,
+        "goalsFor": 13,
         "goalsAgainst": 8,
-        "goalDifference": 6,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4698,9 +4853,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": 4,
+          "homeScore": 3,
           "awayScore": 4,
-          "winner": "DRAW",
+          "winner": "AWAY",
           "bookings": []
         }
       ]
