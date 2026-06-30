@@ -17,7 +17,7 @@ function dedupeMatches(teams: TeamData[]): MatchSummary[] {
 }
 
 function main(): void {
-  const teams = teamsData.teams;
+  const teams = teamsData.teams as TeamData[];
   const rawMatches = dedupeMatches(teams);
   const matches = rawMatches.map(normalizeMatchResult);
 
