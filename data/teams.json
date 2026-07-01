@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T19:01:43.153Z",
+  "lastUpdated": "2026-07-01T20:51:50.305Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3163,32 +3163,7 @@
       "groupPosition": 3,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537422,
-        "utcDate": "2026-07-01T20:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "awayTeam": {
-          "id": 804,
-          "name": "Senegal",
-          "shortName": "Senegal",
-          "tla": "SEN",
-          "crest": "https://crests.football-data.org/senegal.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -3291,7 +3266,7 @@
         {
           "id": 537422,
           "utcDate": "2026-07-01T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3309,9 +3284,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -3332,32 +3307,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537422,
-        "utcDate": "2026-07-01T20:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "awayTeam": {
-          "id": 804,
-          "name": "Senegal",
-          "shortName": "Senegal",
-          "tla": "SEN",
-          "crest": "https://crests.football-data.org/senegal.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -3460,7 +3410,7 @@
         {
           "id": 537422,
           "utcDate": "2026-07-01T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3478,9 +3428,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
