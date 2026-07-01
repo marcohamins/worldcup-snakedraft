@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T00:18:44.780Z",
+  "lastUpdated": "2026-07-01T04:58:10.497Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1499,50 +1499,27 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537425,
-        "utcDate": "2026-07-01T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 769,
-          "name": "Mexico",
-          "shortName": "Mexico",
-          "tla": "MEX",
-          "crest": "https://crests.football-data.org/769.svg"
-        },
-        "awayTeam": {
-          "id": 791,
-          "name": "Ecuador",
-          "shortName": "Ecuador",
-          "tla": "ECU",
-          "crest": "https://crests.football-data.org/791.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "matchesPlayed": 4,
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 12,
+      "score": 16,
       "scoreBreakdown": {
         "groupWins": 3,
         "groupDraws": 0,
         "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 12
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 16
       },
       "matchStats": {
-        "goalsFor": 6,
+        "goalsFor": 8,
         "goalsAgainst": 0,
-        "goalDifference": 6,
+        "goalDifference": 8,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1628,7 +1605,7 @@
         {
           "id": 537425,
           "utcDate": "2026-07-01T01:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -1646,9 +1623,9 @@
             "tla": "ECU",
             "crest": "https://crests.football-data.org/791.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -2608,36 +2585,11 @@
       },
       "groupPosition": 3,
       "groupComplete": true,
-      "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537425,
-        "utcDate": "2026-07-01T01:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 769,
-          "name": "Mexico",
-          "shortName": "Mexico",
-          "tla": "MEX",
-          "crest": "https://crests.football-data.org/769.svg"
-        },
-        "awayTeam": {
-          "id": 791,
-          "name": "Ecuador",
-          "shortName": "Ecuador",
-          "tla": "ECU",
-          "crest": "https://crests.football-data.org/791.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "matchesPlayed": 4,
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 5,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -2650,8 +2602,8 @@
       },
       "matchStats": {
         "goalsFor": 2,
-        "goalsAgainst": 2,
-        "goalDifference": 0,
+        "goalsAgainst": 4,
+        "goalDifference": -2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2737,7 +2689,7 @@
         {
           "id": 537425,
           "utcDate": "2026-07-01T01:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -2755,9 +2707,9 @@
             "tla": "ECU",
             "crest": "https://crests.football-data.org/791.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
