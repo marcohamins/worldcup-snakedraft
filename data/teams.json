@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T20:51:50.305Z",
+  "lastUpdated": "2026-07-01T22:12:44.377Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3284,9 +3284,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": 0,
-          "awayScore": 1,
-          "winner": "AWAY",
+          "homeScore": 2,
+          "awayScore": 2,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -3428,9 +3428,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": 0,
-          "awayScore": 1,
-          "winner": "AWAY",
+          "homeScore": 2,
+          "awayScore": 2,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
