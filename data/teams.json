@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:12:44.377Z",
+  "lastUpdated": "2026-07-01T23:45:22.425Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3162,11 +3162,11 @@
       },
       "groupPosition": 3,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 4,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -3178,9 +3178,9 @@
         "total": 4
       },
       "matchStats": {
-        "goalsFor": 8,
-        "goalsAgainst": 6,
-        "goalDifference": 2,
+        "goalsFor": 10,
+        "goalsAgainst": 9,
+        "goalDifference": 1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3266,7 +3266,7 @@
         {
           "id": 537422,
           "utcDate": "2026-07-01T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3284,9 +3284,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": 2,
+          "homeScore": 3,
           "awayScore": 2,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3306,25 +3306,27 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 8,
+      "score": 12,
       "scoreBreakdown": {
         "groupWins": 1,
         "groupDraws": 2,
         "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 8
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 12
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 2,
-        "goalDifference": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 4,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3410,7 +3412,7 @@
         {
           "id": 537422,
           "utcDate": "2026-07-01T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3428,9 +3430,9 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "homeScore": 2,
+          "homeScore": 3,
           "awayScore": 2,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
