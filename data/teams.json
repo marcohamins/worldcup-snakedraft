@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:45:22.425Z",
+  "lastUpdated": "2026-07-02T01:51:59.643Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1792,32 +1792,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537421,
-        "utcDate": "2026-07-02T00:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
-        },
-        "awayTeam": {
-          "id": 1060,
-          "name": "Bosnia-Herzegovina",
-          "shortName": "Bosnia-H.",
-          "tla": "BIH",
-          "crest": "https://crests.football-data.org/bosnia.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -1920,7 +1895,7 @@
         {
           "id": 537421,
           "utcDate": "2026-07-02T00:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -1938,9 +1913,9 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
