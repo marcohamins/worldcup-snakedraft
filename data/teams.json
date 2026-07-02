@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T18:50:29.056Z",
+  "lastUpdated": "2026-07-02T20:12:05.840Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -286,32 +286,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537420,
-        "utcDate": "2026-07-02T19:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 816,
-          "name": "Austria",
-          "shortName": "Austria",
-          "tla": "AUT",
-          "crest": "https://crests.football-data.org/816.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -414,7 +389,7 @@
         {
           "id": 537420,
           "utcDate": "2026-07-02T19:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -432,9 +407,9 @@
             "tla": "AUT",
             "crest": "https://crests.football-data.org/816.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3831,32 +3806,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537420,
-        "utcDate": "2026-07-02T19:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 816,
-          "name": "Austria",
-          "shortName": "Austria",
-          "tla": "AUT",
-          "crest": "https://crests.football-data.org/816.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -3959,7 +3909,7 @@
         {
           "id": 537420,
           "utcDate": "2026-07-02T19:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3977,9 +3927,9 @@
             "tla": "AUT",
             "crest": "https://crests.football-data.org/816.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
