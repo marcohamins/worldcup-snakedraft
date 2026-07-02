@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T05:49:50.403Z",
+  "lastUpdated": "2026-07-02T08:36:24.868Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1500,8 +1500,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537378,
+        "utcDate": "2026-07-06T00:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 769,
+          "name": "Mexico",
+          "shortName": "Mexico",
+          "tla": "MEX",
+          "crest": "https://crests.football-data.org/769.svg"
+        },
+        "awayTeam": {
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 16,
@@ -1627,6 +1652,32 @@
           "awayScore": 0,
           "winner": "HOME",
           "bookings": []
+        },
+        {
+          "id": 537378,
+          "utcDate": "2026-07-06T00:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 769,
+            "name": "Mexico",
+            "shortName": "Mexico",
+            "tla": "MEX",
+            "crest": "https://crests.football-data.org/769.svg"
+          },
+          "awayTeam": {
+            "id": 770,
+            "name": "England",
+            "shortName": "England",
+            "tla": "ENG",
+            "crest": "https://crests.football-data.org/770.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1646,8 +1697,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537378,
+        "utcDate": "2026-07-06T00:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 769,
+          "name": "Mexico",
+          "shortName": "Mexico",
+          "tla": "MEX",
+          "crest": "https://crests.football-data.org/769.svg"
+        },
+        "awayTeam": {
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 14,
@@ -1773,6 +1849,32 @@
           "awayScore": 1,
           "winner": "HOME",
           "bookings": []
+        },
+        {
+          "id": 537378,
+          "utcDate": "2026-07-06T00:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 769,
+            "name": "Mexico",
+            "shortName": "Mexico",
+            "tla": "MEX",
+            "crest": "https://crests.football-data.org/769.svg"
+          },
+          "awayTeam": {
+            "id": 770,
+            "name": "England",
+            "shortName": "England",
+            "tla": "ENG",
+            "crest": "https://crests.football-data.org/770.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
+          "bookings": []
         }
       ]
     },
@@ -1792,8 +1894,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537380,
+        "utcDate": "2026-07-07T00:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 771,
+          "name": "United States",
+          "shortName": "USA",
+          "tla": "USA",
+          "crest": "https://crests.football-data.org/usa.svg"
+        },
+        "awayTeam": {
+          "id": 805,
+          "name": "Belgium",
+          "shortName": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 13,
@@ -1918,6 +2045,32 @@
           "homeScore": 2,
           "awayScore": 0,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537380,
+          "utcDate": "2026-07-07T00:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 771,
+            "name": "United States",
+            "shortName": "USA",
+            "tla": "USA",
+            "crest": "https://crests.football-data.org/usa.svg"
+          },
+          "awayTeam": {
+            "id": 805,
+            "name": "Belgium",
+            "shortName": "Belgium",
+            "tla": "BEL",
+            "crest": "https://crests.football-data.org/805.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -3284,8 +3437,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 32",
+      "upcomingMatch": {
+        "id": 537380,
+        "utcDate": "2026-07-07T00:00:00Z",
+        "status": "TIMED",
+        "stage": "LAST_16",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 771,
+          "name": "United States",
+          "shortName": "USA",
+          "tla": "USA",
+          "crest": "https://crests.football-data.org/usa.svg"
+        },
+        "awayTeam": {
+          "id": 805,
+          "name": "Belgium",
+          "shortName": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
       "score": 12,
@@ -3410,6 +3588,32 @@
           "homeScore": 3,
           "awayScore": 2,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537380,
+          "utcDate": "2026-07-07T00:00:00Z",
+          "status": "TIMED",
+          "stage": "LAST_16",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 771,
+            "name": "United States",
+            "shortName": "USA",
+            "tla": "USA",
+            "crest": "https://crests.football-data.org/usa.svg"
+          },
+          "awayTeam": {
+            "id": 805,
+            "name": "Belgium",
+            "shortName": "Belgium",
+            "tla": "BEL",
+            "crest": "https://crests.football-data.org/805.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
