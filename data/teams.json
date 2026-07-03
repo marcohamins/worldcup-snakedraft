@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T20:48:54.750Z",
+  "lastUpdated": "2026-07-03T21:51:19.772Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4029,20 +4029,22 @@
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 7,
+      "score": 11,
       "scoreBreakdown": {
         "groupWins": 1,
         "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 7
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 11
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 4,
-        "goalDifference": 2,
+        "goalsFor": 10,
+        "goalsAgainst": 6,
+        "goalDifference": 4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4146,9 +4148,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": 1,
-          "awayScore": 1,
-          "winner": "DRAW",
+          "homeScore": 3,
+          "awayScore": 5,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
