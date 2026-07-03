@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T21:51:19.772Z",
+  "lastUpdated": "2026-07-03T22:53:26.723Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -629,32 +629,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537427,
-        "utcDate": "2026-07-03T22:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "awayTeam": {
-          "id": 1930,
-          "name": "Cape Verde Islands",
-          "shortName": "Cape Verde",
-          "tla": "CPV",
-          "crest": "https://crests.football-data.org/cape_verde.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -757,7 +732,7 @@
         {
           "id": 537427,
           "utcDate": "2026-07-03T22:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -775,9 +750,9 @@
             "tla": "CPV",
             "crest": "https://crests.football-data.org/cape_verde.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
