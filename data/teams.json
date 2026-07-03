@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T19:50:08.009Z",
+  "lastUpdated": "2026-07-03T20:48:54.750Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4024,7 +4024,7 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
@@ -4040,8 +4040,8 @@
         "total": 7
       },
       "matchStats": {
-        "goalsFor": 5,
-        "goalsAgainst": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
         "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
@@ -4128,7 +4128,7 @@
         {
           "id": 537428,
           "utcDate": "2026-07-03T18:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
