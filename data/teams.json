@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T01:21:13.294Z",
+  "lastUpdated": "2026-07-03T05:06:14.507Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1168,20 +1168,22 @@
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 7,
+      "score": 11,
       "scoreBreakdown": {
         "groupWins": 1,
         "groupDraws": 2,
         "groupFirstPlaceBonus": 0,
         "groupSecondPlaceBonus": 2,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 7
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 11
       },
       "matchStats": {
         "goalsFor": 8,
-        "goalsAgainst": 3,
-        "goalDifference": 5,
+        "goalsAgainst": 2,
+        "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1286,8 +1288,8 @@
             "crest": "https://crests.football-data.org/799.svg"
           },
           "homeScore": 2,
-          "awayScore": 2,
-          "winner": "DRAW",
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -2357,36 +2359,11 @@
       },
       "groupPosition": 3,
       "groupComplete": true,
-      "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537429,
-        "utcDate": "2026-07-03T03:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "awayTeam": {
-          "id": 778,
-          "name": "Algeria",
-          "shortName": "Algeria",
-          "tla": "ALG",
-          "crest": "https://crests.football-data.org/algeria.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "matchesPlayed": 4,
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 5,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -2399,8 +2376,8 @@
       },
       "matchStats": {
         "goalsFor": 5,
-        "goalsAgainst": 7,
-        "goalDifference": -2,
+        "goalsAgainst": 9,
+        "goalDifference": -4,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2486,7 +2463,7 @@
         {
           "id": 537429,
           "utcDate": "2026-07-03T03:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -2504,9 +2481,9 @@
             "tla": "ALG",
             "crest": "https://crests.football-data.org/algeria.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -2526,50 +2503,27 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537429,
-        "utcDate": "2026-07-03T03:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "awayTeam": {
-          "id": 778,
-          "name": "Algeria",
-          "shortName": "Algeria",
-          "tla": "ALG",
-          "crest": "https://crests.football-data.org/algeria.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "matchesPlayed": 4,
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
-      "score": 10,
+      "score": 14,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
         "groupFirstPlaceBonus": 3,
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
-        "knockoutWins": {},
-        "total": 10
+        "knockoutWins": {
+          "LAST_32": 4
+        },
+        "total": 14
       },
       "matchStats": {
-        "goalsFor": 7,
+        "goalsFor": 9,
         "goalsAgainst": 3,
-        "goalDifference": 4,
+        "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2655,7 +2609,7 @@
         {
           "id": 537429,
           "utcDate": "2026-07-03T03:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -2673,9 +2627,9 @@
             "tla": "ALG",
             "crest": "https://crests.football-data.org/algeria.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -2960,8 +2914,8 @@
       "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 8,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -2973,9 +2927,9 @@
         "total": 8
       },
       "matchStats": {
-        "goalsFor": 7,
+        "goalsFor": 6,
         "goalsAgainst": 7,
-        "goalDifference": 0,
+        "goalDifference": -1,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3080,8 +3034,8 @@
             "crest": "https://crests.football-data.org/799.svg"
           },
           "homeScore": 2,
-          "awayScore": 2,
-          "winner": "DRAW",
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         }
       ]
