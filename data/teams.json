@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T16:54:23.938Z",
+  "lastUpdated": "2026-07-03T18:11:16.446Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -4025,32 +4025,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 3,
-      "upcomingMatch": {
-        "id": 537428,
-        "utcDate": "2026-07-03T18:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_32",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 779,
-          "name": "Australia",
-          "shortName": "Australia",
-          "tla": "AUS",
-          "crest": "https://crests.football-data.org/779.svg"
-        },
-        "awayTeam": {
-          "id": 825,
-          "name": "Egypt",
-          "shortName": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
       "remaining": true,
@@ -4153,7 +4128,7 @@
         {
           "id": 537428,
           "utcDate": "2026-07-03T18:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -4171,9 +4146,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
