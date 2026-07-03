@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:46:53.170Z",
+  "lastUpdated": "2026-07-03T01:21:13.294Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1163,7 +1163,7 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
@@ -1179,8 +1179,8 @@
         "total": 7
       },
       "matchStats": {
-        "goalsFor": 6,
-        "goalsAgainst": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 3,
         "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
@@ -1267,7 +1267,7 @@
         {
           "id": 537419,
           "utcDate": "2026-07-02T23:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -1285,8 +1285,8 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 2,
+          "awayScore": 2,
           "winner": "DRAW",
           "bookings": []
         }
@@ -2957,7 +2957,7 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 3,
+      "matchesPlayed": 4,
       "upcomingMatch": null,
       "knockoutStage": "Last 32",
       "eliminated": false,
@@ -2973,8 +2973,8 @@
         "total": 8
       },
       "matchStats": {
-        "goalsFor": 5,
-        "goalsAgainst": 5,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
         "goalDifference": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -3061,7 +3061,7 @@
         {
           "id": 537419,
           "utcDate": "2026-07-02T23:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_32",
           "group": null,
           "matchday": null,
@@ -3079,8 +3079,8 @@
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
+          "homeScore": 2,
+          "awayScore": 2,
           "winner": "DRAW",
           "bookings": []
         }
