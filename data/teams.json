@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T21:42:30.548Z",
+  "lastUpdated": "2026-07-04T22:40:52.416Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -614,7 +614,7 @@
         {
           "id": 537375,
           "utcDate": "2026-07-04T21:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -633,8 +633,8 @@
             "crest": "https://crests.football-data.org/773.svg"
           },
           "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -2374,7 +2374,7 @@
         {
           "id": 537375,
           "utcDate": "2026-07-04T21:00:00Z",
-          "status": "LIVE",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -2393,8 +2393,8 @@
             "crest": "https://crests.football-data.org/773.svg"
           },
           "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "awayScore": 1,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
