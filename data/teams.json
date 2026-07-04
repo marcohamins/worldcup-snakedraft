@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T20:44:44.404Z",
+  "lastUpdated": "2026-07-04T21:42:30.548Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -483,32 +483,7 @@
       "groupPosition": 3,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537375,
-        "utcDate": "2026-07-04T21:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 761,
-          "name": "Paraguay",
-          "shortName": "Paraguay",
-          "tla": "PAR",
-          "crest": "https://crests.football-data.org/761.svg"
-        },
-        "awayTeam": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -639,7 +614,7 @@
         {
           "id": 537375,
           "utcDate": "2026-07-04T21:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -657,9 +632,9 @@
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -2268,32 +2243,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537375,
-        "utcDate": "2026-07-04T21:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 761,
-          "name": "Paraguay",
-          "shortName": "Paraguay",
-          "tla": "PAR",
-          "crest": "https://crests.football-data.org/761.svg"
-        },
-        "awayTeam": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -2424,7 +2374,7 @@
         {
           "id": 537375,
           "utcDate": "2026-07-04T21:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -2442,9 +2392,9 @@
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
