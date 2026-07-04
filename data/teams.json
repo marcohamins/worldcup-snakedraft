@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:28:23.784Z",
+  "lastUpdated": "2026-07-04T17:36:14.574Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -3671,32 +3671,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537376,
-        "utcDate": "2026-07-04T17:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 828,
-          "name": "Canada",
-          "shortName": "Canada",
-          "tla": "CAN",
-          "crest": "https://crests.football-data.org/canada.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -3827,7 +3802,7 @@
         {
           "id": 537376,
           "utcDate": "2026-07-04T17:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -3845,9 +3820,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -4406,32 +4381,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537376,
-        "utcDate": "2026-07-04T17:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 828,
-          "name": "Canada",
-          "shortName": "Canada",
-          "tla": "CAN",
-          "crest": "https://crests.football-data.org/canada.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -4562,7 +4512,7 @@
         {
           "id": 537376,
           "utcDate": "2026-07-04T17:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -4580,9 +4530,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
