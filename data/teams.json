@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:40:52.416Z",
+  "lastUpdated": "2026-07-04T23:44:09.735Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -482,11 +482,11 @@
       },
       "groupPosition": 3,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 9,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -501,8 +501,8 @@
       },
       "matchStats": {
         "goalsFor": 7,
-        "goalsAgainst": 8,
-        "goalDifference": -1,
+        "goalsAgainst": 9,
+        "goalDifference": -2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -614,7 +614,7 @@
         {
           "id": 537375,
           "utcDate": "2026-07-04T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -2242,12 +2242,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
-      "score": 16,
+      "score": 21,
       "scoreBreakdown": {
         "groupWins": 3,
         "groupDraws": 0,
@@ -2255,14 +2255,15 @@
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
-          "LAST_32": 4
+          "LAST_32": 4,
+          "LAST_16": 5
         },
-        "total": 16
+        "total": 21
       },
       "matchStats": {
-        "goalsFor": 13,
+        "goalsFor": 14,
         "goalsAgainst": 2,
-        "goalDifference": 11,
+        "goalDifference": 12,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2374,7 +2375,7 @@
         {
           "id": 537375,
           "utcDate": "2026-07-04T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
