@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T20:03:23.601Z",
+  "lastUpdated": "2026-07-05T21:16:06.064Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -996,32 +996,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537377,
-        "utcDate": "2026-07-05T20:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 764,
-          "name": "Brazil",
-          "shortName": "Brazil",
-          "tla": "BRA",
-          "crest": "https://crests.football-data.org/764.svg"
-        },
-        "awayTeam": {
-          "id": 8872,
-          "name": "Norway",
-          "shortName": "Norway",
-          "tla": "NOR",
-          "crest": "https://crests.football-data.org/813.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -1152,7 +1127,7 @@
         {
           "id": 537377,
           "utcDate": "2026-07-05T20:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -1170,9 +1145,9 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -5013,32 +4988,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537377,
-        "utcDate": "2026-07-05T20:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 764,
-          "name": "Brazil",
-          "shortName": "Brazil",
-          "tla": "BRA",
-          "crest": "https://crests.football-data.org/764.svg"
-        },
-        "awayTeam": {
-          "id": 8872,
-          "name": "Norway",
-          "shortName": "Norway",
-          "tla": "NOR",
-          "crest": "https://crests.football-data.org/813.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -5169,7 +5119,7 @@
         {
           "id": 537377,
           "utcDate": "2026-07-05T20:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -5187,9 +5137,9 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
