@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T05:40:33.686Z",
+  "lastUpdated": "2026-07-05T08:31:11.885Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2243,8 +2243,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 16",
+      "upcomingMatch": {
+        "id": 537383,
+        "utcDate": "2026-07-09T20:00:00Z",
+        "status": "TIMED",
+        "stage": "QUARTER_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
+        },
+        "awayTeam": {
+          "id": 815,
+          "name": "Morocco",
+          "shortName": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
       "score": 21,
@@ -2396,6 +2421,32 @@
           "homeScore": 0,
           "awayScore": 1,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537383,
+          "utcDate": "2026-07-09T20:00:00Z",
+          "status": "TIMED",
+          "stage": "QUARTER_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 773,
+            "name": "France",
+            "shortName": "France",
+            "tla": "FRA",
+            "crest": "https://crests.football-data.org/773.svg"
+          },
+          "awayTeam": {
+            "id": 815,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/morocco.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -3622,8 +3673,33 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 16",
+      "upcomingMatch": {
+        "id": 537383,
+        "utcDate": "2026-07-09T20:00:00Z",
+        "status": "TIMED",
+        "stage": "QUARTER_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
+        },
+        "awayTeam": {
+          "id": 815,
+          "name": "Morocco",
+          "shortName": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
       "score": 18,
@@ -3775,6 +3851,32 @@
           "homeScore": 0,
           "awayScore": 3,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537383,
+          "utcDate": "2026-07-09T20:00:00Z",
+          "status": "TIMED",
+          "stage": "QUARTER_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 773,
+            "name": "France",
+            "shortName": "France",
+            "tla": "FRA",
+            "crest": "https://crests.football-data.org/773.svg"
+          },
+          "awayTeam": {
+            "id": 815,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/morocco.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
