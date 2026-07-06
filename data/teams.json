@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T05:42:02.825Z",
+  "lastUpdated": "2026-07-06T09:44:58.217Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1681,8 +1681,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 16",
+      "upcomingMatch": {
+        "id": 537385,
+        "utcDate": "2026-07-11T21:00:00Z",
+        "status": "TIMED",
+        "stage": "QUARTER_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 8872,
+          "name": "Norway",
+          "shortName": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg"
+        },
+        "awayTeam": {
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
       "score": 19,
@@ -1834,6 +1859,32 @@
           "homeScore": 2,
           "awayScore": 3,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537385,
+          "utcDate": "2026-07-11T21:00:00Z",
+          "status": "TIMED",
+          "stage": "QUARTER_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 8872,
+            "name": "Norway",
+            "shortName": "Norway",
+            "tla": "NOR",
+            "crest": "https://crests.football-data.org/813.svg"
+          },
+          "awayTeam": {
+            "id": 770,
+            "name": "England",
+            "shortName": "England",
+            "tla": "ENG",
+            "crest": "https://crests.football-data.org/770.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -4939,8 +4990,33 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 16",
+      "upcomingMatch": {
+        "id": 537385,
+        "utcDate": "2026-07-11T21:00:00Z",
+        "status": "TIMED",
+        "stage": "QUARTER_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 8872,
+          "name": "Norway",
+          "shortName": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg"
+        },
+        "awayTeam": {
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
       "score": 17,
@@ -5092,6 +5168,32 @@
           "homeScore": 1,
           "awayScore": 2,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537385,
+          "utcDate": "2026-07-11T21:00:00Z",
+          "status": "TIMED",
+          "stage": "QUARTER_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 8872,
+            "name": "Norway",
+            "shortName": "Norway",
+            "tla": "NOR",
+            "crest": "https://crests.football-data.org/813.svg"
+          },
+          "awayTeam": {
+            "id": 770,
+            "name": "England",
+            "shortName": "England",
+            "tla": "ENG",
+            "crest": "https://crests.football-data.org/770.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
