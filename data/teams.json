@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T18:32:52.759Z",
+  "lastUpdated": "2026-07-06T20:31:13.275Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -286,32 +286,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537379,
-        "utcDate": "2026-07-06T19:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 765,
-          "name": "Portugal",
-          "shortName": "Portugal",
-          "tla": "POR",
-          "crest": "https://crests.football-data.org/765.svg"
-        },
-        "awayTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -442,7 +417,7 @@
         {
           "id": 537379,
           "utcDate": "2026-07-06T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -460,9 +435,9 @@
             "tla": "ESP",
             "crest": "https://crests.football-data.org/760.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -1168,32 +1143,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537379,
-        "utcDate": "2026-07-06T19:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 765,
-          "name": "Portugal",
-          "shortName": "Portugal",
-          "tla": "POR",
-          "crest": "https://crests.football-data.org/765.svg"
-        },
-        "awayTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -1324,7 +1274,7 @@
         {
           "id": 537379,
           "utcDate": "2026-07-06T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -1342,9 +1292,9 @@
             "tla": "ESP",
             "crest": "https://crests.football-data.org/760.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
