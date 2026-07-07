@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T21:48:44.777Z",
+  "lastUpdated": "2026-07-07T22:47:25.918Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2540,7 +2540,7 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
@@ -2672,7 +2672,7 @@
         {
           "id": 537382,
           "utcDate": "2026-07-07T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -3972,7 +3972,7 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
@@ -4104,7 +4104,7 @@
         {
           "id": 537382,
           "utcDate": "2026-07-07T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
