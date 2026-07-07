@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T22:47:25.918Z",
+  "lastUpdated": "2026-07-07T23:41:29.504Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2545,7 +2545,7 @@
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
-      "score": 14,
+      "score": 19,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
@@ -2553,14 +2553,15 @@
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
-          "LAST_32": 4
+          "LAST_32": 4,
+          "LAST_16": 5
         },
-        "total": 14
+        "total": 19
       },
       "matchStats": {
-        "goalsFor": 9,
-        "goalsAgainst": 3,
-        "goalDifference": 6,
+        "goalsFor": 13,
+        "goalsAgainst": 6,
+        "goalDifference": 7,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2690,9 +2691,9 @@
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "homeScore": 4,
+          "awayScore": 3,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3975,8 +3976,8 @@
       "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 14,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -3990,9 +3991,9 @@
         "total": 14
       },
       "matchStats": {
-        "goalsFor": 5,
-        "goalsAgainst": 1,
-        "goalDifference": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 5,
+        "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4122,9 +4123,9 @@
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "homeScore": 4,
+          "awayScore": 3,
+          "winner": "HOME",
           "bookings": []
         }
       ]
