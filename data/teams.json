@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T23:17:00.039Z",
+  "lastUpdated": "2026-07-07T01:11:24.227Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -1856,32 +1856,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537380,
-        "utcDate": "2026-07-07T00:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
-        },
-        "awayTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -2012,7 +1987,7 @@
         {
           "id": 537380,
           "utcDate": "2026-07-07T00:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -2030,9 +2005,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
@@ -3404,32 +3379,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537380,
-        "utcDate": "2026-07-07T00:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg"
-        },
-        "awayTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -3560,7 +3510,7 @@
         {
           "id": 537380,
           "utcDate": "2026-07-07T00:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -3578,9 +3528,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "winner": "AWAY",
           "bookings": []
         }
       ]
