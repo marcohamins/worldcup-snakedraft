@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T16:11:49.673Z",
+  "lastUpdated": "2026-07-07T18:21:08.836Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -681,12 +681,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
-      "score": 16,
+      "score": 21,
       "scoreBreakdown": {
         "groupWins": 3,
         "groupDraws": 0,
@@ -694,14 +694,15 @@
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
-          "LAST_32": 4
+          "LAST_32": 4,
+          "LAST_16": 5
         },
-        "total": 16
+        "total": 21
       },
       "matchStats": {
-        "goalsFor": 11,
-        "goalsAgainst": 3,
-        "goalDifference": 8,
+        "goalsFor": 14,
+        "goalsAgainst": 5,
+        "goalDifference": 9,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -813,7 +814,7 @@
         {
           "id": 537381,
           "utcDate": "2026-07-07T16:00:00Z",
-          "status": "LIVE",
+          "status": "FINISHED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -831,9 +832,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "homeScore": 3,
+          "awayScore": 2,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -4193,11 +4194,11 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Last 16",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 11,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -4211,9 +4212,9 @@
         "total": 11
       },
       "matchStats": {
-        "goalsFor": 10,
-        "goalsAgainst": 6,
-        "goalDifference": 4,
+        "goalsFor": 12,
+        "goalsAgainst": 9,
+        "goalDifference": 3,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -4325,7 +4326,7 @@
         {
           "id": 537381,
           "utcDate": "2026-07-07T16:00:00Z",
-          "status": "LIVE",
+          "status": "FINISHED",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -4343,9 +4344,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "homeScore": 3,
+          "awayScore": 2,
+          "winner": "HOME",
           "bookings": []
         }
       ]
