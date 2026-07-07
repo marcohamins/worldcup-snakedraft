@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T18:21:08.836Z",
+  "lastUpdated": "2026-07-07T20:20:46.153Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2541,32 +2541,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537382,
-        "utcDate": "2026-07-07T20:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "awayTeam": {
-          "id": 818,
-          "name": "Colombia",
-          "shortName": "Colombia",
-          "tla": "COL",
-          "crest": "https://crests.football-data.org/818.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -2697,7 +2672,7 @@
         {
           "id": 537382,
           "utcDate": "2026-07-07T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -2715,9 +2690,9 @@
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -3998,32 +3973,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537382,
-        "utcDate": "2026-07-07T20:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "awayTeam": {
-          "id": 818,
-          "name": "Colombia",
-          "shortName": "Colombia",
-          "tla": "COL",
-          "crest": "https://crests.football-data.org/818.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -4154,7 +4104,7 @@
         {
           "id": 537382,
           "utcDate": "2026-07-07T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -4172,9 +4122,9 @@
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
