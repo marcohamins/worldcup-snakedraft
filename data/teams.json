@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T13:39:23.019Z",
+  "lastUpdated": "2026-07-07T16:11:49.673Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -682,32 +682,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537381,
-        "utcDate": "2026-07-07T16:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "awayTeam": {
-          "id": 825,
-          "name": "Egypt",
-          "shortName": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -838,7 +813,7 @@
         {
           "id": 537381,
           "utcDate": "2026-07-07T16:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -856,9 +831,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -4219,32 +4194,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 4,
-      "upcomingMatch": {
-        "id": 537381,
-        "utcDate": "2026-07-07T16:00:00Z",
-        "status": "TIMED",
-        "stage": "LAST_16",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "awayTeam": {
-          "id": 825,
-          "name": "Egypt",
-          "shortName": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Last 16",
       "eliminated": false,
       "remaining": true,
@@ -4375,7 +4325,7 @@
         {
           "id": 537381,
           "utcDate": "2026-07-07T16:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "LAST_16",
           "group": null,
           "matchday": null,
@@ -4393,9 +4343,9 @@
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
