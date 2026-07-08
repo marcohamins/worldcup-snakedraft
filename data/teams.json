@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T04:34:14.496Z",
+  "lastUpdated": "2026-07-08T07:11:49.327Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -682,8 +682,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 16",
+      "upcomingMatch": {
+        "id": 537386,
+        "utcDate": "2026-07-12T01:00:00Z",
+        "status": "TIMED",
+        "stage": "QUARTER_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 762,
+          "name": "Argentina",
+          "shortName": "Argentina",
+          "tla": "ARG",
+          "crest": "https://crests.football-data.org/762.png"
+        },
+        "awayTeam": {
+          "id": 788,
+          "name": "Switzerland",
+          "shortName": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
       "score": 21,
@@ -835,6 +860,32 @@
           "homeScore": 3,
           "awayScore": 2,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537386,
+          "utcDate": "2026-07-12T01:00:00Z",
+          "status": "TIMED",
+          "stage": "QUARTER_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 762,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "tla": "ARG",
+            "crest": "https://crests.football-data.org/762.png"
+          },
+          "awayTeam": {
+            "id": 788,
+            "name": "Switzerland",
+            "shortName": "Switzerland",
+            "tla": "SUI",
+            "crest": "https://crests.football-data.org/788.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -2541,8 +2592,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": null,
-      "knockoutStage": "Last 16",
+      "upcomingMatch": {
+        "id": 537386,
+        "utcDate": "2026-07-12T01:00:00Z",
+        "status": "TIMED",
+        "stage": "QUARTER_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 762,
+          "name": "Argentina",
+          "shortName": "Argentina",
+          "tla": "ARG",
+          "crest": "https://crests.football-data.org/762.png"
+        },
+        "awayTeam": {
+          "id": 788,
+          "name": "Switzerland",
+          "shortName": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
       "score": 19,
@@ -2694,6 +2770,32 @@
           "homeScore": 4,
           "awayScore": 3,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537386,
+          "utcDate": "2026-07-12T01:00:00Z",
+          "status": "TIMED",
+          "stage": "QUARTER_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 762,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "tla": "ARG",
+            "crest": "https://crests.football-data.org/762.png"
+          },
+          "awayTeam": {
+            "id": 788,
+            "name": "Switzerland",
+            "shortName": "Switzerland",
+            "tla": "SUI",
+            "crest": "https://crests.football-data.org/788.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
