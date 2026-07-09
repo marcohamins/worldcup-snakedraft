@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T18:31:58.507Z",
+  "lastUpdated": "2026-07-09T20:25:54.626Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2224,32 +2224,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": {
-        "id": 537383,
-        "utcDate": "2026-07-09T20:00:00Z",
-        "status": "TIMED",
-        "stage": "QUARTER_FINALS",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
@@ -2407,7 +2382,7 @@
         {
           "id": 537383,
           "utcDate": "2026-07-09T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -2425,9 +2400,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -3708,32 +3683,7 @@
       "groupPosition": 2,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": {
-        "id": 537383,
-        "utcDate": "2026-07-09T20:00:00Z",
-        "status": "TIMED",
-        "stage": "QUARTER_FINALS",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg"
-        },
-        "awayTeam": {
-          "id": 815,
-          "name": "Morocco",
-          "shortName": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
@@ -3891,7 +3841,7 @@
         {
           "id": 537383,
           "utcDate": "2026-07-09T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -3909,9 +3859,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
