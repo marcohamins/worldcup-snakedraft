@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T21:58:08.225Z",
+  "lastUpdated": "2026-07-09T23:19:25.539Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2223,12 +2223,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
-      "score": 21,
+      "score": 27,
       "scoreBreakdown": {
         "groupWins": 3,
         "groupDraws": 0,
@@ -2237,14 +2237,15 @@
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
           "LAST_32": 4,
-          "LAST_16": 5
+          "LAST_16": 5,
+          "QUARTER_FINALS": 6
         },
-        "total": 21
+        "total": 27
       },
       "matchStats": {
-        "goalsFor": 14,
+        "goalsFor": 16,
         "goalsAgainst": 2,
-        "goalDifference": 12,
+        "goalDifference": 14,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2382,7 +2383,7 @@
         {
           "id": 537383,
           "utcDate": "2026-07-09T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -3682,11 +3683,11 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 18,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -3702,8 +3703,8 @@
       },
       "matchStats": {
         "goalsFor": 13,
-        "goalsAgainst": 6,
-        "goalDifference": 7,
+        "goalsAgainst": 8,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3841,7 +3842,7 @@
         {
           "id": 537383,
           "utcDate": "2026-07-09T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
