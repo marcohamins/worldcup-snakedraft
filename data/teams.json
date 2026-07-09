@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:25:54.626Z",
+  "lastUpdated": "2026-07-09T21:58:08.225Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2400,9 +2400,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": 0,
+          "homeScore": 2,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3859,9 +3859,9 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "homeScore": 0,
+          "homeScore": 2,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
