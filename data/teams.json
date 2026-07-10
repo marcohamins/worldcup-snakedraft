@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T05:04:19.777Z",
+  "lastUpdated": "2026-07-10T08:34:07.979Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -2224,8 +2224,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 6,
-      "upcomingMatch": null,
-      "knockoutStage": "Quarter Finals",
+      "upcomingMatch": {
+        "id": 537387,
+        "utcDate": "2026-07-14T19:00:00Z",
+        "status": "TIMED",
+        "stage": "SEMI_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Semi Finals",
       "eliminated": false,
       "remaining": true,
       "score": 27,
@@ -2404,6 +2429,32 @@
           "homeScore": 2,
           "awayScore": 0,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537387,
+          "utcDate": "2026-07-14T19:00:00Z",
+          "status": "TIMED",
+          "stage": "SEMI_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 773,
+            "name": "France",
+            "shortName": "France",
+            "tla": "FRA",
+            "crest": "https://crests.football-data.org/773.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
