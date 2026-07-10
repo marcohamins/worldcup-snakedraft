@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T20:48:10.691Z",
+  "lastUpdated": "2026-07-10T21:45:47.105Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -285,12 +285,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
-      "score": 19,
+      "score": 25,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
@@ -299,14 +299,15 @@
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
           "LAST_32": 4,
-          "LAST_16": 5
+          "LAST_16": 5,
+          "QUARTER_FINALS": 6
         },
-        "total": 19
+        "total": 25
       },
       "matchStats": {
-        "goalsFor": 9,
-        "goalsAgainst": 0,
-        "goalDifference": 9,
+        "goalsFor": 11,
+        "goalsAgainst": 1,
+        "goalDifference": 10,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -444,7 +445,7 @@
         {
           "id": 537384,
           "utcDate": "2026-07-10T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -462,9 +463,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": 1,
+          "homeScore": 2,
           "awayScore": 1,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -3485,11 +3486,11 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 17,
       "scoreBreakdown": {
         "groupWins": 1,
@@ -3504,9 +3505,9 @@
         "total": 17
       },
       "matchStats": {
-        "goalsFor": 13,
-        "goalsAgainst": 5,
-        "goalDifference": 8,
+        "goalsFor": 14,
+        "goalsAgainst": 7,
+        "goalDifference": 7,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -3644,7 +3645,7 @@
         {
           "id": 537384,
           "utcDate": "2026-07-10T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -3662,9 +3663,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": 1,
+          "homeScore": 2,
           "awayScore": 1,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
