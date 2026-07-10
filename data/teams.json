@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T17:54:32.822Z",
+  "lastUpdated": "2026-07-10T19:23:53.581Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -286,32 +286,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": {
-        "id": 537384,
-        "utcDate": "2026-07-10T19:00:00Z",
-        "status": "TIMED",
-        "stage": "QUARTER_FINALS",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
@@ -469,7 +444,7 @@
         {
           "id": 537384,
           "utcDate": "2026-07-10T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -487,9 +462,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -3511,32 +3486,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": {
-        "id": 537384,
-        "utcDate": "2026-07-10T19:00:00Z",
-        "status": "TIMED",
-        "stage": "QUARTER_FINALS",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 805,
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
@@ -3694,7 +3644,7 @@
         {
           "id": 537384,
           "utcDate": "2026-07-10T19:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -3712,9 +3662,9 @@
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
