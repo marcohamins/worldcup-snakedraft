@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T04:28:01.422Z",
+  "lastUpdated": "2026-07-11T06:37:15.093Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -286,8 +286,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 6,
-      "upcomingMatch": null,
-      "knockoutStage": "Quarter Finals",
+      "upcomingMatch": {
+        "id": 537387,
+        "utcDate": "2026-07-14T19:00:00Z",
+        "status": "TIMED",
+        "stage": "SEMI_FINALS",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
+        },
+        "awayTeam": {
+          "id": 760,
+          "name": "Spain",
+          "shortName": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Semi Finals",
       "eliminated": false,
       "remaining": true,
       "score": 25,
@@ -466,6 +491,32 @@
           "homeScore": 2,
           "awayScore": 1,
           "winner": "HOME",
+          "bookings": []
+        },
+        {
+          "id": 537387,
+          "utcDate": "2026-07-14T19:00:00Z",
+          "status": "TIMED",
+          "stage": "SEMI_FINALS",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 773,
+            "name": "France",
+            "shortName": "France",
+            "tla": "FRA",
+            "crest": "https://crests.football-data.org/773.svg"
+          },
+          "awayTeam": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg"
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -2215,11 +2266,11 @@
           "crest": "https://crests.football-data.org/773.svg"
         },
         "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 760,
+          "name": "Spain",
+          "shortName": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg"
         },
         "homeScore": null,
         "awayScore": null,
@@ -2422,11 +2473,11 @@
             "crest": "https://crests.football-data.org/773.svg"
           },
           "awayTeam": {
-            "id": null,
-            "name": null,
-            "shortName": null,
-            "tla": null,
-            "crest": null
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg"
           },
           "homeScore": null,
           "awayScore": null,
