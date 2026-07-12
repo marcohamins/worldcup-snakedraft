@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T01:06:34.154Z",
+  "lastUpdated": "2026-07-12T04:36:06.691Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -708,12 +708,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
-      "score": 21,
+      "score": 27,
       "scoreBreakdown": {
         "groupWins": 3,
         "groupDraws": 0,
@@ -722,14 +722,15 @@
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
           "LAST_32": 4,
-          "LAST_16": 5
+          "LAST_16": 5,
+          "QUARTER_FINALS": 6
         },
-        "total": 21
+        "total": 27
       },
       "matchStats": {
-        "goalsFor": 14,
-        "goalsAgainst": 5,
-        "goalDifference": 9,
+        "goalsFor": 17,
+        "goalsAgainst": 6,
+        "goalDifference": 11,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -867,7 +868,7 @@
         {
           "id": 537386,
           "utcDate": "2026-07-12T01:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -885,9 +886,9 @@
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "homeScore": 3,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -2595,11 +2596,11 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 19,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -2614,9 +2615,9 @@
         "total": 19
       },
       "matchStats": {
-        "goalsFor": 13,
-        "goalsAgainst": 6,
-        "goalDifference": 7,
+        "goalsFor": 14,
+        "goalsAgainst": 9,
+        "goalDifference": 5,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2754,7 +2755,7 @@
         {
           "id": 537386,
           "utcDate": "2026-07-12T01:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -2772,9 +2773,9 @@
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "homeScore": 0,
-          "awayScore": 0,
-          "winner": "DRAW",
+          "homeScore": 3,
+          "awayScore": 1,
+          "winner": "HOME",
           "bookings": []
         }
       ]
