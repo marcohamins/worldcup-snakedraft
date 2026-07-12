@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T23:28:29.660Z",
+  "lastUpdated": "2026-07-12T01:06:34.154Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -709,32 +709,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": {
-        "id": 537386,
-        "utcDate": "2026-07-12T01:00:00Z",
-        "status": "TIMED",
-        "stage": "QUARTER_FINALS",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "awayTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
@@ -892,7 +867,7 @@
         {
           "id": 537386,
           "utcDate": "2026-07-12T01:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -910,9 +885,9 @@
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -1736,12 +1711,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 4,
+      "matchesPlayed": 5,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
-      "score": 14,
+      "score": 20,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
@@ -1749,14 +1724,15 @@
         "groupSecondPlaceBonus": 0,
         "groupThirdPlaceAdvanceBonus": 0,
         "knockoutWins": {
-          "LAST_32": 4
+          "LAST_32": 4,
+          "QUARTER_FINALS": 6
         },
-        "total": 14
+        "total": 20
       },
       "matchStats": {
-        "goalsFor": 8,
-        "goalsAgainst": 3,
-        "goalDifference": 5,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -1894,7 +1870,7 @@
         {
           "id": 537385,
           "utcDate": "2026-07-11T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -2620,32 +2596,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 5,
-      "upcomingMatch": {
-        "id": 537386,
-        "utcDate": "2026-07-12T01:00:00Z",
-        "status": "TIMED",
-        "stage": "QUARTER_FINALS",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "awayTeam": {
-          "id": 788,
-          "name": "Switzerland",
-          "shortName": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
       "eliminated": false,
       "remaining": true,
@@ -2803,7 +2754,7 @@
         {
           "id": 537386,
           "utcDate": "2026-07-12T01:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
@@ -2821,9 +2772,9 @@
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -4975,11 +4926,11 @@
       },
       "groupPosition": 2,
       "groupComplete": true,
-      "matchesPlayed": 5,
+      "matchesPlayed": 6,
       "upcomingMatch": null,
       "knockoutStage": "Quarter Finals",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 17,
       "scoreBreakdown": {
         "groupWins": 2,
@@ -4994,9 +4945,9 @@
         "total": 17
       },
       "matchStats": {
-        "goalsFor": 12,
-        "goalsAgainst": 9,
-        "goalDifference": 3,
+        "goalsFor": 13,
+        "goalsAgainst": 11,
+        "goalDifference": 2,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -5134,7 +5085,7 @@
         {
           "id": 537385,
           "utcDate": "2026-07-11T21:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "QUARTER_FINALS",
           "group": null,
           "matchday": null,
