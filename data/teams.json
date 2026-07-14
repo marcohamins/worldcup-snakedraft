@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T20:00:16.041Z",
+  "lastUpdated": "2026-07-14T21:08:57.807Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -285,12 +285,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 6,
+      "matchesPlayed": 7,
       "upcomingMatch": null,
       "knockoutStage": "Semi Finals",
       "eliminated": false,
       "remaining": true,
-      "score": 25,
+      "score": 32,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
@@ -300,14 +300,15 @@
         "knockoutWins": {
           "LAST_32": 4,
           "LAST_16": 5,
-          "QUARTER_FINALS": 6
+          "QUARTER_FINALS": 6,
+          "SEMI_FINALS": 7
         },
-        "total": 25
+        "total": 32
       },
       "matchStats": {
-        "goalsFor": 11,
+        "goalsFor": 13,
         "goalsAgainst": 1,
-        "goalDifference": 10,
+        "goalDifference": 12,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -471,7 +472,7 @@
         {
           "id": 537387,
           "utcDate": "2026-07-14T19:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "SEMI_FINALS",
           "group": null,
           "matchday": null,
@@ -490,7 +491,7 @@
             "crest": "https://crests.football-data.org/760.svg"
           },
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 2,
           "winner": "AWAY",
           "bookings": []
         }
@@ -2279,11 +2280,11 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 6,
+      "matchesPlayed": 7,
       "upcomingMatch": null,
       "knockoutStage": "Semi Finals",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 27,
       "scoreBreakdown": {
         "groupWins": 3,
@@ -2300,8 +2301,8 @@
       },
       "matchStats": {
         "goalsFor": 16,
-        "goalsAgainst": 2,
-        "goalDifference": 14,
+        "goalsAgainst": 4,
+        "goalDifference": 12,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -2465,7 +2466,7 @@
         {
           "id": 537387,
           "utcDate": "2026-07-14T19:00:00Z",
-          "status": "PAUSED",
+          "status": "FINISHED",
           "stage": "SEMI_FINALS",
           "group": null,
           "matchday": null,
@@ -2484,7 +2485,7 @@
             "crest": "https://crests.football-data.org/760.svg"
           },
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 2,
           "winner": "AWAY",
           "bookings": []
         }
