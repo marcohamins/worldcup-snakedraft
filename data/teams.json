@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T05:55:11.940Z",
+  "lastUpdated": "2026-07-15T08:08:40.460Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -286,8 +286,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 7,
-      "upcomingMatch": null,
-      "knockoutStage": "Semi Finals",
+      "upcomingMatch": {
+        "id": 537390,
+        "utcDate": "2026-07-19T19:00:00Z",
+        "status": "TIMED",
+        "stage": "FINAL",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 760,
+          "name": "Spain",
+          "shortName": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Final",
       "eliminated": false,
       "remaining": true,
       "score": 32,
@@ -493,6 +518,32 @@
           "homeScore": 0,
           "awayScore": 2,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537390,
+          "utcDate": "2026-07-19T19:00:00Z",
+          "status": "TIMED",
+          "stage": "FINAL",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
@@ -2281,8 +2332,33 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 7,
-      "upcomingMatch": null,
-      "knockoutStage": "Semi Finals",
+      "upcomingMatch": {
+        "id": 537389,
+        "utcDate": "2026-07-18T21:00:00Z",
+        "status": "TIMED",
+        "stage": "THIRD_PLACE",
+        "group": null,
+        "matchday": null,
+        "homeTeam": {
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
+        },
+        "awayTeam": {
+          "id": null,
+          "name": null,
+          "shortName": null,
+          "tla": null,
+          "crest": null
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "winner": null,
+        "bookings": []
+      },
+      "knockoutStage": "Third Place",
       "eliminated": true,
       "remaining": false,
       "score": 27,
@@ -2487,6 +2563,32 @@
           "homeScore": 0,
           "awayScore": 2,
           "winner": "AWAY",
+          "bookings": []
+        },
+        {
+          "id": 537389,
+          "utcDate": "2026-07-18T21:00:00Z",
+          "status": "TIMED",
+          "stage": "THIRD_PLACE",
+          "group": null,
+          "matchday": null,
+          "homeTeam": {
+            "id": 773,
+            "name": "France",
+            "shortName": "France",
+            "tla": "FRA",
+            "crest": "https://crests.football-data.org/773.svg"
+          },
+          "awayTeam": {
+            "id": null,
+            "name": null,
+            "shortName": null,
+            "tla": null,
+            "crest": null
+          },
+          "homeScore": null,
+          "awayScore": null,
+          "winner": null,
           "bookings": []
         }
       ]
