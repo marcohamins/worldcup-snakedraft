@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T21:26:20.890Z",
+  "lastUpdated": "2026-07-19T22:26:41.065Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -285,12 +285,12 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 7,
+      "matchesPlayed": 8,
       "upcomingMatch": null,
       "knockoutStage": "Final",
       "eliminated": false,
       "remaining": true,
-      "score": 32,
+      "score": 40,
       "scoreBreakdown": {
         "groupWins": 2,
         "groupDraws": 1,
@@ -301,14 +301,15 @@
           "LAST_32": 4,
           "LAST_16": 5,
           "QUARTER_FINALS": 6,
-          "SEMI_FINALS": 7
+          "SEMI_FINALS": 7,
+          "FINAL": 8
         },
-        "total": 32
+        "total": 40
       },
       "matchStats": {
-        "goalsFor": 13,
+        "goalsFor": 14,
         "goalsAgainst": 1,
-        "goalDifference": 12,
+        "goalDifference": 13,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -498,7 +499,7 @@
         {
           "id": 537390,
           "utcDate": "2026-07-19T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "FINAL",
           "group": null,
           "matchday": null,
@@ -516,9 +517,9 @@
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
@@ -710,11 +711,11 @@
       },
       "groupPosition": 1,
       "groupComplete": true,
-      "matchesPlayed": 7,
+      "matchesPlayed": 8,
       "upcomingMatch": null,
       "knockoutStage": "Final",
-      "eliminated": false,
-      "remaining": true,
+      "eliminated": true,
+      "remaining": false,
       "score": 34,
       "scoreBreakdown": {
         "groupWins": 3,
@@ -732,8 +733,8 @@
       },
       "matchStats": {
         "goalsFor": 19,
-        "goalsAgainst": 7,
-        "goalDifference": 12,
+        "goalsAgainst": 8,
+        "goalDifference": 11,
         "yellowCards": 0,
         "redCards": 0
       },
@@ -923,7 +924,7 @@
         {
           "id": 537390,
           "utcDate": "2026-07-19T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "stage": "FINAL",
           "group": null,
           "matchday": null,
@@ -941,9 +942,9 @@
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
           },
-          "homeScore": 0,
+          "homeScore": 1,
           "awayScore": 0,
-          "winner": "DRAW",
+          "winner": "HOME",
           "bookings": []
         }
       ]
