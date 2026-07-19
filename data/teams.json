@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T18:12:50.018Z",
+  "lastUpdated": "2026-07-19T19:34:06.246Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -286,32 +286,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 7,
-      "upcomingMatch": {
-        "id": 537390,
-        "utcDate": "2026-07-19T19:00:00Z",
-        "status": "TIMED",
-        "stage": "FINAL",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Final",
       "eliminated": false,
       "remaining": true,
@@ -523,7 +498,7 @@
         {
           "id": 537390,
           "utcDate": "2026-07-19T19:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "FINAL",
           "group": null,
           "matchday": null,
@@ -541,9 +516,9 @@
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
@@ -736,32 +711,7 @@
       "groupPosition": 1,
       "groupComplete": true,
       "matchesPlayed": 7,
-      "upcomingMatch": {
-        "id": 537390,
-        "utcDate": "2026-07-19T19:00:00Z",
-        "status": "TIMED",
-        "stage": "FINAL",
-        "group": null,
-        "matchday": null,
-        "homeTeam": {
-          "id": 760,
-          "name": "Spain",
-          "shortName": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg"
-        },
-        "awayTeam": {
-          "id": 762,
-          "name": "Argentina",
-          "shortName": "Argentina",
-          "tla": "ARG",
-          "crest": "https://crests.football-data.org/762.png"
-        },
-        "homeScore": null,
-        "awayScore": null,
-        "winner": null,
-        "bookings": []
-      },
+      "upcomingMatch": null,
       "knockoutStage": "Final",
       "eliminated": false,
       "remaining": true,
@@ -973,7 +923,7 @@
         {
           "id": 537390,
           "utcDate": "2026-07-19T19:00:00Z",
-          "status": "TIMED",
+          "status": "LIVE",
           "stage": "FINAL",
           "group": null,
           "matchday": null,
@@ -991,9 +941,9 @@
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
           },
-          "homeScore": null,
-          "awayScore": null,
-          "winner": null,
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "DRAW",
           "bookings": []
         }
       ]
