@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T20:26:55.102Z",
+  "lastUpdated": "2026-07-19T21:26:20.890Z",
   "competition": {
     "name": "FIFA World Cup",
     "code": "WC",
@@ -498,7 +498,7 @@
         {
           "id": 537390,
           "utcDate": "2026-07-19T19:00:00Z",
-          "status": "PAUSED",
+          "status": "IN_PLAY",
           "stage": "FINAL",
           "group": null,
           "matchday": null,
@@ -923,7 +923,7 @@
         {
           "id": 537390,
           "utcDate": "2026-07-19T19:00:00Z",
-          "status": "PAUSED",
+          "status": "IN_PLAY",
           "stage": "FINAL",
           "group": null,
           "matchday": null,
